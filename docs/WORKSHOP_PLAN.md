@@ -34,6 +34,9 @@ By the end of this workshop, participants will be able to:
 All dummy data files are available in the S3 bucket:
 ```
 s3://devin-workshop/santander-workshop/
+Secrets to be provided to participants:
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
 ```
 
 Files included:
