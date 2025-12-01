@@ -1,0 +1,192 @@
+================================================================================
+ELASTIC LOG PERFORMANCE ANALYSIS REPORT
+================================================================================
+Generated: 2025-12-01 19:36:42 UTC
+Log File: logs/sample_20_healthy_system.json
+
+--------------------------------------------------------------------------------
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Overall Health Score: 80.9/100 (B - Good)
+Analysis Period: 24 hours
+Total Requests Analyzed: 10,587
+
+Component Scores:
+  - Response Time: 80/100
+  - Resource Utilization: 74.8/100
+  - Database Performance: 70.1/100
+  - Service Availability: 98.9/100
+
+Key Findings:
+  * 2 endpoint(s) have p95 response times exceeding 500ms
+  * 5 circuit breaker events detected
+
+--------------------------------------------------------------------------------
+1. RESPONSE TIME ANALYSIS
+--------------------------------------------------------------------------------
+Total HTTP Requests: 10,587
+
+Endpoint Performance Metrics:
+Endpoint                                    Count    Avg(ms)    P95(ms)    P99(ms)
+--------------------------------------------------------------------------------
+/api/v1/reports/generate                      887     1304.5     1953.1     3393.8
+/api/v1/payments                              894      567.2      784.4     1159.8
+/api/v1/products/search                       865      357.2      488.8      591.7
+/api/v1/orders                               1687      249.7      389.0      669.5
+/api/v1/auth/login                            936      145.3      198.0      398.0
+/api/v1/users                                 876      104.8      148.0      367.0
+/api/v1/products                              869       84.1      118.0      223.6
+/api/v1/users/{id}                            886       68.6       99.0      210.2
+/api/v1/auth/refresh                          884       41.9       59.0      106.2
+/api/v1/metrics                               930       20.2       30.0       48.1
+/api/v1/health                                873       13.1       20.0       33.6
+
+Slow Endpoints (p95 > 500ms):
+  - /api/v1/reports/generate: p95=1953.1ms, avg=1304.45ms
+  - /api/v1/payments: p95=784.35ms, avg=567.16ms
+
+Response Time Spikes Detected: 20
+Top 5 Spikes:
+  - 2024-11-20T01:19:00.000Z: /api/v1/reports/generate - 4823.0ms
+  - 2024-11-20T00:19:00.000Z: /api/v1/reports/generate - 2999.0ms
+  - 2024-11-20T00:22:00.000Z: /api/v1/reports/generate - 1928.0ms
+  - 2024-11-20T00:03:00.000Z: /api/v1/reports/generate - 1905.0ms
+  - 2024-11-20T01:18:00.000Z: /api/v1/reports/generate - 1721.0ms
+
+--------------------------------------------------------------------------------
+2. RESOURCE UTILIZATION ANALYSIS
+--------------------------------------------------------------------------------
+Total Metric Samples: 864
+
+Host Resource Summary:
+  api-server-1:
+    CPU: avg=40.4%, p95=57.0%, max=59.9%
+    Memory: avg=58.0%, p95=68.4%, max=70.0%
+    Disk I/O: read=18.5MB/s, write=10.5MB/s
+  api-server-2:
+    CPU: avg=39.9%, p95=56.5%, max=59.7%
+    Memory: avg=58.0%, p95=68.6%, max=69.9%
+    Disk I/O: read=18.5MB/s, write=10.4MB/s
+  api-server-3:
+    CPU: avg=40.2%, p95=56.7%, max=59.8%
+    Memory: avg=58.1%, p95=68.6%, max=69.7%
+    Disk I/O: read=18.2MB/s, write=10.5MB/s
+
+Connection Pool: avg=40.0%, p95=66.0%, max=70.0%
+
+Memory Trend: 7.7% growth over period
+Potential Memory Leak: No
+
+
+--------------------------------------------------------------------------------
+3. DATABASE PERFORMANCE ANALYSIS
+--------------------------------------------------------------------------------
+Total Queries: 5,313
+Slow Queries: 159 (2.99%)
+
+Query Type Performance:
+Type              Count    Avg(ms)    P95(ms)    P99(ms)
+-------------------------------------------------------
+UPDATE             1279       48.0       59.0      499.1
+INSERT             1354       29.1       30.0      355.8
+SELECT             1375       36.6       49.3      385.0
+DELETE             1305       31.4       40.0      273.0
+
+Table Performance:
+Table                Count    Avg(ms)    P95(ms)
+--------------------------------------------------
+payments               898       36.3       58.0
+products               910       41.1       57.0
+audit_logs             882       35.7       56.0
+orders                 849       34.8       56.0
+users                  885       34.8       56.0
+sessions               889       34.0       54.0
+
+Connection Pool: 50 unique connections, avg 106.3 queries/connection
+
+--------------------------------------------------------------------------------
+4. SERVICE HEALTH ANALYSIS
+--------------------------------------------------------------------------------
+Total Health Checks: 720
+Total Errors: 17
+
+Service Availability:
+Service                   Availability    Healthy   Degraded   Avg Error%
+---------------------------------------------------------------------------
+user-service                    95.83%        138          6        1.16%
+order-service                  100.00%        144          0        1.00%
+payment-service                 99.31%        143          1        0.96%
+notification-service           100.00%        144          0        0.92%
+auth-service                    99.31%        143          1        1.06%
+
+Circuit Breaker Events: 5
+  - 2024-11-20T06:30:00.000Z: user-service - half-open
+  - 2024-11-20T10:20:00.000Z: auth-service - half-open
+  - 2024-11-20T17:50:00.000Z: user-service - half-open
+  - 2024-11-20T19:20:00.000Z: user-service - half-open
+  - 2024-11-20T23:00:00.000Z: payment-service - half-open
+
+Error Distribution by Type:
+  - ConnectionTimeout: 3
+  - CacheError: 4
+  - DatabaseError: 6
+  - ValidationError: 2
+  - RateLimitExceeded: 2
+
+--------------------------------------------------------------------------------
+5. CAPACITY PLANNING INSIGHTS
+--------------------------------------------------------------------------------
+Peak Hour: 15:00 (791 requests)
+Average Requests/Hour: 441
+Peak-to-Average Ratio: 1.79x
+
+Resource Headroom:
+  - CPU: 43.3%
+  - Memory: 31.5%
+  - Connection Pool: 34.0%
+
+Traffic Capacity:
+  - Current Peak: 13.2 req/sec
+  - Estimated Max: 18.9 req/sec
+  - Growth Capacity: 43.3%
+
+
+--------------------------------------------------------------------------------
+6. PERFORMANCE TRENDS ANALYSIS
+--------------------------------------------------------------------------------
+Baseline Response Time: 271.9ms (std dev: 20.5ms)
+
+Seasonal Patterns:
+  - Business Hours (9-18): 261.3ms avg
+  - Off Hours: 278.3ms avg
+  - Business Hours Impact: -6.1% increase
+
+
+--------------------------------------------------------------------------------
+7. RECOMMENDED ALERTING THRESHOLDS
+--------------------------------------------------------------------------------
+Metric                            Warning        Critical        Baseline
+---------------------------------------------------------------------------
+Response Time (ms)                    585             974           389.8
+CPU Utilization (%)                    72              82            56.7
+Memory Utilization (%)                 79              84            68.5
+DB Query Time (ms)                    134             446            44.6
+Error Rate (%)                        2.0             5.0             N/A
+Connection Pool (%)                    75              90             N/A
+
+--------------------------------------------------------------------------------
+8. PRIORITIZED OPTIMIZATION RECOMMENDATIONS
+--------------------------------------------------------------------------------
+1. [HIGH] Response Time
+   Issue: Endpoint /api/v1/reports/generate has high p95 latency (1953.1ms)
+   Recommendation: Profile endpoint, optimize database queries, consider caching
+   Expected Impact: Reduce response time by 30-50%
+
+2. [MEDIUM] Response Time
+   Issue: Endpoint /api/v1/payments has high p95 latency (784.35ms)
+   Recommendation: Profile endpoint, optimize database queries, consider caching
+   Expected Impact: Reduce response time by 30-50%
+
+================================================================================
+END OF REPORT
+================================================================================
