@@ -1,0 +1,748 @@
+customer_id,first_name,last_name,email,phone,date_of_birth,age,gender,address,city,postcode,account_type,account_number,sort_code,account_open_date,balance,income_bracket,credit_score,num_products,customer_segment,is_active,has_mobile_app,has_online_banking,marketing_consent
+SAN100000,Ruth,Griffiths,ruth.griffiths@yahoo.com,+44(0)117 496 0218,1973-12-13,52,Other,600 Charlie fort,Sheffield,B8D 3TY,Savings Account,23756669,96-79-21,2023-04-30,1348.04,35k-50k,668,1,Standard,True,True,True,True
+SAN100001,Ricky,Barker,ricky.barker@yahoo.com,+44(0)29 2018654,1971-12-14,54,Other,5 Colin light,Stoke-on-Trent,N5 0TX,Business Account,39587039,67-85-45,2015-12-23,28106.13,35k-50k,801,3,Premium,True,True,True,False
+SAN100002,Helen,Simpson,helen.simpson@hotmail.co.uk,(0121) 496 0959,1984-12-10,41,Female,103 Robinson walk,Cardiff,E64 5GQ,Current Account,22448136,58-22-55,2019-09-12,7858.43,75k-100k,661,5,Premium,True,True,True,False
+SAN100003,Owen,Kelly,owen.kelly@outlook.com,+44(0)28 9018 0192,1957-12-17,68,Other,7 Dixon route,Stoke-on-Trent,NW3X 0JB,ISA,94374605,89-56-83,2018-08-01,48658.48,20k-35k,741,2,Premium,True,True,True,False
+SAN100004,Charles,Alexander,charles.alexander@hotmail.co.uk,+449098790537,1988-12-09,37,Male,"Studio 72q
+Louis summit",Leicester,M9G 5JF,ISA,31831063,57-55-36,2016-07-28,43337.53,50k-75k,723,2,Premium,True,False,True,True
+SAN100005,Natasha,Hughes,natasha.hughes@gmail.com,(0116) 496 0269,1987-12-10,38,Other,69 Hill plaza,Leicester,E8 5EN,Business Account,46231783,91-98-81,2023-06-21,26753.58,50k-75k,642,1,Premium,True,True,True,True
+SAN100006,Charlie,Steele,charlie.steele@outlook.com,+449098790482,1977-12-12,48,Male,489 Carl landing,Cardiff,B95 0EQ,Savings Account,97971488,73-60-92,2015-12-11,20118.12,75k-100k,526,1,Premium,True,True,True,True
+SAN100007,Natasha,Smith,natasha.smith@hotmail.co.uk,+441144960171,2006-12-05,19,Female,7 Arthur pines,Nottingham,S3J 4RQ,ISA,39436733,27-75-73,2018-04-27,29270.84,35k-50k,635,4,Premium,True,True,True,False
+SAN100008,Jennifer,Lyons,jennifer.lyons@yahoo.com,+44(0)117 496 0150,1996-12-07,29,Other,301 Bernard cliff,Leicester,N1 4UH,Student Account,43744231,80-11-97,2020-06-05,29860.81,75k-100k,705,2,Premium,True,True,True,True
+SAN100009,Sheila,Daniels,sheila.daniels@hotmail.co.uk,(020) 7496 0737,1994-12-08,31,Other,"Flat 11
+Nixon loop",Leicester,WN01 6PE,Current Account,45351479,74-32-74,2025-04-08,5666.45,50k-75k,567,2,Standard,True,False,True,False
+SAN100010,Frederick,Bates,frederick.bates@yahoo.com,0151 496 0247,1959-12-17,66,Other,7 Adam run,Stoke-on-Trent,B1U 2SU,Student Account,10076758,86-51-72,2021-04-11,7726.68,20k-35k,661,3,Standard,True,False,False,False
+SAN100011,Jodie,Dobson,jodie.dobson@gmail.com,+44116 496 0606,1979-12-12,46,Female,"Studio 4
+Booth street",Birmingham,W2D 3BY,Current Account,75228535,18-78-26,2019-12-04,2990.47,50k-75k,566,4,Standard,True,True,True,True
+SAN100012,Joanna,Long,joanna.long@gmail.com,(020)74960788,1989-12-09,36,Other,8 Christian cliff,Newcastle,E3G 9JY,ISA,63551839,95-93-57,2019-01-18,48221.71,100k+,688,4,Premium,True,True,True,True
+SAN100013,Hilary,Thomas,hilary.thomas@outlook.com,(020)74960985,1998-12-07,27,Female,"Flat 53
+Byrne skyway",Sheffield,GU7N 0TZ,Current Account,19528530,90-17-39,2016-09-24,29456.61,20k-35k,710,1,Premium,True,True,True,True
+SAN100014,Kim,Turner,kim.turner@yahoo.com,+44(0)161 496 0425,1990-12-09,35,Female,5 Fraser village,Coventry,M9U 8NE,Savings Account,73481353,62-34-22,2016-08-23,10790.42,100k+,656,1,Premium,True,True,True,True
+SAN100015,Aaron,Pritchard,aaron.pritchard@outlook.com,+44(0)191 496 0244,1990-12-09,35,Other,534 Smith vista,Leeds,E6 0AP,Current Account,64038913,53-23-41,2024-10-23,33700.89,35k-50k,828,5,Premium,True,True,True,True
+SAN100016,Emily,Todd,emily.todd@outlook.com,(0151)4960868,1981-12-11,44,Female,1 Janice camp,Stoke-on-Trent,PA8 6FB,Current Account,16789850,93-79-11,2018-07-13,43736.85,50k-75k,595,1,Premium,False,False,True,True
+SAN100017,Natasha,Hargreaves,natasha.hargreaves@gmail.com,+44131 4960331,1968-12-14,57,Female,"Studio 69
+Frank way",Manchester,G60 5SJ,Savings Account,60864911,10-59-43,2025-03-30,10765.99,35k-50k,582,2,Standard Plus,True,False,True,False
+SAN100018,Vincent,Walsh,vincent.walsh@yahoo.co.uk,+44909 8790073,1977-12-12,48,Other,54 Francis burg,Manchester,DG6N 1LQ,Student Account,82772208,17-50-17,2022-12-04,7824.36,100k+,523,1,Premium,True,True,False,True
+SAN100019,Danny,Bond,danny.bond@hotmail.co.uk,0131 496 0014,2000-12-06,25,Male,401 Ward turnpike,Birmingham,KY9 6YH,Savings Account,64193837,25-82-41,2022-09-16,42581.99,20k-35k,695,1,Premium,True,True,True,False
+SAN100020,Conor,Thomas,conor.thomas@hotmail.co.uk,08081570835,1969-12-14,56,Other,"Flat 5
+Adams crossing",Cardiff,ZE4V 6PR,Savings Account,45650176,60-26-95,2020-04-09,15886.86,50k-75k,693,1,Standard Plus,True,True,False,False
+SAN100021,Damien,Doyle,damien.doyle@yahoo.co.uk,0292018629,1982-12-11,43,Male,"Studio 8
+Leon heights",Leeds,S99 7TT,Current Account,82160068,37-74-43,2017-03-08,31095.85,100k+,655,2,Premium,True,True,True,True
+SAN100022,Hazel,Dobson,hazel.dobson@outlook.com,+44116 4960148,2003-12-06,22,Female,"Flat 3
+Wilson flat",Edinburgh,B03 9DT,Student Account,97775215,77-11-95,2020-08-23,21965.41,0-20k,622,2,Standard Plus,True,True,True,False
+SAN100023,Gavin,Shah,gavin.shah@outlook.com,+44(0)29 2018676,1987-12-10,38,Male,0 Diane forges,Stoke-on-Trent,W08 1TF,Savings Account,46553958,46-87-36,2021-09-01,5859.89,75k-100k,764,1,Premium,True,True,True,True
+SAN100024,Kate,King,kate.king@hotmail.co.uk,+44(0)121 496 0798,1975-12-13,50,Female,"Studio 72
+Power terrace",Birmingham,M87 4TD,Business Account,47135391,15-10-52,2025-10-16,45276.29,75k-100k,538,3,Premium,True,True,True,False
+SAN100025,Mitchell,Henry,mitchell.henry@hotmail.co.uk,+441144960223,1976-12-12,49,Other,"Studio 23e
+Miles plains",Glasgow,KT03 6YA,Student Account,14835614,57-84-80,2019-04-09,28089.25,100k+,649,1,Premium,True,True,True,False
+SAN100026,Gerard,Palmer,gerard.palmer@hotmail.com,(0121) 4960668,1991-12-09,34,Male,34 Jones loaf,Leeds,SG6 7FZ,ISA,85146293,62-89-29,2015-12-21,10582.82,50k-75k,728,1,Standard Plus,True,True,True,False
+SAN100027,Vincent,Payne,vincent.payne@hotmail.co.uk,029 2018016,1965-12-15,60,Male,20 Lamb forest,Cardiff,HG56 6LD,Business Account,99913412,41-44-30,2019-11-08,1336.84,35k-50k,754,3,Standard,True,True,False,False
+SAN100028,Damian,Brown,damian.brown@hotmail.com,+44(0)117 496 0100,1993-12-08,32,Male,0 Shane crossroad,Edinburgh,SG19 7LQ,Savings Account,39920292,13-94-34,2021-04-22,40847.67,35k-50k,655,2,Premium,True,True,True,False
+SAN100029,Jennifer,Butler,jennifer.butler@outlook.com,(0115)4960241,1976-12-12,49,Female,96 Howarth flat,Cardiff,L1 9EY,Current Account,25480907,43-32-84,2025-07-20,34007.95,100k+,758,3,Premium,False,True,True,True
+SAN100030,Luke,Ward,luke.ward@hotmail.com,(0114)4960850,1988-12-09,37,Other,"Studio 1
+Hunt roads",Leeds,SO26 8LZ,Business Account,87388337,34-42-15,2020-03-12,21876.05,75k-100k,665,5,Premium,True,True,False,True
+SAN100031,Shannon,Russell,shannon.russell@outlook.com,+4420 74960453,1997-12-07,28,Other,73 Pearce skyway,Cardiff,HR07 2UH,Student Account,52133044,94-25-48,2020-07-24,18274.65,35k-50k,584,1,Standard Plus,True,True,True,False
+SAN100032,Owen,Roberts,owen.roberts@hotmail.co.uk,+44(0)292018480,1968-12-14,57,Other,3 Jones trace,Nottingham,W77 1NJ,Savings Account,92613013,82-48-61,2019-04-26,9672.82,20k-35k,788,3,Standard,True,True,True,True
+SAN100033,Carol,Marshall,carol.marshall@hotmail.co.uk,+44(0)131 4960788,1982-12-11,43,Other,"Studio 8
+Parsons motorway",Newcastle,HA4 1HP,Student Account,73509974,31-94-20,2018-12-22,23302.91,75k-100k,760,2,Premium,True,True,True,True
+SAN100034,Darren,Reid,darren.reid@outlook.com,+44(0)1164960337,1975-12-13,50,Male,"Studio 98M
+Robinson village",London,M35 4AX,Current Account,42862209,70-88-19,2025-06-03,11309.57,75k-100k,628,1,Premium,True,False,True,False
+SAN100035,Samantha,Robertson,samantha.robertson@hotmail.co.uk,01214960271,1975-12-13,50,Female,477 Cook center,London,WN7 1RU,Current Account,67062156,38-32-99,2025-08-28,20042.68,100k+,803,1,Premium,True,True,True,False
+SAN100036,Deborah,Mellor,deborah.mellor@yahoo.com,01164960941,1981-12-11,44,Female,8 Butler turnpike,Stoke-on-Trent,L8G 7NY,Student Account,52587010,66-88-74,2022-10-11,40090.69,50k-75k,805,3,Premium,True,False,True,True
+SAN100037,Shirley,Rogers,shirley.rogers@hotmail.co.uk,+44(0)1632 960 133,2007-12-05,18,Female,"Studio 12p
+Lynn club",Bristol,B67 4BJ,Student Account,75041510,90-40-45,2022-02-14,13033.66,20k-35k,745,1,Standard Plus,True,False,True,True
+SAN100038,Gerard,Goddard,gerard.goddard@yahoo.co.uk,+44114 496 0349,1979-12-12,46,Other,18 Eileen drive,Glasgow,UB2 0GN,Savings Account,18620650,63-62-52,2022-12-11,7004.87,35k-50k,656,1,Standard,True,True,True,True
+SAN100039,Marilyn,Morris,marilyn.morris@hotmail.com,(0151) 4960174,1979-12-12,46,Other,"Flat 88F
+Francis canyon",Nottingham,ST59 0DJ,Business Account,10791358,55-48-59,2021-08-09,42850.93,35k-50k,520,3,Premium,True,False,True,False
+SAN100040,Frances,Lee,frances.lee@gmail.com,(0306) 999 0490,1984-12-10,41,Other,87 Clayton prairie,Coventry,RH71 5SP,Current Account,62191530,53-95-96,2021-08-31,24462.65,50k-75k,708,1,Standard Plus,True,False,True,False
+SAN100041,Danny,Davies,danny.davies@hotmail.com,+44(0)141 496 0746,1958-12-17,67,Other,15 Turnbull trail,London,WN80 6BH,Current Account,96268397,64-27-69,2024-06-28,1445.63,50k-75k,638,2,Standard,True,True,True,True
+SAN100042,Jayne,Evans,jayne.evans@outlook.com,(0151)4960034,1993-12-08,32,Female,77 Matthew roads,Southampton,L2E 8SD,ISA,20993268,70-12-79,2023-06-24,13985.01,75k-100k,639,5,Premium,True,False,True,True
+SAN100043,Eric,Chambers,eric.chambers@yahoo.co.uk,+44115 496 0274,1967-12-15,58,Other,"Studio 7
+Smith plaza",Newcastle,S39 1LS,Current Account,93394260,29-40-26,2025-01-15,37736.24,20k-35k,706,4,Premium,True,True,False,True
+SAN100044,Kerry,McDonald,kerry.mcdonald@gmail.com,0121 496 0499,1988-12-09,37,Female,"Flat 78
+Ward plaza",Leeds,S7F 3YR,Savings Account,51746937,23-84-13,2020-12-27,8472.68,75k-100k,721,2,Premium,True,True,False,True
+SAN100045,Donald,Davis,donald.davis@hotmail.com,+44(0)1632 960766,1979-12-12,46,Other,02 Taylor well,Sheffield,CB87 2SF,Current Account,50477742,97-86-25,2020-01-08,3892.22,50k-75k,757,3,Standard,True,True,True,True
+SAN100046,Keith,Jones,keith.jones@hotmail.com,(028) 9018 0615,1991-12-09,34,Other,"Flat 78c
+Damian roads",London,GL3Y 6EE,Business Account,75793759,23-65-56,2025-08-09,3540.94,50k-75k,653,2,Standard,True,False,True,True
+SAN100047,Louise,Thompson,louise.thompson@gmail.com,+44(0)1134960504,1986-12-10,39,Other,"Flat 62p
+Armstrong turnpike",Coventry,G21 9JU,Business Account,68461818,85-44-51,2018-11-27,30834.03,75k-100k,562,4,Premium,True,False,True,False
+SAN100048,Iain,Wilkins,iain.wilkins@hotmail.com,+44(0)151 496 0407,1976-12-12,49,Male,"Studio 82e
+Harding radial",Cardiff,RH6 7NH,Current Account,76344695,51-33-72,2020-07-10,28535.5,100k+,700,3,Premium,True,False,True,False
+SAN100049,Jacqueline,Davis,jacqueline.davis@yahoo.co.uk,02074960594,1980-12-11,45,Other,"Flat 6
+Bailey way",Newcastle,TF0W 4JZ,Current Account,42394260,62-72-81,2016-12-23,27833.97,75k-100k,661,2,Premium,True,True,True,True
+SAN100050,Edward,Lloyd,edward.lloyd@hotmail.com,(029)2018210,2002-12-06,23,Male,"Studio 0
+Hope course",Sheffield,HG6 3FX,ISA,99115205,84-57-70,2017-10-24,14782.36,0-20k,646,2,Standard Plus,True,True,False,True
+SAN100051,Shannon,Hill,shannon.hill@yahoo.com,(0118)4960745,1986-12-10,39,Female,12 Sian stream,Leeds,IV8N 6AL,Savings Account,52352128,25-78-98,2025-01-17,13618.73,100k+,615,1,Premium,True,True,True,False
+SAN100052,Paula,Harvey,paula.harvey@outlook.com,(029) 2018496,1983-12-11,42,Other,"Flat 3
+Jennings points",Edinburgh,PO3 7NS,Savings Account,58436637,32-48-11,2019-08-07,49027.48,75k-100k,712,3,Premium,True,True,True,True
+SAN100053,Amy,Davidson,amy.davidson@hotmail.com,+44161 496 0113,1952-12-18,73,Female,75 Fox stream,Coventry,S17 4BQ,Current Account,11646234,83-46-70,2025-05-17,47210.07,50k-75k,693,2,Premium,True,True,False,True
+SAN100054,Gillian,Williams,gillian.williams@hotmail.com,0115 4960585,1977-12-12,48,Female,43 Sandra course,Birmingham,DN9A 5JF,Student Account,94482772,97-16-29,2025-06-02,41123.57,35k-50k,674,2,Premium,True,True,True,False
+SAN100055,Lawrence,Martin,lawrence.martin@hotmail.co.uk,(0117)4960933,2007-12-05,18,Male,"Flat 90
+Taylor drive",Sheffield,M21 2AQ,Student Account,61053474,67-66-48,2024-03-18,38245.73,35k-50k,677,2,Premium,True,False,True,False
+SAN100056,Frank,Fox,frank.fox@hotmail.com,0114 4960268,1980-12-11,45,Other,177 Lewis coves,Newcastle,MK39 8NT,ISA,98641164,20-30-40,2016-01-26,47384.75,35k-50k,850,1,Premium,True,True,True,True
+SAN100057,Carly,Robson,carly.robson@yahoo.co.uk,0909 879 0661,1983-12-11,42,Other,"Studio 71f
+Jenkins circles",Edinburgh,M99 6ZW,Business Account,19553585,97-39-43,2016-07-09,14633.84,100k+,704,1,Premium,True,True,True,False
+SAN100058,Stephanie,Price,stephanie.price@gmail.com,+44(0)3069990183,1981-12-11,44,Female,"Studio 3
+Cook motorway",Bristol,KT15 5LQ,Savings Account,19584466,17-31-49,2021-12-19,27273.66,35k-50k,586,2,Premium,True,False,False,True
+SAN100059,Ann,Holmes,ann.holmes@gmail.com,+448081570116,1963-12-16,62,Female,528 Kate points,Bristol,N1G 6BN,Student Account,82475098,73-66-20,2020-08-27,15274.15,50k-75k,740,2,Standard Plus,True,False,True,False
+SAN100060,Clifford,Webster,clifford.webster@hotmail.co.uk,+44117 496 0273,1969-12-14,56,Male,85 Ricky ports,London,S89 9LA,ISA,87342561,15-32-70,2016-12-12,11523.33,20k-35k,607,3,Standard Plus,True,True,True,False
+SAN100061,Katie,Robertson,katie.robertson@hotmail.com,(0131)4960022,1959-12-17,66,Female,"Flat 2
+George summit",Coventry,L6G 5GQ,ISA,64807553,52-51-95,2023-07-16,40730.82,50k-75k,567,5,Premium,True,True,True,True
+SAN100062,Graeme,Atkinson,graeme.atkinson@hotmail.co.uk,+442074960102,1972-12-13,53,Other,014 Adams oval,Leicester,W6E 8EQ,Current Account,52213778,42-51-24,2023-09-06,40696.95,100k+,850,2,Premium,False,True,True,False
+SAN100063,Sharon,Griffiths,sharon.griffiths@hotmail.co.uk,(0161) 4960840,1995-12-08,30,Other,90 Dennis hollow,Belfast,G44 1AU,Student Account,76906611,90-66-16,2022-09-11,20721.05,75k-100k,634,1,Premium,True,True,False,True
+SAN100064,Sharon,Jarvis,sharon.jarvis@outlook.com,+44(0)117 4960885,1979-12-12,46,Other,06 Kelly club,Sheffield,OX6 6NE,Savings Account,51708177,80-11-80,2019-09-18,6159.16,100k+,639,5,Premium,True,True,True,True
+SAN100065,Reece,Brown,reece.brown@hotmail.co.uk,+44(0)151 496 0516,2004-12-05,21,Male,6 Barry locks,Edinburgh,SW5 5GD,Student Account,46698468,63-71-70,2019-02-28,41623.94,35k-50k,685,2,Premium,True,True,True,False
+SAN100066,Denise,Parkinson,denise.parkinson@yahoo.com,+44306 999 0552,1996-12-07,29,Other,2 Chapman rapids,Southampton,E27 9YT,ISA,78147397,44-10-46,2021-03-21,43214.94,35k-50k,717,1,Premium,True,False,True,False
+SAN100067,Maurice,Bennett,maurice.bennett@outlook.com,(028) 9018 0552,1994-12-08,31,Male,"Flat 7
+Mistry underpass",Stoke-on-Trent,PE0 8DN,Student Account,60628276,68-51-34,2021-07-23,26975.17,75k-100k,803,2,Premium,False,True,True,False
+SAN100068,Kate,Price,kate.price@hotmail.com,+44114 4960199,1992-12-08,33,Female,"Studio 9
+Barbara valleys",Nottingham,L5K 8FB,Business Account,99078806,93-29-73,2016-06-24,15977.0,20k-35k,654,2,Standard Plus,False,True,False,True
+SAN100069,Eric,Webb,eric.webb@hotmail.com,01632960182,1968-12-14,57,Male,7 Barry ridge,London,N54 6PZ,Savings Account,65026398,93-29-19,2024-11-26,5075.61,35k-50k,581,4,Standard,True,False,True,False
+SAN100070,Lee,Pearson,lee.pearson@gmail.com,0131 496 0186,1977-12-12,48,Other,"Flat 92v
+Carole shore",Stoke-on-Trent,N46 9DN,Business Account,52501540,90-72-79,2022-05-21,42603.09,35k-50k,784,4,Premium,True,True,True,False
+SAN100071,Leonard,Patel,leonard.patel@yahoo.com,(029) 2018 0816,2005-12-05,20,Male,"Flat 5
+Gardner forest",Leeds,TD7 3FF,Business Account,32329103,98-48-13,2023-10-30,4609.93,35k-50k,694,5,Standard,True,False,True,True
+SAN100072,Ian,Doyle,ian.doyle@hotmail.co.uk,(0306)9990880,1977-12-12,48,Male,"Studio 29
+Nash falls",Liverpool,TD9E 0SQ,Savings Account,33497411,20-88-58,2023-10-18,26605.2,50k-75k,742,2,Premium,True,True,False,True
+SAN100073,Annette,Peters,annette.peters@hotmail.co.uk,0121 496 0738,1999-12-07,26,Female,73 Davies ports,Leicester,LL46 2HZ,ISA,83363160,30-19-66,2025-08-10,23032.57,50k-75k,574,3,Standard Plus,True,False,True,False
+SAN100074,Ashley,Wong,ashley.wong@yahoo.co.uk,+44909 8790581,1973-12-13,52,Other,12 Patterson passage,Nottingham,S13 5AS,Business Account,24314759,40-58-83,2016-06-07,22896.11,75k-100k,703,2,Premium,True,True,True,True
+SAN100075,Alexander,Frost,alexander.frost@yahoo.co.uk,+441144960530,1977-12-12,48,Other,"Flat 5
+Ashley camp",Manchester,WA7 7TZ,Student Account,76669607,46-39-87,2019-08-27,13796.57,100k+,707,2,Premium,True,True,True,True
+SAN100076,Christopher,Howe,christopher.howe@yahoo.com,+44(0)808 157 0289,1991-12-09,34,Other,"Flat 4
+Josh crossing",Manchester,L6 1EU,ISA,69166287,14-84-56,2016-02-07,31449.58,35k-50k,698,4,Premium,True,True,True,False
+SAN100077,Joel,Wilkinson,joel.wilkinson@hotmail.co.uk,0118 4960246,1976-12-12,49,Male,539 Kay skyway,Belfast,N1 6UB,Student Account,77349752,44-31-42,2022-03-26,6694.77,50k-75k,622,2,Standard,True,False,False,True
+SAN100078,Ellie,Cooper,ellie.cooper@outlook.com,(0113) 4960515,1953-12-18,72,Female,195 Samuel knoll,Sheffield,N2W 7GF,Business Account,84801233,56-21-60,2019-08-24,23469.74,20k-35k,717,1,Standard Plus,True,True,True,False
+SAN100079,Philip,Edwards,philip.edwards@gmail.com,(0121) 496 0303,1998-12-07,27,Other,48 Scott plains,Belfast,EN03 5BP,Current Account,41383044,70-13-89,2025-05-07,29269.55,50k-75k,732,3,Premium,True,True,False,True
+SAN100080,Barry,Harvey,barry.harvey@yahoo.co.uk,+44(0)1632 960765,1995-12-08,30,Male,75 Roberts stream,Southampton,BT69 8NP,Current Account,28760553,15-14-48,2019-08-05,45478.44,75k-100k,742,2,Premium,False,True,True,True
+SAN100081,Jane,Francis,jane.francis@hotmail.com,+44151 496 0962,1963-12-16,62,Female,"Flat 70U
+Richards mews",Stoke-on-Trent,RH0 6QW,Business Account,88831486,29-63-93,2022-07-10,18613.47,35k-50k,614,4,Standard Plus,True,True,True,False
+SAN100082,Declan,Walsh,declan.walsh@hotmail.co.uk,(029)2018702,1966-12-15,59,Male,5 Cooper port,Sheffield,G7 5TD,ISA,23335151,97-57-79,2016-03-22,18589.44,50k-75k,713,2,Standard Plus,True,True,True,True
+SAN100083,Mitchell,Khan,mitchell.khan@hotmail.com,+44(0)28 9018431,1968-12-14,57,Male,278 Johnston crest,London,TF4 3ZN,Current Account,54762841,41-26-82,2019-08-01,4674.5,35k-50k,831,1,Standard,True,False,True,True
+SAN100084,Denis,Bell,denis.bell@gmail.com,+44(0)115 4960172,1984-12-10,41,Male,"Flat 5
+Ellis plaza",London,M4W 2QW,ISA,29419691,26-79-42,2020-10-28,38740.99,75k-100k,619,3,Premium,True,True,False,True
+SAN100085,Jade,O'Neill,jade.o'neill@yahoo.com,0118 496 0705,1994-12-08,31,Female,"Studio 8
+Molly corners",Bristol,M6 8SS,Current Account,27013243,63-77-24,2017-12-03,29483.76,35k-50k,614,1,Premium,True,True,True,True
+SAN100086,Gerard,Ford,gerard.ford@outlook.com,+44114 496 0778,1982-12-11,43,Male,"Flat 89
+Callum meadows",Manchester,B1J 4GG,Student Account,50484137,68-92-13,2025-08-21,25241.55,100k+,707,4,Premium,True,True,True,False
+SAN100087,Georgia,Hudson,georgia.hudson@hotmail.co.uk,0121 496 0143,1976-12-12,49,Female,"Flat 49
+Stephanie row",Glasgow,G29 9BA,Current Account,26937148,45-89-91,2018-03-02,3767.19,100k+,746,1,Premium,True,False,True,True
+SAN100088,Hannah,Thomas,hannah.thomas@hotmail.co.uk,+44118 4960396,1980-12-11,45,Female,84 Jones valley,Leeds,JE4R 0GT,Student Account,38859907,65-67-39,2022-04-30,25327.0,100k+,796,2,Premium,True,False,True,False
+SAN100089,Lynne,Jones,lynne.jones@hotmail.co.uk,0116 496 0555,1984-12-10,41,Female,"Flat 58
+Stanley garden",Glasgow,CM47 2EB,Business Account,19010480,21-20-21,2017-12-14,15694.93,100k+,850,1,Premium,True,False,True,True
+SAN100090,Jacob,Harding,jacob.harding@yahoo.co.uk,(0118) 496 0259,1971-12-14,54,Male,"Flat 27
+Morley inlet",Southampton,BA16 3HY,Current Account,48604965,86-49-55,2024-07-21,33533.66,75k-100k,611,2,Premium,True,True,True,True
+SAN100091,Edward,Parker,edward.parker@hotmail.co.uk,+44(0)909 879 0748,1997-12-07,28,Male,6 Arthur stream,Bristol,TA6 0RB,Student Account,40354559,64-81-89,2018-09-22,42284.13,50k-75k,718,2,Premium,True,True,True,False
+SAN100092,Shirley,Moore,shirley.moore@hotmail.com,+44114 496 0687,1984-12-10,41,Other,"Studio 91
+Lewis lock",Edinburgh,TQ5 2HZ,ISA,57113566,10-33-28,2019-07-16,1544.76,75k-100k,737,1,Premium,True,True,True,False
+SAN100093,Conor,Alexander,conor.alexander@gmail.com,+44(0)1154960578,1973-12-13,52,Male,"Flat 98
+Toby ridge",Southampton,CW6 9PW,Business Account,55754284,30-57-49,2016-04-25,37330.98,35k-50k,674,1,Premium,True,False,True,True
+SAN100094,Conor,Kent,conor.kent@hotmail.com,0161 4960055,1993-12-08,32,Male,94 Jodie mountains,Birmingham,SA9 0YU,ISA,69473616,94-64-72,2023-01-01,7954.75,35k-50k,558,2,Standard,True,True,True,True
+SAN100095,Chloe,Barry,chloe.barry@yahoo.co.uk,0116 4960309,1987-12-10,38,Female,0 Sinclair drive,Coventry,SM36 0FW,Student Account,99541016,49-15-38,2023-02-15,5633.4,100k+,748,3,Premium,True,True,True,True
+SAN100096,Stuart,Moore,stuart.moore@yahoo.co.uk,01914960652,1977-12-12,48,Male,"Studio 58
+Davies ways",Leeds,SL4W 3JL,Current Account,76757928,65-32-26,2025-11-23,38231.63,50k-75k,580,1,Premium,True,False,True,False
+SAN100097,Ashleigh,Burns,ashleigh.burns@hotmail.com,(0306)9990437,1978-12-12,47,Female,"Studio 5
+Hussain ports",Southampton,NP6P 2NB,Current Account,71707170,19-50-83,2025-04-30,19913.85,35k-50k,710,3,Standard Plus,True,True,True,True
+SAN100098,Dawn,Nolan,dawn.nolan@yahoo.co.uk,+44(0)289018473,1994-12-08,31,Female,484 Raymond ridges,Leicester,PE3H 8JJ,ISA,21828592,65-23-41,2016-09-13,48313.36,20k-35k,692,1,Premium,True,True,True,False
+SAN100099,Lee,Spencer,lee.spencer@yahoo.co.uk,0115 4960208,1980-12-11,45,Other,77 Gerard islands,Birmingham,RM0 9JX,Student Account,94989976,24-77-75,2019-03-20,11156.45,75k-100k,588,3,Premium,True,False,True,False
+SAN100100,Ian,Johnston,ian.johnston@yahoo.com,+44(0)113 496 0672,1975-12-13,50,Other,"Flat 0
+Pearce coves",Newcastle,GL7 2WT,Savings Account,90852623,29-93-19,2017-08-30,11889.82,50k-75k,724,1,Standard Plus,True,False,True,False
+SAN100101,Abdul,O'Connor,abdul.o'connor@yahoo.com,+441632 960742,1964-12-15,61,Other,549 Clive ridge,Cardiff,YO6P 1RE,ISA,30261159,66-18-70,2017-01-14,34088.56,35k-50k,764,4,Premium,True,True,True,True
+SAN100102,Jeffrey,Robinson,jeffrey.robinson@yahoo.com,0113 4960463,2001-12-06,24,Other,"Flat 54L
+Elliot shoal",Manchester,SM3 1TN,ISA,48530827,19-92-21,2020-09-08,15589.35,0-20k,604,2,Standard Plus,True,True,True,True
+SAN100103,Sam,Stevenson,sam.stevenson@outlook.com,(0306)9990414,1973-12-13,52,Other,"Studio 33
+Lesley drives",Newcastle,SW95 8UX,ISA,91202508,70-74-29,2020-12-08,22541.71,35k-50k,721,3,Standard Plus,False,True,True,False
+SAN100104,Rosie,Mason,rosie.mason@outlook.com,0306 9990918,1973-12-13,52,Other,"Studio 51
+Benjamin village",Sheffield,L9J 2PW,Business Account,68978194,77-76-88,2023-07-14,25277.0,35k-50k,850,1,Premium,True,True,True,True
+SAN100105,Melissa,Clark,melissa.clark@hotmail.co.uk,(0161)4960187,1972-12-13,53,Female,28 Murphy centers,Birmingham,W4T 6LA,ISA,22684373,81-96-59,2017-12-19,39482.42,35k-50k,770,2,Premium,True,False,True,False
+SAN100106,Raymond,Whitehead,raymond.whitehead@hotmail.com,+44(0)292018180,1966-12-15,59,Male,04 Gardner dale,Belfast,SS6N 7RR,ISA,98054173,99-94-60,2016-05-13,4166.95,35k-50k,732,3,Standard,True,False,True,True
+SAN100107,Jonathan,Richardson,jonathan.richardson@hotmail.co.uk,+44(0)115 4960512,1985-12-10,40,Other,"Studio 23
+Daniel hills",Bradford,SK86 3JT,Current Account,96707983,95-64-75,2022-07-13,40677.92,75k-100k,740,3,Premium,True,True,True,True
+SAN100108,Debra,Nash,debra.nash@outlook.com,(0306) 999 0106,1992-12-08,33,Female,3 Oliver ranch,Birmingham,W9 3BR,ISA,23574883,74-79-77,2017-10-18,11404.5,35k-50k,661,1,Standard Plus,True,True,True,True
+SAN100109,Beverley,Henry,beverley.henry@gmail.com,+44(0)1154960843,1988-12-09,37,Female,"Studio 95
+Josh wells",Liverpool,L64 0XY,Business Account,15864298,62-56-96,2018-01-31,8196.14,50k-75k,686,3,Standard,True,False,True,False
+SAN100110,Angela,Johnson,angela.johnson@yahoo.co.uk,0114 496 0568,1946-12-20,79,Female,"Studio 66j
+Patel throughway",Coventry,W3W 4FT,Savings Account,59370777,96-83-66,2020-03-08,26747.16,20k-35k,530,2,Premium,True,True,True,True
+SAN100111,Matthew,Moore,matthew.moore@hotmail.co.uk,(0191) 496 0263,1970-12-14,55,Male,"Flat 51
+Baker course",Bristol,L0E 9ZB,Current Account,96057593,71-57-80,2025-08-04,40082.84,20k-35k,550,1,Premium,True,False,True,True
+SAN100112,Alan,Kay,alan.kay@outlook.com,(029) 2018 0837,1988-12-09,37,Male,40 Karl streets,Glasgow,W3 6JX,Business Account,22309586,38-67-54,2023-07-13,13712.29,50k-75k,767,4,Standard Plus,True,True,True,True
+SAN100113,Georgia,Russell,georgia.russell@hotmail.co.uk,+44(0)28 9018544,1980-12-11,45,Female,"Studio 77
+Pauline trace",Leeds,DL5 6BY,ISA,29602406,27-14-46,2019-09-20,18808.14,35k-50k,593,1,Standard Plus,True,True,True,False
+SAN100114,Natalie,Cox,natalie.cox@hotmail.co.uk,(020)74960964,1991-12-09,34,Female,5 Jessica port,London,W85 7UT,ISA,38944689,29-80-87,2016-01-28,30805.88,75k-100k,734,4,Premium,True,True,True,True
+SAN100115,Graham,Hope,graham.hope@yahoo.com,(01632) 960872,1991-12-09,34,Male,010 Amy dam,Leicester,DY1Y 0HW,Current Account,24879094,73-86-78,2019-06-08,21049.29,35k-50k,697,3,Standard Plus,True,True,True,True
+SAN100116,Carole,Patel,carole.patel@outlook.com,028 9018770,1980-12-11,45,Female,860 Melanie stravenue,Southampton,NN4 8SG,Savings Account,99170406,95-20-77,2022-02-02,30779.0,35k-50k,627,1,Premium,False,True,True,True
+SAN100117,Kenneth,Bell,kenneth.bell@yahoo.com,0117 4960984,1948-12-19,77,Other,"Flat 61x
+Nicholls gardens",Manchester,DT4X 0DR,Business Account,60103798,42-12-55,2021-02-26,1114.68,50k-75k,730,4,Standard,True,True,True,False
+SAN100118,Jessica,Patel,jessica.patel@outlook.com,01134960217,2007-12-05,18,Other,"Studio 59g
+Bernard forest",Belfast,WV9R 0DL,Student Account,55439043,92-32-97,2020-09-02,37858.28,35k-50k,694,1,Premium,True,True,True,False
+SAN100119,Abdul,Moore,abdul.moore@hotmail.com,(0113) 4960392,1990-12-09,35,Male,"Flat 4
+Lynne garden",Newcastle,S8F 2DW,Current Account,52358553,49-75-60,2016-03-29,1945.49,100k+,748,1,Premium,False,True,True,False
+SAN100120,Kyle,Collier,kyle.collier@gmail.com,(0131) 496 0999,1992-12-08,33,Male,"Flat 04Y
+Hughes knolls",Cardiff,S6C 1ZN,ISA,26706752,57-65-61,2020-04-13,17913.01,50k-75k,670,3,Standard Plus,True,False,True,False
+SAN100121,Catherine,Edwards,catherine.edwards@yahoo.com,0141 4960265,1973-12-13,52,Female,"Flat 1
+Mohammad mills",Bristol,TA4 2DG,Current Account,66975380,20-65-87,2016-09-24,18430.61,100k+,749,3,Premium,False,True,True,True
+SAN100122,Alexandra,Patterson,alexandra.patterson@yahoo.co.uk,01154960015,1999-12-07,26,Female,956 Iain loop,Southampton,TF18 9WG,Savings Account,69580374,54-67-15,2021-06-17,15394.14,50k-75k,653,2,Standard Plus,True,False,True,True
+SAN100123,Lydia,Palmer,lydia.palmer@hotmail.com,+441184960721,1988-12-09,37,Other,46 Jones club,Belfast,EN3 9ZH,Student Account,31473054,13-28-87,2017-04-20,3844.55,35k-50k,627,2,Standard,True,True,True,True
+SAN100124,Clare,Dean,clare.dean@yahoo.co.uk,0131 4960965,1954-12-18,71,Other,"Flat 69i
+Potter square",Manchester,W52 5NU,Student Account,30594121,96-67-57,2018-12-16,18171.31,35k-50k,712,4,Standard Plus,True,False,True,True
+SAN100125,Carly,Gill,carly.gill@hotmail.com,(0808)1570651,1999-12-07,26,Female,828 Bethany station,Leeds,W41 7FN,Current Account,34970946,73-76-59,2019-03-04,32513.08,50k-75k,753,1,Premium,True,True,True,False
+SAN100126,Trevor,Smith,trevor.smith@yahoo.co.uk,+44(0)306 9990617,1949-12-19,76,Male,"Studio 68
+Dunn turnpike",Coventry,SN8 1JQ,Savings Account,26460116,27-19-67,2017-06-15,14350.29,50k-75k,762,4,Standard Plus,True,False,False,False
+SAN100127,Jennifer,Willis,jennifer.willis@outlook.com,(029)2018656,2003-12-06,22,Female,1 Morton summit,Stoke-on-Trent,L7F 7YW,ISA,50259503,30-99-91,2016-05-09,17436.52,35k-50k,641,1,Standard Plus,True,True,True,False
+SAN100128,Keith,Ward,keith.ward@gmail.com,(0121) 496 0611,1961-12-16,64,Male,45 Leonard pike,Stoke-on-Trent,HS71 7PD,Student Account,59514418,69-80-26,2016-02-27,39539.62,20k-35k,623,1,Premium,True,True,True,False
+SAN100129,Clifford,Thomas,clifford.thomas@gmail.com,0909 8790512,1974-12-13,51,Other,282 Moore mountain,Birmingham,S22 6AZ,Savings Account,52550733,92-19-67,2023-01-08,26332.21,100k+,741,3,Premium,True,True,True,False
+SAN100130,Joe,Power,joe.power@gmail.com,01632 960 334,1994-12-08,31,Other,182 Rose mount,Bradford,M7 9RZ,Current Account,26664623,76-29-48,2020-03-17,38412.3,35k-50k,675,1,Premium,True,True,True,True
+SAN100131,Deborah,Fox,deborah.fox@yahoo.co.uk,0289018249,2007-12-05,18,Other,251 Stewart crescent,Stoke-on-Trent,N28 6ZF,ISA,26800072,90-48-88,2019-05-23,42312.09,20k-35k,598,1,Premium,True,True,True,False
+SAN100132,Gerard,Cooper,gerard.cooper@outlook.com,(0191)4960282,1984-12-10,41,Male,"Flat 22u
+Bibi way",Cardiff,AL7 3RX,Student Account,15529005,13-20-15,2017-10-08,32970.77,50k-75k,580,3,Premium,True,False,True,True
+SAN100133,Leanne,Lambert,leanne.lambert@yahoo.co.uk,+44(0)141 4960772,1956-12-17,69,Other,034 Henry fork,Stoke-on-Trent,M2U 9UX,ISA,96155337,48-71-41,2020-01-02,30943.61,35k-50k,565,1,Premium,True,True,True,True
+SAN100134,Conor,Clark,conor.clark@hotmail.co.uk,+44808 157 0580,1987-12-10,38,Male,"Studio 36
+Hilary terrace",Newcastle,M07 5DT,ISA,91424562,28-50-50,2017-01-20,22036.31,50k-75k,690,2,Standard Plus,True,False,False,True
+SAN100135,Elizabeth,Russell,elizabeth.russell@outlook.com,+4420 7496 0596,1959-12-17,66,Female,233 Shirley keys,Leicester,M9J 5NN,Current Account,45899440,67-41-28,2018-04-13,28126.4,50k-75k,565,2,Premium,True,True,True,False
+SAN100136,Mitchell,Phillips,mitchell.phillips@outlook.com,(0808) 1570126,1963-12-16,62,Male,22 Jacob station,Cardiff,WA3 7FY,Savings Account,31386576,73-75-69,2024-06-29,40692.54,20k-35k,680,4,Premium,True,True,True,False
+SAN100137,Julia,Phillips,julia.phillips@yahoo.co.uk,+44114 4960168,1995-12-08,30,Other,"Studio 57F
+Jackson ways",Belfast,CA7X 1XR,Current Account,16783418,46-73-86,2020-01-21,48337.66,75k-100k,716,1,Premium,True,True,True,True
+SAN100138,Raymond,Morgan,raymond.morgan@yahoo.co.uk,+441184960545,1978-12-12,47,Male,750 Nigel road,Belfast,BA12 7AS,Business Account,59115280,15-61-16,2024-02-29,6783.35,100k+,631,1,Premium,True,True,True,True
+SAN100139,Reece,Turner,reece.turner@outlook.com,(0121)4960241,1979-12-12,46,Other,"Flat 15Q
+Lee locks",Leeds,HA3P 1AH,Savings Account,22976369,60-57-53,2025-01-03,38243.77,100k+,649,1,Premium,True,True,True,False
+SAN100140,Marilyn,Hamilton,marilyn.hamilton@hotmail.co.uk,+4429 2018 0700,1979-12-12,46,Female,"Flat 6
+Lesley cliffs",Cardiff,S11 5QN,Business Account,79703656,68-29-87,2021-11-06,2360.64,35k-50k,732,1,Standard,True,True,False,True
+SAN100141,Diane,Cooper,diane.cooper@yahoo.com,+44289018218,1957-12-17,68,Female,275 Teresa summit,Cardiff,S97 1EF,Student Account,78412668,78-72-82,2024-01-18,36992.04,50k-75k,580,1,Premium,True,False,True,False
+SAN100142,Helen,Wright,helen.wright@yahoo.co.uk,+441214960234,1949-12-19,76,Female,8 Marsh spurs,London,M3 6NB,Student Account,73698420,43-93-84,2019-10-02,15453.12,50k-75k,523,4,Standard Plus,True,False,True,True
+SAN100143,Shane,Hughes,shane.hughes@yahoo.co.uk,+4428 9018918,1983-12-11,42,Other,52 Taylor port,Manchester,HX82 1AY,Student Account,24749927,34-12-66,2017-01-14,7474.01,100k+,727,3,Premium,True,True,True,True
+SAN100144,Joseph,Brown,joseph.brown@gmail.com,+44(0)306 9990684,1976-12-12,49,Other,"Studio 6
+Ruth plain",Manchester,G4B 1WH,Savings Account,79616482,36-81-51,2018-01-26,43653.6,100k+,630,3,Premium,False,True,True,False
+SAN100145,Ann,Wilkinson,ann.wilkinson@outlook.com,(0306) 999 0146,1984-12-10,41,Female,3 Tracy crescent,Bristol,PO90 2EA,Student Account,74985553,34-41-45,2019-10-27,27359.03,75k-100k,640,3,Premium,True,True,False,True
+SAN100146,Carolyn,Khan,carolyn.khan@yahoo.co.uk,(0131) 4960884,1989-12-09,36,Female,24 Robert isle,Coventry,FK81 9DU,ISA,85227370,45-46-25,2016-01-10,34542.97,50k-75k,747,2,Premium,True,True,False,True
+SAN100147,Carole,Lewis,carole.lewis@hotmail.co.uk,+44116 496 0524,1975-12-13,50,Female,138 Samuel walks,Birmingham,L0 5RF,ISA,69374716,93-42-71,2016-06-19,14593.59,50k-75k,624,1,Standard Plus,True,False,True,True
+SAN100148,Louise,Begum,louise.begum@hotmail.co.uk,0808 1570635,1967-12-15,58,Female,54 Alexandra landing,Sheffield,B2 8BR,Savings Account,16813620,95-77-38,2024-06-27,5550.41,20k-35k,704,3,Standard,True,True,True,False
+SAN100149,Joshua,Hawkins,joshua.hawkins@hotmail.com,+44(0)1214960187,1968-12-14,57,Male,34 Cox gardens,Stoke-on-Trent,IG97 8JF,Savings Account,64614193,93-70-71,2024-07-28,38561.23,50k-75k,730,1,Premium,True,False,True,True
+SAN100150,Paul,Begum,paul.begum@hotmail.co.uk,(0131) 4960050,1993-12-08,32,Male,"Studio 41n
+Samantha overpass",Manchester,G4 0JW,Savings Account,66087572,32-14-60,2016-02-25,32649.71,20k-35k,635,1,Premium,True,True,True,False
+SAN100151,Chelsea,Harrison,chelsea.harrison@outlook.com,+44(0)114 496 0918,1969-12-14,56,Female,619 Tracy shore,Leeds,L44 6PP,ISA,48193218,68-92-79,2019-08-21,562.43,20k-35k,728,2,Standard,True,False,True,True
+SAN100152,Kimberley,Dixon,kimberley.dixon@yahoo.com,+44(0)115 4960912,1981-12-11,44,Female,7 Sinclair crest,Leicester,N3H 7LE,ISA,34991216,11-53-47,2016-08-28,40459.81,50k-75k,689,2,Premium,True,False,True,False
+SAN100153,Joanne,Fraser,joanne.fraser@outlook.com,+44(0)29 2018903,1961-12-16,64,Female,"Flat 13
+Frost causeway",Leeds,GU4E 6TX,Savings Account,28872606,71-51-41,2022-10-10,25812.5,35k-50k,632,1,Premium,True,True,True,True
+SAN100154,Harriet,Smith,harriet.smith@yahoo.com,+44115 4960003,1972-12-13,53,Female,6 Holmes rue,Bristol,M1 1HT,ISA,41715995,17-95-25,2020-07-13,29164.79,75k-100k,663,2,Premium,True,True,True,False
+SAN100155,Scott,Green,scott.green@hotmail.com,+44115 4960070,1984-12-10,41,Other,667 Margaret springs,Edinburgh,DD53 4LT,ISA,92493631,38-38-27,2024-05-21,34545.49,75k-100k,767,2,Premium,True,True,False,True
+SAN100156,Kieran,Hancock,kieran.hancock@yahoo.com,+44(0)28 9018 0476,1968-12-14,57,Other,"Flat 1
+Cooper manor",Newcastle,L80 5UX,Savings Account,89968863,20-77-67,2022-02-07,45648.56,50k-75k,745,3,Premium,True,True,False,True
+SAN100157,Danielle,Ward,danielle.ward@hotmail.com,(0141) 496 0420,1961-12-16,64,Other,"Studio 30
+Howard mountains",Liverpool,N9D 1JJ,ISA,79839059,66-24-97,2021-07-27,10187.62,50k-75k,681,2,Standard Plus,True,True,True,True
+SAN100158,Aaron,Ashton,aaron.ashton@outlook.com,01144960396,1970-12-14,55,Male,"Flat 23
+Forster square",Manchester,PE0 9YF,Student Account,72059365,96-49-12,2023-10-29,6684.02,35k-50k,655,2,Standard,True,False,True,True
+SAN100159,Lawrence,Wells,lawrence.wells@yahoo.co.uk,+44191 496 0427,1976-12-12,49,Male,0 Mandy forges,Manchester,W0 9HF,Current Account,73360324,14-46-62,2024-04-12,17291.99,100k+,669,1,Premium,True,True,True,False
+SAN100160,Kerry,Edwards,kerry.edwards@hotmail.com,(0114) 496 0029,1979-12-12,46,Female,8 Hunt landing,Nottingham,SE6W 5NP,Business Account,20770971,97-94-79,2025-02-06,49643.54,75k-100k,727,2,Premium,True,False,True,False
+SAN100161,Mary,Simpson,mary.simpson@yahoo.co.uk,+44(0)306 9990752,1993-12-08,32,Female,"Flat 92
+Parkes spurs",London,CO2 9RY,Current Account,50045602,69-96-79,2023-03-28,36420.12,35k-50k,847,1,Premium,True,True,True,True
+SAN100162,Andrew,Clayton,andrew.clayton@hotmail.co.uk,+441174960917,1996-12-07,29,Male,13 Robinson expressway,Leeds,WV1Y 7AL,Current Account,98610233,63-88-12,2019-02-04,9505.17,50k-75k,582,4,Standard,True,True,True,True
+SAN100163,Rhys,Smith,rhys.smith@hotmail.com,+44(0)306 999 0100,1963-12-16,62,Other,"Studio 6
+Amy park",Manchester,HS86 7YJ,Business Account,68916591,39-79-37,2016-08-03,43623.4,50k-75k,743,1,Premium,True,False,True,False
+SAN100164,Jonathan,Price,jonathan.price@gmail.com,(0121) 496 0054,1971-12-14,54,Male,5 Nicola estates,Cardiff,BS8B 9ZU,Savings Account,50502136,28-94-76,2023-11-27,28915.99,75k-100k,730,3,Premium,True,True,True,False
+SAN100165,Geraldine,Holland,geraldine.holland@yahoo.com,+44(0)2074960620,1981-12-11,44,Other,33 Harrison stravenue,Coventry,NP4X 4JE,Current Account,56226575,92-95-58,2025-05-03,31337.06,50k-75k,608,2,Premium,True,True,True,True
+SAN100166,Jessica,Leach,jessica.leach@yahoo.co.uk,(0116) 496 0050,1979-12-12,46,Female,"Flat 4
+Ryan burg",Sheffield,G41 1NR,ISA,29374563,69-17-81,2021-05-29,37745.36,50k-75k,625,2,Premium,True,True,True,True
+SAN100167,Marie,Jones,marie.jones@gmail.com,+44289018862,1966-12-15,59,Female,"Studio 5
+Katie cape",Leicester,LA7 3LY,ISA,22410307,78-34-16,2022-07-10,16580.12,20k-35k,668,1,Standard Plus,True,True,True,False
+SAN100168,Robert,Hayes,robert.hayes@gmail.com,+44(0)114 496 0586,1993-12-08,32,Male,068 Morgan spur,Cardiff,OX37 1RB,ISA,12058055,37-34-25,2022-11-17,24021.77,35k-50k,654,4,Standard Plus,True,False,False,False
+SAN100169,Stephanie,Bradshaw,stephanie.bradshaw@hotmail.co.uk,(029)2018921,1974-12-13,51,Other,"Flat 23
+Malcolm canyon",Cardiff,BT63 9LP,ISA,61091554,69-78-93,2021-01-29,19891.94,50k-75k,634,1,Standard Plus,True,True,True,True
+SAN100170,Joshua,Hopkins,joshua.hopkins@hotmail.co.uk,+44(0)1214960487,1993-12-08,32,Male,998 Clark drive,Newcastle,E19 4XQ,ISA,51999682,62-15-82,2021-06-23,38105.29,75k-100k,699,2,Premium,True,False,True,True
+SAN100171,Victoria,Pritchard,victoria.pritchard@hotmail.co.uk,+44(0)2074960702,1977-12-12,48,Other,"Studio 2
+Thomas isle",Sheffield,EC0Y 4QA,Business Account,86475853,41-73-80,2022-06-17,14830.1,100k+,639,1,Premium,True,True,True,False
+SAN100172,Tom,Warren,tom.warren@hotmail.com,+44(0)8081570713,1988-12-09,37,Other,75 Briggs rapids,Belfast,CA3R 6UW,Savings Account,28784915,79-72-33,2018-12-11,23095.37,100k+,698,3,Premium,True,True,True,True
+SAN100173,Christian,Perry,christian.perry@yahoo.com,(0114) 4960486,2002-12-06,23,Male,902 Marc villages,London,L0 0QH,Business Account,28453800,90-39-18,2021-01-24,47264.89,0-20k,567,3,Premium,True,True,True,True
+SAN100174,Henry,Chan,henry.chan@yahoo.co.uk,+4428 9018 0103,1991-12-09,34,Other,"Studio 9
+Williamson ways",Stoke-on-Trent,PE85 2LD,Student Account,65208920,11-12-77,2020-07-21,32998.29,75k-100k,662,1,Premium,True,True,True,True
+SAN100175,Glen,Day,glen.day@hotmail.co.uk,+44306 9990333,1976-12-12,49,Other,68 Jill branch,Leeds,CO29 3LZ,Current Account,80381817,29-40-34,2016-05-29,40327.77,100k+,798,4,Premium,True,True,True,False
+SAN100176,Carl,Edwards,carl.edwards@hotmail.com,0151 496 0657,1968-12-14,57,Male,"Flat 74
+Jackson avenue",Sheffield,N8S 4EU,Savings Account,50261914,97-20-93,2023-01-03,47968.96,35k-50k,667,2,Premium,False,True,True,True
+SAN100177,Charlotte,Holt,charlotte.holt@hotmail.com,(0909) 8790444,1981-12-11,44,Female,8 Kevin valley,Liverpool,S5S 0UN,Current Account,77089857,65-92-52,2018-09-04,2900.14,100k+,599,1,Premium,True,False,True,True
+SAN100178,Callum,Walker,callum.walker@outlook.com,+44(0)113 496 0993,1981-12-11,44,Male,"Studio 38O
+Walker skyway",Coventry,MK4 8GN,ISA,16249441,19-97-45,2019-12-16,10649.71,50k-75k,656,4,Standard Plus,True,True,True,False
+SAN100179,Sophie,Jones,sophie.jones@outlook.com,08081570825,1976-12-12,49,Female,5 Mohammad manor,Nottingham,IG4 7EU,Current Account,50168264,30-82-40,2023-04-28,48077.31,35k-50k,613,2,Premium,True,False,True,True
+SAN100180,Margaret,Taylor,margaret.taylor@hotmail.co.uk,+44114 496 0738,1973-12-13,52,Female,684 Collier walk,Birmingham,G35 9TF,Student Account,56420476,16-22-65,2021-09-30,39545.85,50k-75k,802,3,Premium,True,True,True,False
+SAN100181,Guy,Taylor,guy.taylor@gmail.com,(0161) 4960525,1982-12-11,43,Other,7 Kelly trail,Bristol,G71 9SS,Business Account,75847681,39-55-80,2017-09-18,48449.13,100k+,712,2,Premium,True,True,True,False
+SAN100182,Reece,Mahmood,reece.mahmood@gmail.com,+44(0)113 496 0835,1970-12-14,55,Male,83 Sian avenue,Birmingham,SS3H 4FE,Current Account,45966597,29-58-91,2020-09-07,14839.44,50k-75k,647,1,Standard Plus,True,True,True,True
+SAN100183,Lorraine,Heath,lorraine.heath@gmail.com,+44808 157 0044,1977-12-12,48,Female,"Studio 89H
+Williams spur",Glasgow,N75 2RA,Current Account,35151299,65-67-81,2018-12-22,18059.88,100k+,681,1,Premium,True,True,True,True
+SAN100184,Geoffrey,Wilson,geoffrey.wilson@yahoo.com,+441632 960098,1979-12-12,46,Male,5 Nicola wells,Southampton,EN8W 9BE,Business Account,21368176,81-41-83,2025-10-05,43199.54,75k-100k,618,1,Premium,True,True,True,True
+SAN100185,Jill,Lee,jill.lee@gmail.com,+44(0)141 4960761,1980-12-11,45,Female,"Studio 2
+Annette spur",Bristol,AL4P 8LZ,Business Account,50232066,71-19-56,2016-05-24,7382.15,100k+,719,1,Premium,True,True,True,True
+SAN100186,Leon,Harrison,leon.harrison@gmail.com,+44(0)161 4960914,1959-12-17,66,Male,7 Tina flats,Nottingham,WA8 5SN,ISA,93240786,58-52-66,2020-02-06,5437.92,35k-50k,756,2,Standard,True,False,False,False
+SAN100187,Jonathan,Thomas,jonathan.thomas@yahoo.com,+44292018753,1948-12-19,77,Male,1 Marion skyway,Newcastle,CV18 1LJ,Business Account,52168966,32-60-50,2020-11-16,16101.19,35k-50k,618,4,Standard Plus,True,True,True,True
+SAN100188,Julian,Scott,julian.scott@yahoo.co.uk,0114 496 0120,1967-12-15,58,Male,"Flat 56V
+Neil vista",Nottingham,B2 5QT,ISA,25285764,82-35-85,2018-11-15,18865.16,35k-50k,694,3,Standard Plus,False,True,True,True
+SAN100189,Brenda,Phillips,brenda.phillips@hotmail.com,(0808) 1570521,1948-12-19,77,Other,"Studio 7
+Lee spurs",Edinburgh,TR62 2BG,Current Account,64914054,96-73-27,2023-03-30,47154.45,35k-50k,615,1,Premium,True,True,True,False
+SAN100190,Jane,Sanderson,jane.sanderson@hotmail.co.uk,(029)2018729,1993-12-08,32,Female,"Flat 90R
+Pamela oval",Nottingham,S7 1LP,Student Account,77996397,98-63-79,2021-10-27,22508.43,20k-35k,632,2,Standard Plus,True,False,True,False
+SAN100191,James,Campbell,james.campbell@outlook.com,(020) 7496 0935,2007-12-05,18,Other,37 Adams row,Sheffield,CV89 0GW,ISA,32325574,92-88-15,2022-09-10,45728.62,35k-50k,637,1,Premium,True,True,True,False
+SAN100192,Marie,Barton,marie.barton@gmail.com,0306 999 0753,1992-12-08,33,Female,"Flat 08o
+Ahmed freeway",Sheffield,W7 1UT,Student Account,79631857,81-84-98,2024-08-09,5386.63,75k-100k,692,1,Premium,True,True,True,False
+SAN100193,Guy,Iqbal,guy.iqbal@outlook.com,(0113) 4960166,1975-12-13,50,Other,801 Ball points,Leeds,W55 3TP,ISA,65831276,20-24-28,2020-11-19,17313.87,50k-75k,830,1,Standard Plus,True,True,True,True
+SAN100194,Heather,Read,heather.read@outlook.com,029 2018 0571,1966-12-15,59,Female,305 Burke union,Leicester,NR8 1BG,ISA,19015987,48-15-24,2021-11-29,4971.39,35k-50k,633,3,Standard,True,True,True,False
+SAN100195,Valerie,Davidson,valerie.davidson@outlook.com,+441414960149,1994-12-08,31,Other,1 Stevens views,Cardiff,N16 9ET,Student Account,67226329,69-39-61,2023-01-30,25848.1,35k-50k,719,2,Premium,True,True,True,True
+SAN100196,Clare,Slater,clare.slater@yahoo.com,+44161 4960080,2000-12-06,25,Other,"Studio 78
+Hazel prairie",London,G16 8RS,Savings Account,37619925,45-18-83,2025-06-22,22533.79,35k-50k,826,2,Standard Plus,True,False,True,True
+SAN100197,Katy,Chadwick,katy.chadwick@hotmail.com,(0141)4960547,1963-12-16,62,Female,6 Watts plaza,Bradford,SP8 3HZ,ISA,90124068,59-88-60,2023-07-15,13191.43,20k-35k,642,4,Standard Plus,True,True,True,False
+SAN100198,Gregory,Holmes,gregory.holmes@yahoo.com,01632 960288,2006-12-05,19,Other,"Studio 15J
+Jackson shores",Birmingham,KT8M 0WE,Savings Account,52035079,25-40-49,2025-02-15,40050.61,35k-50k,788,4,Premium,True,True,True,True
+SAN100199,Peter,Palmer,peter.palmer@gmail.com,(0117) 496 0424,1982-12-11,43,Other,"Flat 04
+Joanna bypass",Coventry,TW7 9XJ,Student Account,96605343,32-81-31,2016-06-10,28782.82,50k-75k,779,2,Premium,True,True,True,True
+SAN100200,Brandon,Moore,brandon.moore@outlook.com,0121 4960066,2004-12-05,21,Male,"Studio 58d
+Tony flats",Newcastle,W3S 9XZ,Business Account,85374270,74-93-73,2018-04-15,47596.91,20k-35k,632,2,Premium,True,True,True,True
+SAN100201,Nigel,Russell,nigel.russell@hotmail.com,+44151 496 0212,1980-12-11,45,Male,816 Anne harbors,Sheffield,M2C 0PT,ISA,14388260,45-38-78,2025-07-22,28313.35,35k-50k,683,3,Premium,True,False,True,False
+SAN100202,Carolyn,Cross,carolyn.cross@hotmail.com,+442074960094,1987-12-10,38,Female,"Studio 85
+Lindsey island",Stoke-on-Trent,L2J 8GS,ISA,82751830,15-66-79,2016-04-23,28678.43,35k-50k,729,1,Premium,True,True,True,False
+SAN100203,Abdul,Wilkinson,abdul.wilkinson@yahoo.com,+44(0)909 8790355,1997-12-07,28,Male,"Flat 39H
+Turner view",Bristol,AL1X 7JZ,ISA,21674661,66-25-40,2016-10-30,43753.01,50k-75k,668,1,Premium,True,False,True,False
+SAN100204,Brenda,Smith,brenda.smith@hotmail.com,0141 4960164,1979-12-12,46,Other,"Flat 8
+Lewis pass",Newcastle,LU04 5WD,Savings Account,17966873,82-54-78,2016-04-23,8382.48,100k+,721,1,Premium,True,True,True,False
+SAN100205,Sophie,Thompson,sophie.thompson@hotmail.co.uk,(0191) 4960013,1970-12-14,55,Female,613 Willis cliffs,Leeds,SL2A 5BD,Savings Account,65243509,17-45-93,2025-06-23,13440.42,50k-75k,590,4,Standard Plus,True,False,True,False
+SAN100206,Alan,Holloway,alan.holloway@hotmail.co.uk,+44114 496 0934,2004-12-05,21,Male,"Studio 7
+Williams brook",Bristol,SK18 9DY,Business Account,60354777,67-19-91,2023-11-09,19695.77,35k-50k,782,1,Standard Plus,True,False,True,False
+SAN100207,Jordan,Harrison,jordan.harrison@hotmail.co.uk,(0115) 496 0449,1976-12-12,49,Other,76 Fuller burgs,London,CW83 6XN,Current Account,71532017,91-95-99,2016-08-21,22789.31,75k-100k,620,2,Premium,True,True,True,True
+SAN100208,Ellie,Connor,ellie.connor@outlook.com,+44(0)28 9018 0508,1957-12-17,68,Female,0 Marion ranch,Edinburgh,NN81 3QH,ISA,83458776,83-26-82,2022-09-08,24786.28,20k-35k,689,2,Standard Plus,True,False,False,False
+SAN100209,Russell,Howe,russell.howe@yahoo.com,(0116)4960239,1963-12-16,62,Male,"Flat 12
+Georgina mountain",London,NR1M 4EH,Current Account,31204188,66-68-10,2024-06-05,31346.36,20k-35k,685,3,Premium,False,True,False,False
+SAN100210,Kimberley,Jones,kimberley.jones@yahoo.com,(029) 2018 0314,1950-12-19,75,Other,5 Price ridges,Bristol,HA9E 5SG,Current Account,97857309,56-42-20,2019-03-22,8032.98,35k-50k,820,4,Standard,True,False,True,True
+SAN100211,Sarah,Webster,sarah.webster@outlook.com,+44(0)1632 960 645,1984-12-10,41,Female,577 Evans inlet,Leeds,NR12 4FX,Current Account,38644905,71-19-26,2023-10-09,21518.62,50k-75k,757,1,Standard Plus,True,True,True,True
+SAN100212,Sandra,Smith,sandra.smith@gmail.com,+441632 960 108,1971-12-14,54,Female,969 Alan plaza,Glasgow,NP8 2QR,Business Account,19506414,39-59-21,2024-10-10,49408.93,35k-50k,789,2,Premium,True,True,True,False
+SAN100213,Nathan,Norman,nathan.norman@hotmail.com,+44(0)115 4960788,1995-12-08,30,Male,58 Cheryl garden,Glasgow,G8C 2GY,Savings Account,19182050,77-82-11,2021-10-22,38695.68,75k-100k,734,3,Premium,True,True,True,True
+SAN100214,Anna,Knowles,anna.knowles@outlook.com,+441632 960750,1965-12-15,60,Other,31 Charlton canyon,Leicester,DL8N 7TB,Savings Account,21635070,22-27-25,2025-08-04,46002.72,20k-35k,539,2,Premium,True,True,False,True
+SAN100215,Michael,Robinson,michael.robinson@outlook.com,0191 4960449,1998-12-07,27,Male,65 Georgia glen,Stoke-on-Trent,DT86 5UU,Student Account,90531692,87-46-98,2019-02-25,13920.69,35k-50k,516,1,Standard Plus,True,False,False,True
+SAN100216,Rachael,Bailey,rachael.bailey@yahoo.co.uk,+44116 496 0318,1985-12-10,40,Other,"Flat 22
+Linda rapids",Manchester,TW1X 6PE,Savings Account,76422705,59-24-40,2024-09-25,37417.4,50k-75k,737,1,Premium,True,True,True,False
+SAN100217,Jodie,Davies,jodie.davies@hotmail.co.uk,(0116)4960603,1958-12-17,67,Female,9 Aaron roads,Southampton,B9C 2LG,ISA,83330690,97-32-70,2020-09-13,6685.95,35k-50k,685,4,Standard,False,False,True,True
+SAN100218,Jayne,Hayward,jayne.hayward@hotmail.co.uk,+4428 9018041,1956-12-17,69,Female,97 Thompson village,Nottingham,PH29 9WL,Student Account,48451741,90-74-63,2021-11-27,2087.36,20k-35k,569,1,Standard,True,True,True,True
+SAN100219,Jake,Wood,jake.wood@yahoo.co.uk,+442074960913,2006-12-05,19,Male,"Studio 2
+Andrew flats",Newcastle,S2K 2UZ,Savings Account,81993070,51-60-85,2019-05-04,4271.49,20k-35k,675,1,Standard,True,False,True,True
+SAN100220,Grace,Thomas,grace.thomas@hotmail.co.uk,0306 999 0117,1975-12-13,50,Other,806 Middleton cape,Manchester,NG6H 6QY,Savings Account,21571285,65-24-68,2023-10-02,36524.92,100k+,677,3,Premium,True,True,True,False
+SAN100221,Damien,Allen,damien.allen@hotmail.com,01614960314,2007-12-05,18,Male,"Flat 30T
+Melissa pike",London,B6 5SQ,Savings Account,76627415,54-76-76,2020-03-02,731.98,0-20k,672,1,Standard,True,False,True,True
+SAN100222,Michelle,Nash,michelle.nash@hotmail.com,+44118 496 0869,2000-12-06,25,Female,"Studio 46
+Amy plaza",Southampton,W2F 4NY,ISA,80310522,18-43-83,2022-06-06,38594.37,20k-35k,733,1,Premium,True,True,True,True
+SAN100223,Leigh,Russell,leigh.russell@yahoo.com,09098790137,1975-12-13,50,Other,3 Thornton unions,Leeds,B2G 1FU,Student Account,25479814,39-75-10,2019-11-23,18447.62,50k-75k,604,1,Standard Plus,True,False,True,True
+SAN100224,Abbie,Williams,abbie.williams@yahoo.com,+44(0)131 4960190,1988-12-09,37,Female,"Studio 9
+Ellis ranch",Manchester,G7 0HW,Student Account,98007006,63-38-51,2016-07-21,9030.15,50k-75k,595,5,Standard,True,False,True,False
+SAN100225,Mitchell,Chamberlain,mitchell.chamberlain@hotmail.co.uk,0191 498 0392,1981-12-11,44,Other,30 Nicholas harbor,Manchester,HU66 8AD,Savings Account,39955391,76-15-61,2023-10-02,6058.11,75k-100k,756,3,Premium,True,True,True,False
+SAN100226,Joanne,Parry,joanne.parry@hotmail.co.uk,(020)74960554,1995-12-08,30,Female,376 Elliot extensions,Newcastle,MK18 8NP,ISA,85672859,48-89-41,2023-03-05,27699.26,20k-35k,720,1,Premium,True,True,True,False
+SAN100227,Kevin,Roberts,kevin.roberts@hotmail.co.uk,(0808) 1570947,1988-12-09,37,Male,"Studio 73
+Hunt mount",London,LE9A 1LD,Savings Account,82684966,54-91-98,2025-06-24,7613.26,50k-75k,616,4,Standard,True,False,True,False
+SAN100228,Margaret,Parkinson,margaret.parkinson@outlook.com,+44(0)292018356,1982-12-11,43,Other,"Studio 80
+Smith course",Sheffield,SK51 7PQ,Business Account,76038997,17-28-45,2025-11-08,5287.06,75k-100k,597,2,Premium,True,False,False,True
+SAN100229,Charlie,Lawrence,charlie.lawrence@outlook.com,+4429 2018 0373,1989-12-09,36,Other,343 Reece village,Leeds,N21 1UZ,Student Account,27919925,91-60-19,2018-08-08,22977.06,75k-100k,584,3,Premium,True,True,True,True
+SAN100230,Sarah,Miller,sarah.miller@gmail.com,0909 8790759,1951-12-19,74,Female,"Studio 9
+Hughes track",Nottingham,M6D 0WS,ISA,52688984,67-44-39,2021-04-30,42560.59,35k-50k,682,4,Premium,True,True,True,True
+SAN100231,Shane,Singh,shane.singh@hotmail.com,(0141) 4960271,1991-12-09,34,Male,"Flat 00R
+Jessica prairie",Southampton,N5 2XL,Current Account,81930575,55-36-67,2016-03-27,8302.31,20k-35k,697,2,Standard,True,True,True,True
+SAN100232,Frank,Phillips,frank.phillips@hotmail.com,+44(0)131 496 0276,1982-12-11,43,Other,55 White falls,Manchester,G9S 1LJ,Savings Account,53995720,28-21-41,2025-07-01,41336.7,75k-100k,662,3,Premium,False,True,True,True
+SAN100233,Ricky,Williams,ricky.williams@yahoo.com,0808 157 0270,1971-12-14,54,Male,72 Thornton hills,Stoke-on-Trent,NW9 6EG,Student Account,43534652,22-69-23,2019-09-21,47609.62,35k-50k,740,4,Premium,True,True,True,False
+SAN100234,Robert,Stevens,robert.stevens@outlook.com,0115 496 0754,1988-12-09,37,Male,"Flat 88Z
+Ward loop",Birmingham,N9 9YX,Student Account,88667527,43-19-12,2018-06-15,9986.84,50k-75k,633,2,Standard,False,True,True,False
+SAN100235,Nicholas,Robinson,nicholas.robinson@hotmail.com,(029) 2018877,1985-12-10,40,Male,94 Mistry drive,Manchester,N69 1DG,Savings Account,87025433,65-60-73,2018-10-04,6214.13,75k-100k,495,4,Premium,True,True,True,True
+SAN100236,Ronald,Wilson,ronald.wilson@hotmail.com,01632 960496,2003-12-06,22,Male,"Studio 5
+Carroll ferry",Manchester,G3 1HG,Student Account,93104469,88-41-92,2019-01-30,14064.74,20k-35k,789,4,Standard Plus,True,True,True,True
+SAN100237,Andrea,Webb,andrea.webb@yahoo.co.uk,+441914960006,1956-12-17,69,Female,4 Graham shoal,Bradford,HA33 7FF,Savings Account,94658420,79-12-58,2016-07-20,6948.08,35k-50k,660,1,Standard,True,True,True,True
+SAN100238,Kerry,Bull,kerry.bull@outlook.com,+44131 4960577,1972-12-13,53,Other,"Studio 72
+Marie ranch",Cardiff,RG96 5UX,Student Account,39396392,13-45-17,2016-03-13,19480.23,75k-100k,704,1,Premium,True,True,True,True
+SAN100239,Geoffrey,Nelson,geoffrey.nelson@hotmail.com,+44(0)141 496 0424,1940-12-21,85,Male,8 Leigh heights,Bristol,NN07 4AS,Student Account,17503932,38-83-59,2020-05-01,5096.7,20k-35k,769,3,Standard,True,False,True,True
+SAN100240,Iain,Anderson,iain.anderson@hotmail.co.uk,+44(0)1314960368,1982-12-11,43,Other,"Studio 3
+Leah loaf",London,DT41 3WZ,ISA,86188876,82-28-82,2023-11-18,40329.89,75k-100k,603,3,Premium,True,False,True,False
+SAN100241,Annette,Richardson,annette.richardson@outlook.com,(0191) 4960463,2005-12-05,20,Other,2 Griffiths motorway,Manchester,W4T 3PA,Savings Account,90753812,38-12-77,2018-10-04,8860.28,20k-35k,696,1,Standard,True,True,True,False
+SAN100242,Sharon,Parker,sharon.parker@yahoo.com,01154960442,1992-12-08,33,Female,"Studio 03f
+Stephen park",Cardiff,N64 5TB,Current Account,12941099,28-85-28,2021-04-06,45947.16,35k-50k,566,3,Premium,True,False,False,False
+SAN100243,Maria,Francis,maria.francis@yahoo.com,01144960461,1990-12-09,35,Female,"Flat 34
+Finch crossing",Cardiff,EH6R 0HT,Savings Account,31139813,65-91-72,2023-06-02,29342.23,100k+,593,2,Premium,True,True,False,False
+SAN100244,Neil,Bishop,neil.bishop@yahoo.co.uk,(0141) 496 0452,1955-12-18,70,Other,881 Jones hills,Liverpool,N03 3SP,Business Account,51181116,98-47-26,2025-09-25,11239.54,35k-50k,750,2,Standard Plus,True,True,True,True
+SAN100245,Stephen,Thompson,stephen.thompson@gmail.com,(0141)4960300,1981-12-11,44,Other,"Studio 92x
+Frederick estate",Sheffield,CA95 0QF,Student Account,23973438,73-28-52,2018-09-03,9185.88,35k-50k,798,2,Standard,True,True,False,True
+SAN100246,Bruce,Wilkinson,bruce.wilkinson@yahoo.co.uk,+44(0)1174960585,1979-12-12,46,Male,"Studio 30S
+Evans dale",Sheffield,ZE0 7XN,Current Account,57040785,42-23-10,2016-12-26,22386.83,75k-100k,611,1,Premium,True,True,True,True
+SAN100247,Kayleigh,Harrison,kayleigh.harrison@yahoo.com,+44191 4960557,1958-12-17,67,Female,"Studio 82
+Melanie drives",Nottingham,GY48 7AW,Current Account,74355957,83-93-97,2017-10-23,44100.36,35k-50k,723,2,Premium,True,True,True,True
+SAN100248,Karl,Hunter,karl.hunter@hotmail.co.uk,(0909) 879 0593,1996-12-07,29,Male,"Studio 18y
+Judith springs",Cardiff,TD82 5SP,Savings Account,60393104,30-19-80,2024-09-28,13130.27,50k-75k,664,1,Standard Plus,True,False,True,False
+SAN100249,Victoria,Glover,victoria.glover@gmail.com,+44(0)808 157 0220,1994-12-08,31,Female,7 Nigel bypass,Southampton,S7J 0QJ,Savings Account,17188130,22-52-36,2022-07-02,21623.03,20k-35k,569,3,Standard Plus,False,True,True,False
+SAN100250,Lynda,Edwards,lynda.edwards@yahoo.com,+44(0)289018717,1967-12-15,58,Other,86 James centers,Leeds,M8A 4DH,Current Account,62734442,83-80-72,2016-01-16,33063.83,35k-50k,832,1,Premium,True,True,True,True
+SAN100251,Maureen,Glover,maureen.glover@hotmail.co.uk,01414960338,2001-12-06,24,Other,288 Morris trafficway,London,OX5X 6EG,Savings Account,32928708,91-47-20,2023-03-02,30050.75,35k-50k,725,1,Premium,True,True,True,True
+SAN100252,Jeremy,Walton,jeremy.walton@outlook.com,(0116) 4960897,1990-12-09,35,Other,"Flat 85x
+Miller meadows",Liverpool,HG9H 6XL,ISA,61196706,57-33-67,2020-12-16,4647.73,75k-100k,641,2,Premium,True,True,True,False
+SAN100253,Rebecca,Hunt,rebecca.hunt@yahoo.co.uk,0113 496 0049,1989-12-09,36,Other,240 Robinson forest,Leeds,BA4 1BT,Current Account,99676390,54-79-62,2020-05-21,7641.42,35k-50k,610,3,Standard,False,True,True,False
+SAN100254,Susan,Bryan,susan.bryan@hotmail.co.uk,(0118) 496 0344,1980-12-11,45,Other,693 Victor turnpike,Coventry,DD79 9NB,Student Account,41627336,70-48-20,2018-07-25,48284.82,100k+,613,3,Premium,True,False,True,True
+SAN100255,Melissa,Palmer,melissa.palmer@hotmail.com,(0131)4960661,1976-12-12,49,Other,906 Stewart pine,Liverpool,N8 5WJ,Savings Account,38439415,34-26-15,2023-09-18,6102.07,50k-75k,675,3,Standard,True,False,True,False
+SAN100256,Carl,Bentley,carl.bentley@yahoo.co.uk,+44151 496 0998,1984-12-10,41,Other,6 Fitzgerald drive,Birmingham,N17 8RL,Current Account,62089786,81-60-80,2023-03-25,41722.0,50k-75k,607,1,Premium,True,True,True,False
+SAN100257,Graham,Matthews,graham.matthews@outlook.com,+44(0)115 496 0278,1989-12-09,36,Other,69 Chelsea ridges,Leeds,NG3H 4SP,Current Account,85522135,22-46-78,2020-04-04,5714.69,100k+,740,1,Premium,True,False,True,False
+SAN100258,Lydia,Bennett,lydia.bennett@outlook.com,+44(0)141 496 0655,1973-12-13,52,Other,59 Stewart extension,Glasgow,PO7 7BJ,Student Account,91692326,97-98-61,2016-10-22,1969.54,100k+,601,1,Premium,True,False,True,True
+SAN100259,Marc,Richardson,marc.richardson@outlook.com,09098790110,1979-12-12,46,Other,240 Faulkner creek,London,LD7 5HX,ISA,50675347,49-45-72,2017-06-21,46049.67,100k+,740,4,Premium,True,True,False,True
+SAN100260,Bethany,Martin,bethany.martin@hotmail.com,+441914960792,2006-12-05,19,Female,98 Conor extension,Bristol,M3 0TA,Business Account,91198924,92-21-34,2021-02-22,22211.22,35k-50k,723,3,Standard Plus,True,False,True,True
+SAN100261,Joseph,McCarthy,joseph.mccarthy@outlook.com,+441314960104,1990-12-09,35,Other,"Flat 68
+Guy oval",Liverpool,E2D 8AB,Current Account,51758234,74-61-27,2018-08-17,41068.77,75k-100k,725,2,Premium,True,True,True,True
+SAN100262,Harry,Woodward,harry.woodward@yahoo.co.uk,(0141) 4960205,1992-12-08,33,Male,"Flat 43G
+Barker road",Belfast,WS6 8LJ,Savings Account,46772637,57-69-74,2018-12-17,12549.56,20k-35k,535,2,Standard Plus,True,False,True,True
+SAN100263,Sharon,Cook,sharon.cook@yahoo.com,+44(0)114 4960689,2005-12-05,20,Female,39 Rachel inlet,Coventry,N7J 3FY,Student Account,83998759,54-54-30,2019-11-04,22360.56,35k-50k,683,5,Standard Plus,True,True,True,True
+SAN100264,Mathew,Richardson,mathew.richardson@yahoo.com,+44121 4960826,1977-12-12,48,Male,925 Nicole place,Newcastle,CM2N 0PS,Savings Account,96889858,38-96-36,2017-12-08,2577.59,100k+,607,4,Premium,True,True,True,False
+SAN100265,Victoria,Stokes,victoria.stokes@outlook.com,+44(0)1632 960 423,1971-12-14,54,Other,2 Molly ridges,Liverpool,PL9 9JJ,Student Account,11135982,38-42-87,2023-05-15,23757.45,35k-50k,547,1,Standard Plus,True,True,False,False
+SAN100266,Amelia,Payne,amelia.payne@yahoo.co.uk,+44(0)115 4960897,1981-12-11,44,Female,"Flat 67
+Khan fields",Newcastle,B60 6JH,Business Account,50553227,96-76-89,2016-09-15,42594.15,100k+,583,2,Premium,True,True,True,False
+SAN100267,Clare,Collins,clare.collins@yahoo.co.uk,(0909)8790975,1990-12-09,35,Female,"Flat 66
+Tina street",Birmingham,SR56 8ET,ISA,47108953,91-51-45,2025-03-08,14993.95,75k-100k,683,1,Premium,True,False,False,True
+SAN100268,Julian,Mason,julian.mason@yahoo.com,0191 498 0860,1993-12-08,32,Male,"Studio 03
+Williams hollow",Nottingham,LL2 4ZB,ISA,28781020,13-93-73,2016-05-02,44994.38,35k-50k,649,3,Premium,False,True,True,True
+SAN100269,Leigh,Lewis,leigh.lewis@outlook.com,+44151 4960181,1965-12-15,60,Male,826 Turnbull burg,Newcastle,W93 1LP,ISA,39845082,97-78-91,2017-05-02,35432.64,50k-75k,633,2,Premium,True,False,True,True
+SAN100270,Denis,Brooks,denis.brooks@yahoo.com,(01632) 960 111,1968-12-14,57,Male,"Studio 51H
+Wood pass",Leeds,G6J 0GP,Business Account,27172371,43-81-33,2023-01-10,43837.09,50k-75k,589,1,Premium,True,False,True,True
+SAN100271,Lawrence,Carr,lawrence.carr@yahoo.com,+44909 879 0220,1973-12-13,52,Male,"Flat 47s
+Terence curve",Belfast,B94 7UU,ISA,88593968,47-69-25,2024-07-16,21081.58,75k-100k,795,4,Premium,True,False,True,False
+SAN100272,Abdul,Mann,abdul.mann@yahoo.co.uk,0118 496 0397,2007-12-05,18,Male,"Studio 7
+Grace rapid",Nottingham,L8 9XH,Student Account,50044631,62-16-29,2021-12-28,44482.36,20k-35k,616,2,Premium,True,True,True,True
+SAN100273,Jessica,Gallagher,jessica.gallagher@hotmail.com,+44(0)113 496 0209,1972-12-13,53,Female,"Flat 10g
+Turner estates",Birmingham,GL9X 7YQ,Business Account,54644768,90-32-50,2016-06-18,15887.53,50k-75k,663,3,Standard Plus,True,True,True,False
+SAN100274,Jack,Green,jack.green@hotmail.com,0141 4960168,1975-12-13,50,Male,72 Annette wall,Birmingham,HP8 8HH,Savings Account,92474074,65-91-64,2018-11-27,24529.9,50k-75k,631,3,Standard Plus,True,False,True,True
+SAN100275,Stewart,Tomlinson,stewart.tomlinson@outlook.com,(0191) 496 0179,1979-12-12,46,Male,"Studio 9
+Smith ports",Bradford,N2K 8UU,Savings Account,12404661,96-10-90,2021-08-17,47508.42,75k-100k,667,4,Premium,True,True,False,True
+SAN100276,George,Young,george.young@hotmail.com,0117 4960010,1963-12-16,62,Male,"Studio 13Z
+Carroll isle",Birmingham,NW3 3NL,Current Account,50024028,47-68-76,2018-03-29,25216.49,35k-50k,700,2,Premium,True,True,False,False
+SAN100277,Janet,Brookes,janet.brookes@hotmail.com,(0306) 9990015,1975-12-13,50,Female,"Studio 9
+Clive fields",Nottingham,WA5 7BF,Current Account,40657783,38-26-37,2020-12-23,18026.62,100k+,647,1,Premium,True,True,True,True
+SAN100278,Hayley,Nash,hayley.nash@hotmail.co.uk,0131 4960760,1988-12-09,37,Other,"Studio 58
+Gavin ports",Stoke-on-Trent,HP5B 4AP,Student Account,16521231,86-16-94,2020-07-08,18822.1,35k-50k,645,2,Standard Plus,True,False,True,True
+SAN100279,Paige,Johnson,paige.johnson@hotmail.co.uk,+44(0)2074960629,1975-12-13,50,Female,50 Carroll parks,Glasgow,N74 8NG,Savings Account,94598956,11-48-63,2024-05-03,6267.39,100k+,646,1,Premium,True,True,True,False
+SAN100280,William,Patel,william.patel@yahoo.com,+44(0)1144960780,1976-12-12,49,Male,"Studio 23
+Bennett street",Leeds,M5C 8FH,ISA,25302505,23-73-35,2016-04-14,41549.57,100k+,846,1,Premium,True,False,True,False
+SAN100281,Karen,Nicholls,karen.nicholls@hotmail.co.uk,(0115)4960040,1967-12-15,58,Female,70 Maria trafficway,Stoke-on-Trent,SW4A 3PH,Business Account,37876214,98-71-52,2023-01-19,20546.84,50k-75k,653,1,Standard Plus,True,True,True,True
+SAN100282,Alex,Hussain,alex.hussain@yahoo.co.uk,(029) 2018 0142,1962-12-16,63,Other,10 Russell plains,Bradford,NR5 2NY,Current Account,23594977,42-92-39,2021-03-27,24755.79,50k-75k,647,4,Standard Plus,True,False,True,True
+SAN100283,Adrian,Thompson,adrian.thompson@hotmail.com,+44191 496 0702,2007-12-05,18,Male,01 Collier meadow,Cardiff,DD99 9QN,Business Account,25555976,22-15-11,2019-01-10,42627.21,0-20k,599,2,Premium,True,True,True,True
+SAN100284,Zoe,Warren,zoe.warren@outlook.com,(0808) 157 0817,2007-12-05,18,Female,7 Caroline inlet,Belfast,RM7R 3FZ,ISA,34544318,24-61-61,2023-01-16,13488.64,35k-50k,651,3,Standard Plus,False,True,True,False
+SAN100285,Danielle,Walker,danielle.walker@outlook.com,0292018557,1980-12-11,45,Female,"Flat 1
+Clark neck",Manchester,WD24 9YF,Savings Account,23920137,63-85-71,2019-11-01,5741.52,50k-75k,814,3,Standard,True,True,True,True
+SAN100286,Kathryn,Webb,kathryn.webb@gmail.com,+44(0)1214960814,1976-12-12,49,Female,"Studio 9
+Smith gardens",Glasgow,G7G 5HY,Business Account,75514730,24-62-66,2024-02-02,43142.53,35k-50k,662,4,Premium,True,True,True,False
+SAN100287,Sharon,Leonard,sharon.leonard@hotmail.com,+44191 4960321,1968-12-14,57,Other,"Flat 9
+Rose court",Sheffield,DD46 9EZ,ISA,79672379,76-98-99,2020-04-07,38399.68,50k-75k,503,2,Premium,True,True,True,True
+SAN100288,Jessica,Mills,jessica.mills@gmail.com,+44(0)1144960329,1977-12-12,48,Other,2 Hill loaf,Manchester,W3D 4YN,Current Account,96355513,30-74-70,2022-05-13,7517.86,100k+,741,3,Premium,True,False,True,True
+SAN100289,Charlie,Edwards,charlie.edwards@gmail.com,(020)74960098,2003-12-06,22,Male,"Flat 40
+Hutchinson center",Sheffield,N1 0JS,Student Account,96344588,58-61-40,2025-01-23,48510.24,20k-35k,771,1,Premium,True,True,True,True
+SAN100290,Diana,Wright,diana.wright@outlook.com,0141 4960666,1975-12-13,50,Female,272 Suzanne lights,London,WC6 4FF,Current Account,64148754,62-14-81,2022-03-01,15871.47,100k+,646,5,Premium,True,False,True,False
+SAN100291,Mark,Hammond,mark.hammond@outlook.com,+44(0)909 8790762,1971-12-14,54,Other,6 Lawrence square,Leicester,S9C 8SX,ISA,58767001,16-38-68,2016-01-26,44516.53,75k-100k,850,2,Premium,True,False,True,False
+SAN100292,Kimberley,Cooper,kimberley.cooper@yahoo.co.uk,+44(0)20 74960097,1978-12-12,47,Female,846 Rhodes camp,Sheffield,W5B 1FW,Current Account,55816176,55-91-47,2018-03-03,5789.77,100k+,699,3,Premium,True,True,True,False
+SAN100293,Olivia,Hall,olivia.hall@hotmail.co.uk,+44(0)114 4960371,1987-12-10,38,Female,"Studio 05
+Pauline motorway",Southampton,W9T 6QN,Current Account,44130133,88-35-34,2016-09-10,41109.75,50k-75k,612,3,Premium,True,False,True,False
+SAN100294,Jacob,Thompson,jacob.thompson@hotmail.co.uk,+44(0)1632960494,1968-12-14,57,Male,792 Sylvia highway,Manchester,PR0M 1FW,Student Account,26538199,67-68-94,2022-11-12,16962.88,50k-75k,611,3,Standard Plus,True,True,False,True
+SAN100295,Martin,Barton,martin.barton@yahoo.com,028 9018444,1979-12-12,46,Other,192 Katy mission,Coventry,TS2 3UG,Student Account,33783708,98-84-32,2018-09-09,27705.99,35k-50k,641,2,Premium,True,True,True,False
+SAN100296,Jasmine,Taylor,jasmine.taylor@gmail.com,0116 4960927,1973-12-13,52,Female,"Studio 3
+Wood expressway",Sheffield,N04 0GT,ISA,63401206,53-47-67,2019-05-05,20991.37,100k+,706,2,Premium,True,True,True,False
+SAN100297,Tracey,Jones,tracey.jones@hotmail.co.uk,+44(0)1174960667,1965-12-15,60,Other,"Flat 86
+Gerard union",Cardiff,IM58 1XQ,Student Account,94903891,37-35-36,2020-09-03,42169.41,35k-50k,639,2,Premium,True,True,True,False
+SAN100298,Ann,Morrison,ann.morrison@hotmail.com,0131 4960441,1985-12-10,40,Other,"Studio 96D
+Ellie radial",Cardiff,N25 0DA,Current Account,57276557,81-71-84,2022-06-07,25244.28,50k-75k,601,3,Premium,True,True,True,False
+SAN100299,Victoria,Gibson,victoria.gibson@yahoo.co.uk,(0131)4960344,1987-12-10,38,Other,0 Kevin ranch,London,YO3W 1DZ,Student Account,24290224,13-58-28,2016-12-13,43886.11,75k-100k,710,2,Premium,True,True,True,False
+SAN100300,Emily,Patel,emily.patel@outlook.com,020 7946 0212,1969-12-14,56,Female,"Flat 71O
+Preston harbor",Edinburgh,SM54 1LB,Savings Account,82634888,14-55-67,2023-07-21,12602.99,50k-75k,606,3,Standard Plus,True,False,True,False
+SAN100301,Margaret,McCarthy,margaret.mccarthy@hotmail.com,(0808) 1570427,1967-12-15,58,Other,39 Carpenter overpass,Edinburgh,G8 3ZE,Current Account,61215153,59-63-97,2025-11-15,28107.4,50k-75k,788,1,Premium,True,True,True,True
+SAN100302,Angela,Edwards,angela.edwards@gmail.com,+44114 496 0947,1974-12-13,51,Other,20 Rosie loaf,Belfast,CV5 9AW,Student Account,83365441,87-35-34,2016-12-11,41516.18,100k+,830,4,Premium,True,True,True,True
+SAN100303,Owen,Singh,owen.singh@yahoo.co.uk,+44141 4960183,1992-12-08,33,Male,71 Shepherd hollow,Stoke-on-Trent,BN15 1TN,ISA,27457234,30-84-42,2020-10-26,18922.19,20k-35k,580,2,Standard Plus,True,True,False,True
+SAN100304,Josephine,Martin,josephine.martin@yahoo.co.uk,029 2018346,2007-12-05,18,Female,571 Newman dam,Edinburgh,L0 7RD,Business Account,86863404,80-55-19,2021-06-16,2637.69,35k-50k,799,4,Standard,True,True,True,True
+SAN100305,Mathew,Graham,mathew.graham@yahoo.co.uk,(0113) 4960050,1971-12-14,54,Male,"Studio 06h
+Hilary shores",Birmingham,W8C 1BF,ISA,39688703,37-94-52,2020-11-28,20854.97,50k-75k,675,2,Standard Plus,True,True,False,False
+SAN100306,Grace,Lambert,grace.lambert@hotmail.co.uk,+44(0)1134960320,1976-12-12,49,Female,041 Talbot village,Sheffield,E1B 9ZJ,Student Account,93366885,41-15-97,2020-08-16,5824.63,35k-50k,589,2,Standard,True,True,True,True
+SAN100307,Charlotte,Roberts,charlotte.roberts@outlook.com,(029)2018651,1944-12-20,81,Female,30 Albert circles,Bradford,M2 2QX,ISA,79029393,75-67-72,2020-03-04,36226.38,50k-75k,690,1,Premium,True,False,True,True
+SAN100308,Jake,Williams,jake.williams@gmail.com,+44(0)115 4960196,1979-12-12,46,Male,7 Thomas avenue,Stoke-on-Trent,E94 7FH,Current Account,94145533,18-36-95,2025-03-03,48584.28,50k-75k,738,3,Premium,True,True,True,False
+SAN100309,Steven,Dawson,steven.dawson@yahoo.co.uk,0118 4960290,1973-12-13,52,Male,791 Godfrey avenue,Glasgow,L3B 9QX,Current Account,71636167,52-14-21,2021-02-21,32363.4,100k+,697,4,Premium,True,True,True,True
+SAN100310,Howard,Lloyd,howard.lloyd@outlook.com,(0117)4960403,1992-12-08,33,Male,7 Noble skyway,Nottingham,B5 3SL,Business Account,52467059,12-59-96,2023-08-14,20440.88,50k-75k,717,2,Standard Plus,True,True,True,True
+SAN100311,Albert,Richards,albert.richards@yahoo.co.uk,+44(0)1134960108,1952-12-18,73,Other,0 Lewis cliffs,Belfast,W99 6HP,Student Account,24245271,47-97-48,2024-10-24,2371.29,50k-75k,787,3,Standard,True,True,False,True
+SAN100312,Bernard,Marsh,bernard.marsh@gmail.com,0118 496 0636,1957-12-17,68,Other,7 Holloway mews,Glasgow,L97 6QF,Business Account,83245898,47-91-28,2019-03-05,23751.99,20k-35k,639,2,Standard Plus,True,False,False,False
+SAN100313,Clare,Peters,clare.peters@hotmail.com,(0117) 496 0520,1995-12-08,30,Other,21 Hale extension,Stoke-on-Trent,DT4 9GY,Savings Account,26540343,15-10-83,2022-03-26,47873.84,50k-75k,669,1,Premium,True,True,False,True
+SAN100314,Andrea,Davis,andrea.davis@hotmail.co.uk,(0161)4960397,1980-12-11,45,Other,"Flat 06V
+Louis islands",Bradford,PA39 9AS,Savings Account,31602928,33-38-88,2016-10-10,10665.67,75k-100k,767,4,Premium,True,True,True,False
+SAN100315,Daniel,Thomas,daniel.thomas@hotmail.co.uk,+441134960686,2006-12-05,19,Male,"Studio 17F
+Jake point",Edinburgh,S3 5NJ,Current Account,43646722,22-35-84,2020-08-14,23117.13,35k-50k,802,2,Standard Plus,True,True,True,False
+SAN100316,Brandon,Watkins,brandon.watkins@outlook.com,+44121 496 0279,1983-12-11,42,Male,72 Gallagher well,Cardiff,RG7 1RP,Business Account,70484679,52-88-94,2016-01-27,31013.84,75k-100k,645,4,Premium,True,True,True,True
+SAN100317,Jasmine,Rhodes,jasmine.rhodes@hotmail.com,+44(0)29 2018989,1996-12-07,29,Female,195 Katherine spring,Sheffield,WV0 6QT,Business Account,47135338,56-27-96,2020-03-03,8515.11,75k-100k,547,2,Premium,True,False,True,True
+SAN100318,Rosie,Thomas,rosie.thomas@outlook.com,+44(0)1914960183,1968-12-14,57,Female,38 Francesca neck,Birmingham,SY9Y 3PQ,ISA,28790705,78-35-43,2019-07-30,27628.42,35k-50k,685,1,Premium,True,True,True,False
+SAN100319,Vincent,Heath,vincent.heath@gmail.com,(0114) 4960557,2000-12-06,25,Other,"Studio 81
+Ellis springs",Newcastle,M7K 1HT,Current Account,84033693,43-79-79,2020-02-21,40650.86,20k-35k,576,2,Premium,True,False,True,True
+SAN100320,Nicholas,Francis,nicholas.francis@hotmail.com,+44114 4960124,1986-12-10,39,Other,272 Maria road,Birmingham,M6 7QS,Business Account,58837208,74-11-94,2024-11-22,6780.67,75k-100k,813,2,Premium,True,False,False,False
+SAN100321,Louise,Rahman,louise.rahman@yahoo.com,(0114) 4960038,1984-12-10,41,Other,"Studio 9
+Lynch turnpike",Glasgow,LU9 7NY,Business Account,58156722,15-38-72,2016-02-16,22366.4,50k-75k,559,1,Standard Plus,True,True,True,False
+SAN100322,Wayne,Sutton,wayne.sutton@hotmail.com,+44(0)117 4960754,1984-12-10,41,Other,5 Murphy expressway,Manchester,G8E 2FG,Current Account,97043518,51-23-76,2018-12-23,19465.85,75k-100k,658,4,Premium,True,True,True,True
+SAN100323,Frank,Clark,frank.clark@hotmail.co.uk,+441154960745,2007-12-05,18,Other,8 Rosie island,Birmingham,CT5 8GX,Student Account,43767356,58-38-76,2025-11-07,18895.31,0-20k,675,2,Standard Plus,True,False,True,False
+SAN100324,Josh,Blake,josh.blake@yahoo.co.uk,(0306) 9990275,1984-12-10,41,Other,8 Miah hill,Liverpool,YO49 9TP,Savings Account,20346606,75-92-45,2016-02-29,25141.67,35k-50k,735,1,Premium,True,True,True,False
+SAN100325,Leigh,Clark,leigh.clark@gmail.com,+44(0)1154960814,1953-12-18,72,Male,93 Evans islands,Leeds,L9 4HA,Business Account,74265413,71-36-85,2020-09-13,11594.28,50k-75k,770,3,Standard Plus,True,False,True,True
+SAN100326,Jake,Powell,jake.powell@outlook.com,+44(0)114 4960863,1985-12-10,40,Other,"Flat 99G
+Dorothy lake",Glasgow,CT65 5AN,Current Account,32325960,43-33-76,2020-05-14,6822.73,50k-75k,591,2,Standard,False,True,True,True
+SAN100327,Leigh,Parsons,leigh.parsons@hotmail.co.uk,+44(0)114 4960376,1942-12-21,83,Other,"Flat 26U
+Davidson radial",Birmingham,E2D 7WP,Savings Account,70291054,87-70-71,2025-09-08,33121.08,50k-75k,684,1,Premium,True,False,True,False
+SAN100328,Ryan,Begum,ryan.begum@yahoo.co.uk,+44(0)114 4960064,1980-12-11,45,Male,"Flat 87
+Marc ferry",Leicester,GY87 4YN,Student Account,89268452,18-39-58,2021-10-26,8469.31,75k-100k,678,3,Premium,True,True,True,False
+SAN100329,Valerie,Moore,valerie.moore@gmail.com,+44(0)306 9990024,1978-12-12,47,Other,"Studio 71P
+Fletcher overpass",Liverpool,RM3A 4UD,Business Account,92510102,86-14-78,2020-07-18,41343.06,100k+,668,2,Premium,True,True,True,True
+SAN100330,June,Morris,june.morris@hotmail.co.uk,(0151) 496 0471,1989-12-09,36,Other,"Studio 90
+Humphries centers",Southampton,N72 2BL,Student Account,66463253,57-15-99,2021-09-21,44858.75,35k-50k,636,3,Premium,True,True,True,False
+SAN100331,Paula,Burton,paula.burton@hotmail.com,0114 496 0448,1981-12-11,44,Female,321 Paige islands,Leeds,UB4 5EX,Business Account,27969486,42-71-39,2025-01-12,29493.5,75k-100k,636,3,Premium,True,True,True,True
+SAN100332,Leah,Parsons,leah.parsons@yahoo.com,0191 498 0457,1991-12-09,34,Female,"Flat 21n
+Stephanie forges",London,E67 1FA,Student Account,80134216,25-76-10,2017-05-08,372.93,35k-50k,688,3,Standard,True,True,True,True
+SAN100333,Shane,Godfrey,shane.godfrey@yahoo.com,(0808)1570798,1984-12-10,41,Male,"Flat 40
+Ross crossroad",Bristol,CT3M 3FD,Student Account,66849468,82-56-88,2022-10-28,21360.97,50k-75k,800,2,Standard Plus,True,True,True,True
+SAN100334,Diane,Marshall,diane.marshall@gmail.com,(0113) 4960760,2007-12-05,18,Other,0 Pauline crest,Coventry,BH1 0EE,ISA,51158280,83-54-60,2023-10-03,9018.11,20k-35k,767,2,Standard,True,False,True,False
+SAN100335,Sylvia,Martin,sylvia.martin@yahoo.com,(029) 2018 0501,1962-12-16,63,Female,495 Walsh parkway,Bradford,PO3V 1YA,Business Account,55424358,80-88-99,2024-12-03,47467.33,50k-75k,514,1,Premium,True,True,True,False
+SAN100336,Arthur,Brennan,arthur.brennan@hotmail.com,+44116 4960801,1986-12-10,39,Male,759 Chloe spring,Birmingham,G5 6HW,Current Account,45311610,38-57-20,2017-10-29,23636.27,50k-75k,650,2,Standard Plus,True,False,False,True
+SAN100337,Julian,Miles,julian.miles@hotmail.com,+44115 4960718,2002-12-06,23,Other,54 Jake islands,Manchester,CH64 9NT,Savings Account,95938445,73-66-11,2023-07-12,14394.81,35k-50k,617,5,Standard Plus,True,True,True,True
+SAN100338,Nathan,Naylor,nathan.naylor@yahoo.co.uk,0117 496 0175,1997-12-07,28,Male,7 Hannah mill,Belfast,E1C 6YE,Savings Account,97915178,10-30-21,2018-10-26,30797.98,35k-50k,820,3,Premium,False,False,True,True
+SAN100339,Leslie,Collins,leslie.collins@hotmail.com,(0117) 496 0961,1966-12-15,59,Other,74 Davey unions,Birmingham,JE5R 7WL,Current Account,83765077,46-81-84,2025-08-31,25935.36,20k-35k,781,3,Premium,True,False,True,False
+SAN100340,Liam,Read,liam.read@hotmail.com,(0161)4960732,1970-12-14,55,Male,0 Dawn springs,Bristol,G6 2NZ,Savings Account,64644684,74-23-81,2016-12-28,46492.72,35k-50k,589,2,Premium,True,True,False,False
+SAN100341,Dorothy,Glover,dorothy.glover@hotmail.co.uk,(0306) 9990773,1988-12-09,37,Female,"Studio 77G
+Freeman valleys",Coventry,B0G 6TP,Savings Account,55588495,68-97-68,2016-09-04,34740.17,75k-100k,719,5,Premium,True,False,True,True
+SAN100342,Paige,Williams,paige.williams@yahoo.com,+44(0)191 4960427,1999-12-07,26,Female,"Flat 46
+Miller port",Cardiff,LU8X 7XG,Business Account,57391778,76-78-11,2016-04-09,33877.96,35k-50k,737,1,Premium,True,True,True,True
+SAN100343,Kathleen,Hartley,kathleen.hartley@hotmail.co.uk,0141 496 0954,1984-12-10,41,Other,"Flat 0
+Scott villages",Coventry,HS9 5RE,ISA,57451057,37-83-44,2018-07-19,3893.84,75k-100k,650,4,Premium,True,False,False,True
+SAN100344,Anne,Ward,anne.ward@hotmail.com,01144960333,1970-12-14,55,Other,"Studio 11
+Clark extension",Bristol,N0 6YW,Savings Account,40763714,35-41-89,2019-06-27,11819.58,20k-35k,715,1,Standard Plus,True,False,True,True
+SAN100345,Emily,Phillips,emily.phillips@hotmail.co.uk,(0113)4960569,1986-12-10,39,Other,"Flat 91Z
+Spencer spring",Stoke-on-Trent,N78 2ZN,Current Account,74732147,57-89-50,2022-11-15,30729.97,100k+,772,3,Premium,True,False,False,False
+SAN100346,Shannon,Morgan,shannon.morgan@outlook.com,0909 879 0183,1997-12-07,28,Female,"Flat 04K
+Roberts road",Bristol,CA9B 4DY,Business Account,39808788,83-26-16,2017-12-06,49221.29,35k-50k,729,4,Premium,True,True,False,True
+SAN100347,Jasmine,Jones,jasmine.jones@gmail.com,+44(0)28 9018484,1972-12-13,53,Female,"Studio 85m
+Ahmed road",Leicester,W8C 8GY,Current Account,79552316,68-50-98,2018-01-04,43033.97,100k+,655,3,Premium,True,True,True,True
+SAN100348,Rachael,Dobson,rachael.dobson@outlook.com,+44(0)1514960489,1976-12-12,49,Female,"Studio 08
+Julie mountain",Bristol,L24 6PD,Business Account,92286747,53-56-33,2025-07-14,9438.91,75k-100k,579,1,Premium,True,True,True,True
+SAN100349,Ellie,Martin,ellie.martin@hotmail.com,+44(0)28 9018 0249,1967-12-15,58,Female,31 Alex burgs,Sheffield,M77 6BH,Current Account,46231955,40-81-65,2020-01-14,22591.38,35k-50k,665,2,Standard Plus,True,True,True,False
+SAN100350,Tracy,Sharpe,tracy.sharpe@hotmail.com,029 2018 0820,1988-12-09,37,Female,"Flat 0
+Terry rapids",Bradford,WN1 5DR,Student Account,52376193,72-48-42,2016-03-15,8912.7,35k-50k,763,2,Standard,True,True,True,False
+SAN100351,Brian,Smith,brian.smith@hotmail.co.uk,+44115 496 0898,1991-12-09,34,Male,"Studio 1
+Grace crossing",Leeds,HP9 3SH,Business Account,54916840,43-56-56,2021-08-15,40709.52,35k-50k,567,2,Premium,True,False,True,True
+SAN100352,Steven,Dean,steven.dean@hotmail.com,(0151) 4960649,2004-12-05,21,Male,85 Elliott plains,Newcastle,LN34 5UQ,Student Account,87295245,93-93-78,2018-01-20,43381.69,20k-35k,728,5,Premium,True,False,True,False
+SAN100353,Natasha,Brown,natasha.brown@hotmail.co.uk,+441134960034,2000-12-06,25,Female,"Flat 51I
+Angela loaf",Edinburgh,S4 1JN,Business Account,94786974,28-31-91,2025-07-31,44492.66,75k-100k,820,2,Premium,True,True,True,True
+SAN100354,Stuart,Taylor,stuart.taylor@yahoo.co.uk,(028)9018560,2007-12-05,18,Male,"Flat 7
+Pratt ville",Cardiff,SP6 2LW,ISA,45899536,87-92-60,2017-07-07,8183.77,0-20k,815,1,Standard,True,True,False,True
+SAN100355,Gary,Parsons,gary.parsons@hotmail.co.uk,+441632960570,1977-12-12,48,Other,272 Joanne flats,London,HA5W 1GJ,Savings Account,41491128,94-42-99,2021-12-07,20758.05,100k+,672,1,Premium,True,True,True,True
+SAN100356,Jayne,Edwards,jayne.edwards@outlook.com,(0306) 999 0296,1989-12-09,36,Female,"Studio 7
+Elliot extensions",Birmingham,PE5M 1SQ,Current Account,45225746,89-29-20,2023-08-04,1415.61,35k-50k,711,2,Standard,True,False,True,True
+SAN100357,Katie,Leach,katie.leach@hotmail.co.uk,+44(0)117 496 0008,1981-12-11,44,Female,7 Marcus squares,Liverpool,B69 9LF,Current Account,14718421,94-55-51,2019-09-08,31361.39,100k+,768,1,Premium,True,True,False,False
+SAN100358,Craig,Hayward,craig.hayward@hotmail.co.uk,+44115 496 0086,1979-12-12,46,Other,"Studio 71o
+Karl wall",Stoke-on-Trent,GL7 2SH,Savings Account,89299984,86-68-90,2017-08-12,6842.23,100k+,692,4,Premium,True,False,True,False
+SAN100359,Grace,Stevens,grace.stevens@outlook.com,(029)2018362,1986-12-10,39,Other,"Flat 04
+Smith mission",Sheffield,N97 0UF,Current Account,69305486,49-56-62,2024-02-26,45455.27,75k-100k,675,2,Premium,True,True,True,False
+SAN100360,Shaun,Simpson,shaun.simpson@yahoo.com,01632960669,1976-12-12,49,Male,"Flat 1
+Lee isle",Coventry,W59 0LW,Business Account,50213043,11-65-47,2019-11-21,14409.44,75k-100k,543,2,Premium,True,False,True,True
+SAN100361,Jasmine,Palmer,jasmine.palmer@outlook.com,+44(0)131 4960280,2001-12-06,24,Other,28 Begum wells,Nottingham,CO15 2LE,Business Account,39607414,43-20-64,2025-09-08,19798.13,20k-35k,739,1,Standard Plus,True,True,True,False
+SAN100362,Terry,Thomas,terry.thomas@hotmail.com,+44(0)1632960564,1978-12-12,47,Other,"Studio 48
+Williams expressway",Bristol,ST7 8TB,Business Account,35233016,18-33-27,2017-03-11,14305.38,75k-100k,665,3,Premium,True,True,True,True
+SAN100363,Roy,Bray,roy.bray@gmail.com,0161 496 0427,1980-12-11,45,Other,"Flat 7
+Angela knolls",Manchester,NW7R 1FE,Student Account,12970357,33-23-46,2018-03-18,9470.69,100k+,707,1,Premium,True,False,True,True
+SAN100364,Clive,Green,clive.green@yahoo.com,+44(0)808 157 0284,1989-12-09,36,Male,089 Helen club,Edinburgh,W15 4ER,Business Account,59848072,69-99-14,2024-08-05,24729.62,35k-50k,617,2,Standard Plus,True,False,False,True
+SAN100365,Joanna,Wright,joanna.wright@hotmail.com,(0116) 496 0017,1978-12-12,47,Female,"Studio 4
+Hugh cape",Bristol,PR7N 3BN,Business Account,11693222,25-41-59,2025-06-04,27205.28,35k-50k,601,1,Premium,True,True,True,True
+SAN100366,Georgia,Roberts,georgia.roberts@hotmail.co.uk,+44(0)20 74960616,1974-12-13,51,Female,"Flat 36
+Michael walk",Coventry,G66 2EN,Business Account,51890609,51-30-90,2023-05-09,26104.84,35k-50k,543,5,Premium,True,False,True,True
+SAN100367,Grace,Roberts,grace.roberts@hotmail.com,+4429 2018925,1965-12-15,60,Female,83 Williams loaf,Manchester,FK99 1SQ,Savings Account,25157001,40-91-65,2023-04-10,15010.77,50k-75k,717,2,Standard Plus,True,True,True,True
+SAN100368,Mohammad,Birch,mohammad.birch@gmail.com,+44(0)113 4960857,1977-12-12,48,Male,278 Gregory mountain,Coventry,BT74 2NJ,Student Account,30802666,57-21-41,2022-03-21,48444.86,35k-50k,758,2,Premium,True,True,True,False
+SAN100369,Zoe,Rowe,zoe.rowe@hotmail.co.uk,+44114 4960081,1956-12-17,69,Other,"Studio 1
+Benson port",Stoke-on-Trent,HU4 8AE,Current Account,26888275,72-39-50,2021-08-06,3082.78,20k-35k,761,2,Standard,False,False,True,False
+SAN100370,Joyce,Hall,joyce.hall@yahoo.co.uk,+44(0)1134960164,2007-12-05,18,Female,"Studio 77
+Cook well",Belfast,L21 1SX,Savings Account,43647879,15-72-66,2023-10-10,9728.97,35k-50k,577,3,Standard,True,True,True,True
+SAN100371,Jack,Bailey,jack.bailey@yahoo.com,+44(0)289018776,1990-12-09,35,Other,"Flat 99x
+Nelson corners",Stoke-on-Trent,G03 0HA,Savings Account,19244458,77-29-67,2017-01-29,16251.68,75k-100k,682,2,Premium,True,True,True,True
+SAN100372,Rhys,Jones,rhys.jones@yahoo.com,(0151) 496 0831,1973-12-13,52,Other,"Studio 2
+Oliver crescent",Belfast,G77 0TY,Student Account,42049389,51-18-94,2017-05-13,36709.52,100k+,621,4,Premium,False,False,True,False
+SAN100373,Norman,Lawson,norman.lawson@yahoo.co.uk,0114 4960501,1978-12-12,47,Other,"Studio 7
+Sims locks",Cardiff,ML99 3BW,Current Account,22919301,76-94-18,2021-08-10,30690.66,50k-75k,619,2,Premium,True,False,True,True
+SAN100374,John,Oliver,john.oliver@gmail.com,+441184960671,1990-12-09,35,Male,"Studio 57
+Brown heights",Nottingham,DG7N 3WJ,Business Account,80574548,89-99-85,2019-01-26,9661.67,100k+,567,1,Premium,True,True,True,True
+SAN100375,Billy,Walker,billy.walker@hotmail.co.uk,09098790724,1994-12-08,31,Male,"Studio 5
+Roberts vista",Leicester,L41 2GH,Current Account,58442674,81-63-57,2019-04-21,46427.35,75k-100k,571,3,Premium,True,True,True,True
+SAN100376,Charles,Butler,charles.butler@yahoo.co.uk,+44161 496 0433,1995-12-08,30,Other,5 Evans estate,Newcastle,B15 1ZJ,Student Account,23035125,22-39-78,2016-12-02,41739.38,20k-35k,764,1,Premium,True,True,True,True
+SAN100377,Darren,Moore,darren.moore@hotmail.com,+443069990508,1995-12-08,30,Male,"Flat 89
+Diana causeway",Belfast,TR71 9ZE,Business Account,99287317,64-23-31,2020-10-10,37330.81,75k-100k,850,3,Premium,True,True,True,False
+SAN100378,Chelsea,Thomas,chelsea.thomas@outlook.com,+44115 496 0352,1973-12-13,52,Other,"Studio 78F
+Carl rue",Stoke-on-Trent,HP2 3TS,ISA,59891348,62-91-65,2016-12-19,46682.65,100k+,694,4,Premium,True,True,True,True
+SAN100379,Sarah,Smith,sarah.smith@hotmail.com,0121 4960821,1993-12-08,32,Female,"Flat 65O
+Derek terrace",Nottingham,S3C 6ST,Current Account,14652375,46-86-12,2024-01-02,18064.43,50k-75k,736,2,Standard Plus,True,False,True,True
+SAN100380,Garry,James,garry.james@gmail.com,(0151)4960208,1989-12-09,36,Male,5 Alexander trail,Bristol,S06 2YB,Student Account,78621697,81-83-83,2019-07-13,42800.45,50k-75k,689,1,Premium,True,True,True,True
+SAN100381,Vanessa,Robinson,vanessa.robinson@hotmail.co.uk,(0121) 496 0668,1942-12-21,83,Female,"Studio 55a
+Lyons ridge",Edinburgh,S73 5RH,Current Account,86569490,61-82-37,2023-11-27,12567.86,50k-75k,672,1,Standard Plus,True,False,True,True
+SAN100382,Josh,Short,josh.short@yahoo.co.uk,(01632)960288,1963-12-16,62,Other,"Flat 18
+Bishop throughway",Edinburgh,CW0A 3NS,Current Account,87347488,58-20-17,2021-04-15,28854.0,50k-75k,623,4,Premium,True,True,False,True
+SAN100383,Howard,Griffiths,howard.griffiths@hotmail.com,+44118 496 0851,1981-12-11,44,Male,174 Sandra junction,London,L54 9FR,Business Account,17264930,49-77-15,2016-07-05,37409.16,50k-75k,821,3,Premium,True,True,True,False
+SAN100384,Elliot,Rahman,elliot.rahman@hotmail.co.uk,(020)74960357,1990-12-09,35,Male,6 Reeves circle,Leicester,WV27 7DQ,Student Account,87209399,74-21-38,2016-12-18,33714.4,35k-50k,824,5,Premium,True,False,True,True
+SAN100385,Annette,Hill,annette.hill@hotmail.co.uk,+44306 9990649,1970-12-14,55,Female,"Studio 67S
+Chandler mall",Bristol,G82 7FW,Current Account,63489393,74-65-99,2021-10-17,37291.22,50k-75k,635,2,Premium,True,True,True,True
+SAN100386,Debra,Hardy,debra.hardy@yahoo.co.uk,+441134960285,1971-12-14,54,Other,611 Bradshaw canyon,Bradford,G1F 5NN,Savings Account,42522981,19-44-65,2018-01-14,28102.26,50k-75k,757,5,Premium,True,False,True,False
+SAN100387,June,Day,june.day@hotmail.co.uk,+44(0)1414960044,1971-12-14,54,Female,7 Adrian plaza,London,BR0 7YN,ISA,32717056,54-88-66,2017-05-04,17480.56,75k-100k,554,2,Premium,True,True,False,True
+SAN100388,Anna,Price,anna.price@yahoo.co.uk,0161 4960922,1991-12-09,34,Other,"Studio 7
+Victor corners",Birmingham,S6D 5XB,Current Account,17319968,41-89-28,2019-04-17,7883.96,50k-75k,660,3,Standard,True,False,True,False
+SAN100389,Albert,Ball,albert.ball@outlook.com,+44(0)114 4960209,1982-12-11,43,Male,"Studio 18
+Alex river",Newcastle,B9J 7WA,Student Account,38437423,36-79-76,2023-04-10,22558.07,75k-100k,729,1,Premium,True,True,True,False
+SAN100390,Trevor,Slater,trevor.slater@gmail.com,+44(0)118 4960339,1978-12-12,47,Other,"Flat 8
+Alexander cape",Bradford,WN05 2SA,Current Account,44286770,31-17-46,2021-03-25,18892.67,35k-50k,573,4,Standard Plus,True,True,True,True
+SAN100391,Arthur,Stephens,arthur.stephens@gmail.com,0115 4960824,1975-12-13,50,Male,4 Carl inlet,Belfast,SK20 2AB,Current Account,12560649,47-93-59,2018-06-26,19493.39,35k-50k,728,1,Standard Plus,True,True,False,True
+SAN100392,Leanne,Black,leanne.black@yahoo.co.uk,+44(0)121 4960461,1972-12-13,53,Female,3 Valerie pass,Liverpool,S1E 5TX,Savings Account,77196215,68-81-12,2019-02-11,43351.96,100k+,766,2,Premium,True,False,True,True
+SAN100393,Jane,Collins,jane.collins@outlook.com,+44(0)1174960048,1968-12-14,57,Other,8 Leon port,Belfast,LD18 2QX,ISA,41702866,74-45-17,2016-03-14,1016.77,20k-35k,716,3,Standard,True,False,False,False
+SAN100394,Graham,Gill,graham.gill@yahoo.co.uk,+44(0)191 4960700,1982-12-11,43,Male,"Studio 42
+Darren orchard",Nottingham,PH4 5HY,Savings Account,21783647,58-76-96,2021-04-15,11356.58,75k-100k,547,2,Premium,True,True,True,True
+SAN100395,Conor,White,conor.white@hotmail.co.uk,020 7946 0141,1974-12-13,51,Male,"Studio 12U
+Shaw fords",Cardiff,N5S 7LJ,Business Account,82777382,26-36-93,2017-07-11,48529.8,100k+,696,4,Premium,True,True,True,False
+SAN100396,Joyce,Robinson,joyce.robinson@yahoo.co.uk,+44(0)20 7496 0502,1976-12-12,49,Female,700 Amy point,Glasgow,SO7P 1XA,Student Account,31212832,50-18-81,2019-04-30,21560.21,50k-75k,577,4,Standard Plus,True,False,True,False
+SAN100397,Albert,Williams,albert.williams@yahoo.co.uk,+44808 1570956,1997-12-07,28,Male,017 Hudson mills,Southampton,L0 5HD,Business Account,50714693,66-91-45,2017-02-22,38295.21,20k-35k,764,4,Premium,True,True,True,True
+SAN100398,Jayne,Johnson,jayne.johnson@yahoo.com,+44(0)1174960750,1981-12-11,44,Other,"Studio 9
+Thomas flat",Sheffield,IV1M 2XH,Savings Account,13501001,55-20-98,2023-12-31,30319.67,75k-100k,734,2,Premium,True,True,True,True
+SAN100399,Katy,Hicks,katy.hicks@hotmail.co.uk,020 7946 0219,1980-12-11,45,Other,124 Zoe stream,Coventry,DG0 8TA,Savings Account,31983035,34-38-14,2022-08-20,9280.43,75k-100k,682,2,Premium,True,False,False,False
+SAN100400,Allan,Hart,allan.hart@gmail.com,09098790566,1966-12-15,59,Male,"Flat 8
+Hughes path",Newcastle,L0 6XT,Current Account,33767033,66-88-72,2025-05-06,33599.82,50k-75k,638,1,Premium,True,False,False,True
+SAN100401,Charles,Burgess,charles.burgess@gmail.com,+44(0)909 879 0903,1979-12-12,46,Male,"Flat 3
+Roger isle",Stoke-on-Trent,BR1 7SA,Student Account,96086421,14-76-23,2017-11-09,36038.03,100k+,643,2,Premium,True,False,True,False
+SAN100402,Jenna,Roberts,jenna.roberts@hotmail.com,(0118) 496 0173,1987-12-10,38,Other,"Flat 5
+Liam trail",Nottingham,W1S 9ED,Student Account,94644215,16-34-47,2025-04-06,49193.15,100k+,655,1,Premium,True,False,True,True
+SAN100403,Robert,Bell,robert.bell@outlook.com,(0114) 4960207,1977-12-12,48,Male,96 Timothy springs,Bradford,B4 6EZ,Savings Account,72220513,92-67-21,2019-09-08,14791.54,100k+,641,4,Premium,True,True,True,False
+SAN100404,Victoria,Barnes,victoria.barnes@outlook.com,(028) 9018 0076,1962-12-16,63,Other,"Studio 9
+Declan run",Leicester,TN0R 9HE,Current Account,34008676,68-85-35,2021-11-28,6851.8,50k-75k,608,2,Standard,True,True,True,False
+SAN100405,Timothy,Brown,timothy.brown@hotmail.co.uk,+44(0)306 9990392,1983-12-11,42,Other,"Flat 67U
+Skinner dam",Leeds,B2 9SW,Business Account,95103759,56-20-77,2023-01-17,35946.9,50k-75k,644,1,Premium,True,False,False,False
+SAN100406,Victor,Mitchell,victor.mitchell@hotmail.co.uk,+44306 999 0227,1959-12-17,66,Male,"Studio 54
+Morgan path",Liverpool,G0D 6QH,ISA,85898994,94-29-30,2019-01-09,27562.26,35k-50k,695,1,Premium,True,True,True,True
+SAN100407,Caroline,Hart,caroline.hart@gmail.com,(0131) 496 0377,1965-12-15,60,Female,"Studio 95
+Fletcher estates",Liverpool,W0 3AJ,Current Account,27659164,35-10-89,2017-12-04,38454.66,50k-75k,561,2,Premium,True,True,True,True
+SAN100408,Denis,Wilson,denis.wilson@yahoo.com,(0161) 496 0563,1976-12-12,49,Male,"Flat 05
+Liam knolls",Coventry,E2 7HY,Business Account,65049584,66-20-86,2022-02-25,11970.13,100k+,751,2,Premium,True,True,True,False
+SAN100409,Rebecca,Thomas,rebecca.thomas@yahoo.com,0121 496 0234,1979-12-12,46,Other,83 Dominic brooks,Belfast,M10 6EP,Current Account,29511823,14-95-83,2016-03-17,2541.05,50k-75k,765,1,Standard,True,True,False,True
+SAN100410,Kelly,Rogers,kelly.rogers@hotmail.com,029 2018289,1988-12-09,37,Female,"Studio 11j
+Karl fields",Stoke-on-Trent,S5F 3BZ,Savings Account,71114408,84-56-14,2018-04-25,8150.63,50k-75k,792,1,Standard,True,True,True,True
+SAN100411,Billy,Barrett,billy.barrett@yahoo.com,+44(0)1214960304,1946-12-20,79,Male,973 Pauline turnpike,Coventry,PO1E 8QU,Savings Account,26377680,98-45-52,2021-04-08,42181.15,35k-50k,650,1,Premium,True,True,True,False
+SAN100412,Garry,Hall,garry.hall@hotmail.com,01914960777,1987-12-10,38,Male,"Studio 69
+Gavin forges",Edinburgh,W36 4SR,Business Account,91717739,50-43-77,2019-02-17,24234.78,35k-50k,796,3,Standard Plus,True,True,False,False
+SAN100413,Jemma,Fraser,jemma.fraser@hotmail.com,+441914960121,1957-12-17,68,Female,"Studio 8
+Wilson canyon",Liverpool,ML95 7TS,Student Account,41235369,47-34-10,2024-05-03,36486.32,50k-75k,638,2,Premium,True,True,True,False
+SAN100414,Dennis,Owen,dennis.owen@hotmail.com,0141 4960027,1987-12-10,38,Male,15 Billy ville,Stoke-on-Trent,E4D 1DQ,Savings Account,11516293,91-35-98,2020-11-20,20760.65,100k+,657,2,Premium,True,False,True,True
+SAN100415,Karen,Kaur,karen.kaur@outlook.com,0131 496 0444,2001-12-06,24,Female,928 Bailey hills,Nottingham,UB5 6YA,Student Account,92677226,13-32-34,2019-04-02,5780.45,0-20k,606,2,Standard,True,True,True,False
+SAN100416,Damian,Lambert,damian.lambert@yahoo.com,(0909)8790633,1996-12-07,29,Male,38 Wood mountain,Stoke-on-Trent,TQ1 3SS,ISA,72071682,62-17-76,2025-10-21,24126.63,35k-50k,618,2,Standard Plus,True,False,True,True
+SAN100417,Stuart,Williams,stuart.williams@gmail.com,+44(0)1314960292,1981-12-11,44,Male,"Studio 07Z
+Cook manor",Belfast,SL68 5YA,Current Account,30039365,45-13-53,2024-06-10,39996.81,75k-100k,698,4,Premium,False,True,True,True
+SAN100418,Ruth,Thornton,ruth.thornton@yahoo.com,0131 496 0999,1957-12-17,68,Female,"Studio 3
+Collins lights",Edinburgh,W15 4DG,ISA,14245067,44-62-21,2025-02-18,29800.07,20k-35k,600,4,Premium,True,True,True,False
+SAN100419,Lee,Davies,lee.davies@outlook.com,+44(0)20 74960702,1966-12-15,59,Male,6 Martin highway,Manchester,NG1R 5WA,Savings Account,22429114,66-74-13,2017-09-08,15185.68,50k-75k,662,1,Standard Plus,True,False,True,True
+SAN100420,Chloe,Mills,chloe.mills@yahoo.co.uk,(0116) 4960128,1981-12-11,44,Female,"Studio 1
+Nolan way",Leeds,G34 7GZ,Student Account,27812995,36-14-68,2025-01-04,38799.11,75k-100k,733,1,Premium,True,False,True,True
+SAN100421,Gerard,Singh,gerard.singh@hotmail.co.uk,(01632) 960 743,1997-12-07,28,Male,7 Tracey rapids,Leeds,N97 7YB,Student Account,98447373,49-12-83,2021-10-15,16731.16,20k-35k,710,4,Standard Plus,True,True,True,True
+SAN100422,Joanne,Hussain,joanne.hussain@yahoo.co.uk,(0131) 4960469,1978-12-12,47,Female,32 Murphy shoals,Leeds,E60 2LX,ISA,30041488,30-45-24,2024-09-21,26660.56,75k-100k,719,3,Premium,True,True,True,True
+SAN100423,Donna,King,donna.king@outlook.com,(01632) 960376,1976-12-12,49,Female,11 Craig expressway,Edinburgh,DL8 7AD,Student Account,42859865,31-19-49,2016-07-30,13625.5,75k-100k,850,4,Premium,True,True,True,True
+SAN100424,Frances,Garner,frances.garner@yahoo.co.uk,(0131) 496 0636,1990-12-09,35,Female,4 Carolyn dale,Southampton,SG7 7DD,Business Account,34022690,86-85-90,2023-05-30,5385.75,35k-50k,637,1,Standard,True,True,True,True
+SAN100425,Henry,Moss,henry.moss@yahoo.co.uk,+44(0)1154960742,1990-12-09,35,Male,9 Edward hill,Leicester,S2 0LF,Student Account,27689263,21-99-69,2023-01-18,48686.73,35k-50k,635,3,Premium,True,True,True,False
+SAN100426,Beverley,Evans,beverley.evans@gmail.com,(029) 2018837,1990-12-09,35,Female,816 Williams rapid,Bristol,B6 3QJ,ISA,62623673,33-99-95,2018-01-29,47377.67,50k-75k,775,1,Premium,True,False,True,True
+SAN100427,Oliver,Green,oliver.green@gmail.com,01314960313,1959-12-17,66,Male,220 Lewis via,Liverpool,HG8 9HX,ISA,56790372,87-83-26,2020-02-17,5733.06,35k-50k,634,2,Standard,True,True,True,True
+SAN100428,Hannah,Singh,hannah.singh@yahoo.com,(0115) 496 0552,1993-12-08,32,Other,50 Kelly forges,Nottingham,M9 0DH,Student Account,65491233,40-89-41,2017-02-13,39642.3,20k-35k,717,2,Premium,True,False,True,True
+SAN100429,Victoria,Atkins,victoria.atkins@gmail.com,01632960892,1989-12-09,36,Other,"Flat 9
+Robinson square",Cardiff,SK25 5UD,Student Account,41696096,32-94-95,2021-11-25,39237.27,100k+,730,2,Premium,True,False,True,True
+SAN100430,Albert,Brown,albert.brown@yahoo.co.uk,0141 4960838,1977-12-12,48,Other,0 Dylan freeway,Leicester,KW3W 0FQ,Savings Account,51343854,61-18-86,2025-01-12,16336.37,100k+,558,1,Premium,True,False,True,True
+SAN100431,Rachael,Doyle,rachael.doyle@yahoo.com,+44289018039,1957-12-17,68,Female,"Studio 52r
+Graham trace",Glasgow,S4 3PP,Student Account,95380301,10-28-94,2017-06-06,33042.22,50k-75k,823,1,Premium,True,True,True,True
+SAN100432,Adrian,Martin,adrian.martin@outlook.com,(0118) 496 0396,1990-12-09,35,Male,"Flat 70
+Abigail cliff",Edinburgh,B23 1GY,Business Account,56206415,21-84-11,2016-06-14,34107.69,50k-75k,648,2,Premium,True,True,True,False
+SAN100433,Henry,Holden,henry.holden@yahoo.com,+44(0)161 496 0167,1976-12-12,49,Male,"Flat 33
+Noble gateway",London,GL9 3LU,Student Account,58216998,24-46-13,2025-03-25,45063.68,75k-100k,706,5,Premium,True,False,True,True
+SAN100434,Hannah,Watson,hannah.watson@yahoo.co.uk,+44116 496 0776,1971-12-14,54,Female,"Flat 70
+Pugh corner",Liverpool,PH8 8GL,Business Account,28665507,34-81-59,2019-07-05,19140.1,100k+,840,2,Premium,True,True,True,True
+SAN100435,Jessica,Hall,jessica.hall@yahoo.co.uk,+44(0)1914960971,1983-12-11,42,Other,"Flat 73
+Karl avenue",London,N7 6RQ,Savings Account,75323947,94-65-27,2020-06-13,6800.44,50k-75k,616,1,Standard,True,True,True,True
+SAN100436,Jacqueline,Jones,jacqueline.jones@hotmail.co.uk,+44114 496 0601,2001-12-06,24,Other,"Studio 23
+Andrews trail",Leicester,HS8Y 5BR,Student Account,66925051,80-67-59,2022-04-28,46522.52,35k-50k,621,2,Premium,True,True,True,True
+SAN100437,Diane,Newman,diane.newman@gmail.com,(0808) 1570502,1981-12-11,44,Other,"Studio 72
+Smith prairie",Stoke-on-Trent,WC2A 1RR,Student Account,59253883,14-14-82,2018-05-03,35635.29,50k-75k,823,1,Premium,True,True,True,False
+SAN100438,Jay,Grant,jay.grant@hotmail.co.uk,0117 496 0626,1988-12-09,37,Male,"Studio 48I
+Grant street",Bristol,SY11 2LH,Business Account,79383794,20-76-88,2024-12-03,36536.25,50k-75k,697,2,Premium,True,True,True,False
+SAN100439,Joe,Harrison,joe.harrison@yahoo.com,(0808) 1570701,1981-12-11,44,Male,686 Hunter extension,Stoke-on-Trent,N22 7GW,Current Account,72930506,68-75-70,2015-12-23,30690.65,75k-100k,775,4,Premium,True,True,True,False
+SAN100440,Victoria,Price,victoria.price@yahoo.com,(0117) 496 0023,1943-12-21,82,Female,"Studio 7
+Heather expressway",Edinburgh,M1 1LD,Student Account,44956086,17-90-70,2024-01-21,8458.66,35k-50k,637,3,Standard,True,True,True,True
+SAN100441,Glenn,Holland,glenn.holland@yahoo.co.uk,(029) 2018100,1988-12-09,37,Other,"Flat 9
+Lewis forest",Bradford,B6K 7UP,Current Account,47292234,42-26-88,2018-04-05,14412.1,35k-50k,763,1,Standard Plus,True,False,True,True
+SAN100442,Josh,Mahmood,josh.mahmood@hotmail.com,+441214960356,1970-12-14,55,Male,"Studio 05
+Forster alley",Belfast,WR62 9EW,Savings Account,45064728,99-40-72,2019-08-15,36974.46,50k-75k,827,3,Premium,True,True,True,False
+SAN100443,Bradley,Watson,bradley.watson@yahoo.com,+44(0)131 4960797,1972-12-13,53,Male,"Studio 30O
+Brown lake",Southampton,N7 9UR,Business Account,41936764,94-66-91,2023-06-06,41896.95,50k-75k,651,3,Premium,True,True,True,True
+SAN100444,Irene,James,irene.james@yahoo.co.uk,029 2018 0164,1972-12-13,53,Female,289 Scott parks,Coventry,M8 2TE,ISA,73923372,78-39-58,2019-05-25,2720.91,35k-50k,768,2,Standard,True,True,True,True
+SAN100445,Jodie,Adams,jodie.adams@yahoo.com,+44116 4960116,1968-12-14,57,Female,5 Miller forges,Nottingham,EN7X 2XU,ISA,81169409,97-15-22,2018-04-28,14510.73,20k-35k,720,3,Standard Plus,True,True,False,True
+SAN100446,George,Coles,george.coles@yahoo.com,(020) 7496 0915,1964-12-15,61,Other,"Studio 68B
+Francis green",Leeds,M1 1PY,ISA,97824468,84-60-69,2019-03-29,16814.87,35k-50k,773,1,Standard Plus,True,False,True,True
+SAN100447,Neil,Morris,neil.morris@hotmail.com,+441154960569,1960-12-16,65,Male,09 Charlotte manors,Liverpool,TD5 8ZY,ISA,83499313,11-96-11,2017-01-27,16936.59,50k-75k,731,3,Standard Plus,True,True,True,True
+SAN100448,Natalie,Dean,natalie.dean@yahoo.co.uk,+441214960243,1983-12-11,42,Female,"Studio 72M
+Lane shores",Newcastle,BD9N 8EL,Current Account,13181023,89-21-17,2016-01-02,11048.87,75k-100k,691,1,Premium,True,True,True,False
+SAN100449,Diana,Allen,diana.allen@yahoo.com,+44161 496 0460,1962-12-16,63,Other,"Flat 33
+Antony walks",Glasgow,SS64 0XR,Business Account,98099795,92-82-33,2022-03-23,35432.95,20k-35k,614,1,Premium,True,True,True,True
+SAN100450,Leslie,Oliver,leslie.oliver@hotmail.com,0306 9990661,1975-12-13,50,Male,"Flat 38z
+Wayne islands",Southampton,B4H 9FT,ISA,44539133,30-19-45,2020-08-24,46142.5,100k+,648,1,Premium,True,True,True,True
+SAN100451,Geraldine,Jones,geraldine.jones@yahoo.com,+44117 4960305,1980-12-11,45,Female,266 William court,Newcastle,LN2 1WP,Student Account,62698503,32-92-72,2024-11-19,22084.68,50k-75k,782,2,Standard Plus,True,True,True,False
+SAN100452,Bryan,Williams,bryan.williams@outlook.com,+44141 4960301,1978-12-12,47,Male,74 Hilary summit,Birmingham,TF17 4TQ,Current Account,86684568,42-67-12,2017-05-25,35798.48,100k+,683,1,Premium,True,True,True,False
+SAN100453,Mark,O'Neill,mark.o'neill@yahoo.co.uk,+44289018830,2001-12-06,24,Other,"Flat 19l
+Jones rue",Nottingham,KY4W 1PD,Student Account,10497109,75-72-71,2016-09-26,13395.18,20k-35k,739,3,Standard Plus,True,False,True,False
+SAN100454,Shannon,Gallagher,shannon.gallagher@gmail.com,(0141) 4960888,1971-12-14,54,Other,"Flat 8
+Gavin shoals",Coventry,G9 0XT,Current Account,86134185,78-55-52,2024-01-16,265.04,50k-75k,850,5,Standard,True,True,True,False
+SAN100455,Charles,Lees,charles.lees@yahoo.com,+44(0)289018218,1985-12-10,40,Male,"Flat 1
+Kathleen hills",Birmingham,NP2 0JN,Business Account,48917593,92-35-32,2017-03-14,26777.85,75k-100k,697,5,Premium,True,False,True,True
+SAN100456,Gemma,Harding,gemma.harding@hotmail.com,029 2018 0872,1977-12-12,48,Female,"Studio 58w
+Charlene courts",Birmingham,TW0H 3FN,Business Account,35429494,27-14-34,2021-02-08,31567.79,35k-50k,806,2,Premium,True,False,True,True
+SAN100457,Robin,Andrews,robin.andrews@yahoo.com,+4420 74960542,1982-12-11,43,Other,"Flat 8
+Smith run",Leicester,S71 6FX,Current Account,14971784,53-17-53,2021-12-07,25034.24,75k-100k,702,5,Premium,True,True,True,False
+SAN100458,Dennis,Bruce,dennis.bruce@outlook.com,+44(0)29 2018359,1971-12-14,54,Other,25 Lamb rapids,Stoke-on-Trent,E41 8SD,Savings Account,87758465,39-19-14,2023-03-29,47010.48,100k+,694,4,Premium,True,True,True,False
+SAN100459,Hugh,Hart,hugh.hart@hotmail.com,+44306 9990423,1987-12-10,38,Other,"Flat 1
+Robinson forges",London,CF12 9UE,Savings Account,94914383,16-49-22,2019-07-17,12209.86,35k-50k,695,2,Standard Plus,True,True,True,False
+SAN100460,Arthur,Stone,arthur.stone@hotmail.com,+44(0)191 496 0491,1964-12-15,61,Male,5 Farrell valley,Sheffield,SK8V 7YF,Current Account,37198033,64-53-96,2021-08-20,24907.46,20k-35k,597,3,Standard Plus,True,True,True,True
+SAN100461,Danielle,Potts,danielle.potts@yahoo.com,029 2018 0226,1979-12-12,46,Female,"Flat 5
+Josephine rest",Cardiff,SO72 5TW,Current Account,26206185,45-28-63,2021-01-18,38234.97,50k-75k,623,2,Premium,True,True,True,True
+SAN100462,Mitchell,White,mitchell.white@outlook.com,+44(0)909 879 0341,1963-12-16,62,Other,"Studio 5
+Ashleigh common",Nottingham,L1 9BD,Savings Account,12097866,72-20-10,2020-03-10,6755.21,20k-35k,558,3,Standard,True,False,True,True
+SAN100463,Dawn,Naylor,dawn.naylor@gmail.com,0151 496 0827,1989-12-09,36,Female,"Studio 81
+Brown field",Coventry,AB6Y 3WZ,Savings Account,37670356,28-91-44,2020-11-03,34705.83,100k+,710,3,Premium,True,True,False,False
+SAN100464,Michael,Jenkins,michael.jenkins@outlook.com,+44(0)909 879 0832,1957-12-17,68,Male,28 Watson manors,Birmingham,IM25 5JX,ISA,56688115,63-10-81,2025-07-23,9082.02,50k-75k,674,2,Standard,True,True,True,True
+SAN100465,Elizabeth,Harris,elizabeth.harris@hotmail.com,+44117 496 0096,1989-12-09,36,Female,80 Lawrence vista,Newcastle,BN50 5NQ,ISA,17122803,34-24-29,2020-09-28,23264.38,50k-75k,830,2,Standard Plus,True,False,True,True
+SAN100466,Kenneth,Burgess,kenneth.burgess@yahoo.com,+44141 496 0501,2002-12-06,23,Other,"Studio 3
+Debra passage",Newcastle,S17 2LJ,Business Account,43739891,52-88-68,2024-10-24,2795.98,0-20k,504,2,Standard,True,False,False,True
+SAN100467,Damian,Byrne,damian.byrne@yahoo.co.uk,+44(0)116 4960841,1974-12-13,51,Male,"Studio 72i
+Morris avenue",Sheffield,WV3 3NB,Business Account,89551741,84-51-63,2018-11-27,25793.7,100k+,639,1,Premium,True,True,True,False
+SAN100468,Mary,Byrne,mary.byrne@gmail.com,(0116)4960374,1996-12-07,29,Female,78 Roberts station,Newcastle,N68 2EE,Business Account,39616854,19-70-84,2023-05-09,4993.4,35k-50k,736,3,Standard,True,False,True,False
+SAN100469,Claire,Clarke,claire.clarke@gmail.com,(0306) 9990305,1977-12-12,48,Female,"Studio 06
+Harris oval",Newcastle,S3 8GJ,ISA,46197787,35-52-26,2019-05-10,19427.78,50k-75k,634,1,Standard Plus,True,True,True,True
+SAN100470,Olivia,Perkins,olivia.perkins@outlook.com,(0118) 496 0637,2000-12-06,25,Female,892 Marie roads,Sheffield,CV3B 6BL,ISA,91018650,30-91-88,2024-07-21,20969.37,75k-100k,749,3,Premium,True,True,True,True
+SAN100471,Alison,Murray,alison.murray@hotmail.co.uk,(0117) 496 0106,1971-12-14,54,Female,"Studio 43
+Tom meadow",Coventry,BN86 4EL,Business Account,47469681,11-64-41,2020-03-05,43123.73,100k+,672,1,Premium,True,True,True,False
+SAN100472,Justin,White,justin.white@yahoo.co.uk,(0118) 496 0502,1953-12-18,72,Male,0 Kelly mountains,Manchester,PL1 2LU,Current Account,73169926,74-14-64,2019-06-04,44922.76,50k-75k,594,2,Premium,True,True,True,False
+SAN100473,Shannon,Shepherd,shannon.shepherd@outlook.com,(0113) 496 0825,2003-12-06,22,Female,"Studio 59H
+Smith harbor",London,S11 9EB,Business Account,39260335,26-55-47,2017-01-10,12101.52,20k-35k,624,2,Standard Plus,True,False,True,False
+SAN100474,Billy,Morgan,billy.morgan@yahoo.com,0117 4960711,1981-12-11,44,Male,"Flat 73I
+Samuel crossroad",London,S84 5TE,Business Account,72244899,27-61-33,2024-10-02,42910.31,100k+,699,3,Premium,True,True,True,False
+SAN100475,Amanda,Townsend,amanda.townsend@hotmail.co.uk,+44(0)306 9990029,1984-12-10,41,Other,"Studio 24c
+Annette field",Bradford,TW6R 2TW,Current Account,49807633,64-44-99,2020-02-07,19305.48,35k-50k,708,3,Standard Plus,True,True,True,False
+SAN100476,Alex,Moore,alex.moore@hotmail.co.uk,+44(0)118 496 0320,1999-12-07,26,Male,390 Heath stravenue,Belfast,M4W 4LX,Current Account,24893677,59-56-69,2019-10-25,36814.46,50k-75k,795,1,Premium,True,True,True,True
+SAN100477,Darren,Thompson,darren.thompson@yahoo.com,01214960024,1982-12-11,43,Male,03 Eleanor crescent,Stoke-on-Trent,N9 5DX,Current Account,97112459,71-84-99,2016-05-14,7006.45,50k-75k,769,2,Standard,True,False,True,True
+SAN100478,Holly,Atkinson,holly.atkinson@hotmail.co.uk,(0121) 496 0500,1975-12-13,50,Female,"Flat 42
+Page plain",Belfast,WR9B 4ZX,Business Account,75260270,74-77-25,2019-12-30,13929.55,100k+,716,1,Premium,True,True,True,False
+SAN100479,Clare,Warren,clare.warren@hotmail.com,(0117) 4960962,1972-12-13,53,Female,"Flat 65
+Catherine course",Birmingham,DE72 3YU,Savings Account,71454824,21-20-60,2018-02-12,40015.2,75k-100k,715,4,Premium,True,True,False,True
+SAN100480,Katie,Miah,katie.miah@yahoo.com,+44(0)909 8790269,1971-12-14,54,Female,2 Rachel gardens,Newcastle,RM61 0ZE,Student Account,94191586,12-47-63,2016-02-14,34884.4,35k-50k,786,2,Premium,False,True,True,True
+SAN100481,Paige,Cooper,paige.cooper@gmail.com,(0306) 999 0023,1978-12-12,47,Female,29 John turnpike,Sheffield,N1 2UY,Student Account,96526415,52-62-84,2017-01-04,14646.69,35k-50k,736,1,Standard Plus,True,True,True,True
+SAN100482,Louise,Sharp,louise.sharp@yahoo.co.uk,(0116) 496 0308,1982-12-11,43,Other,"Studio 81b
+Timothy plains",Edinburgh,CF8 2AJ,Savings Account,44897610,39-71-57,2018-12-26,22954.55,100k+,795,2,Premium,False,False,True,True
+SAN100483,Laura,Wilson,laura.wilson@hotmail.com,+44(0)289018436,1991-12-09,34,Female,21 Timothy haven,Stoke-on-Trent,BS9 1QD,ISA,34465275,32-98-95,2019-10-07,30969.65,35k-50k,824,1,Premium,True,True,True,False
+SAN100484,Samuel,Butler,samuel.butler@hotmail.co.uk,0131 4960926,1981-12-11,44,Other,494 Hawkins groves,Newcastle,SE54 0FF,Student Account,14655890,95-50-54,2017-09-10,22100.34,50k-75k,565,2,Standard Plus,True,True,False,True
+SAN100485,Sam,Kennedy,sam.kennedy@yahoo.co.uk,(0808) 1570119,1979-12-12,46,Male,"Studio 42f
+Turner falls",Glasgow,HU57 7SZ,Business Account,52978923,29-10-79,2020-05-18,20287.66,35k-50k,625,2,Standard Plus,False,True,True,True
+SAN100486,Ellie,Shepherd,ellie.shepherd@outlook.com,01184960668,1968-12-14,57,Female,"Studio 87
+Jacqueline corner",Leicester,S8K 1JQ,ISA,25074747,71-15-27,2023-12-08,33377.7,50k-75k,627,3,Premium,True,True,True,False
+SAN100487,David,Martin,david.martin@hotmail.com,+44(0)191 4960721,1987-12-10,38,Male,52 Nicholls village,Newcastle,S3D 0FE,Student Account,80656754,38-45-35,2024-06-02,17933.94,100k+,528,2,Premium,True,True,True,False
+SAN100488,Damien,Campbell,damien.campbell@gmail.com,+44(0)29 2018650,1987-12-10,38,Male,917 Robert drive,Bradford,CT1 1AY,Current Account,99491869,56-60-28,2019-09-08,9803.06,100k+,486,2,Premium,True,True,True,True
+SAN100489,Lynne,Burrows,lynne.burrows@outlook.com,+44(0)1154960847,2004-12-05,21,Female,"Studio 57Y
+Mitchell creek",Stoke-on-Trent,B09 8GA,Current Account,38950113,66-63-66,2017-09-26,15473.46,20k-35k,740,2,Standard Plus,True,False,False,True
+SAN100490,Andrea,Lee,andrea.lee@yahoo.co.uk,+44(0)191 496 0498,1969-12-14,56,Female,"Studio 36k
+Simpson pike",Glasgow,CO36 3RG,Savings Account,50698994,70-77-52,2022-09-17,41792.03,20k-35k,714,2,Premium,True,False,True,True
+SAN100491,Heather,Butler,heather.butler@outlook.com,+44(0)1514960756,1995-12-08,30,Female,"Flat 05
+Chamberlain coves",Glasgow,E5 0JN,Savings Account,34965358,58-47-80,2016-09-07,20784.25,50k-75k,676,2,Standard Plus,True,False,True,True
+SAN100492,Amanda,Henderson,amanda.henderson@hotmail.co.uk,01134960438,1981-12-11,44,Female,034 Shirley port,Glasgow,W0 5DN,ISA,50288055,91-91-70,2016-07-25,11303.56,100k+,587,3,Premium,True,True,True,True
+SAN100493,John,Robinson,john.robinson@yahoo.co.uk,+441614960356,1958-12-17,67,Other,"Flat 15
+Wheeler parkway",Bristol,G0 7YB,Business Account,18955654,86-56-84,2023-06-06,12313.04,50k-75k,750,1,Standard Plus,True,True,True,False
+SAN100494,Gregory,Wade,gregory.wade@gmail.com,+44(0)909 8790133,1984-12-10,41,Other,288 Williams curve,London,GY5 0RJ,ISA,31856985,84-17-28,2022-09-26,18722.79,35k-50k,682,3,Standard Plus,True,False,True,True
+SAN100495,Kelly,Turner,kelly.turner@yahoo.com,020 74960710,1977-12-12,48,Female,81 Green island,Belfast,M21 9QQ,Current Account,48903840,47-77-91,2021-12-24,21033.75,75k-100k,516,4,Premium,True,True,True,True
+SAN100496,Samuel,Hammond,samuel.hammond@yahoo.co.uk,+44118 496 0747,1984-12-10,41,Male,9 Thomas walks,Edinburgh,JE6 7QW,ISA,58656970,22-78-84,2023-01-08,27231.25,50k-75k,625,4,Premium,True,True,True,True
+SAN100497,Dorothy,Watson,dorothy.watson@outlook.com,+44(0)141 496 0874,1996-12-07,29,Female,038 Dean walk,Leeds,M6 9RD,Savings Account,30744009,74-38-34,2019-08-26,17081.62,75k-100k,657,4,Premium,True,True,True,False
+SAN100498,Francis,McCarthy,francis.mccarthy@gmail.com,(0131)4960778,1954-12-18,71,Other,"Flat 1
+Raymond locks",Leeds,DH65 5PZ,Business Account,71806103,19-24-26,2020-07-14,27600.53,50k-75k,731,3,Premium,True,True,True,True
+SAN100499,June,Kelly,june.kelly@gmail.com,+44(0)1184960708,1989-12-09,36,Female,23 Pearce rapid,Leeds,BN56 3BH,Savings Account,27275764,98-28-98,2023-04-29,8693.14,75k-100k,725,2,Premium,True,True,True,True
