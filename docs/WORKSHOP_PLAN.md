@@ -135,6 +135,7 @@ Throughout the workshop, we'll also explore how Devin fits into your Software De
 **Input Files:**
 - `santander_customers.xlsx` - Contains customer demographics, account details, and segment information
 - `santander_transactions.xlsx` - Contains transaction history with merchant and category data
+- `customer_complaints.csv` - Contains customer complaints data with outliers and repeat complainers
 
 **Tasks:**
 1. Extract and validate data from Excel files
@@ -154,10 +155,8 @@ I need to set up a new Python project for data analysis. Please:
 
 1. Download the Excel file from S3:
    - https://devin-workshop.s3.eu-north-1.amazonaws.com/santander_customers.xlsx
-2. Place it in the data/ directory
-3. Show me the data with pandas
-4. Give me a high level summary of the data
-5. Add to data directory as .csv
+2. Show me the data with pandas
+3. Give me a high level summary of the data
 ```
 
 Prompt 2:
@@ -166,12 +165,19 @@ I need to set up a new Python project for data analysis. Please:
 
 1. Download the Excel file from S3:
    - https://devin-workshop.s3.eu-north-1.amazonaws.com/santander_transactions.xlsx
-2. Place it in the data/ directory
-3. Show me the data with pandas
-4. Give me a high level summary of the data
-5. Add to data directory as .csv
+2. Show me the data with pandas
+3. Give me a high level summary of the data
 ```
 
+Prompt 3:
+```
+I need to set up a new Python project for data analysis. Please:
+
+1. Download the Excel file from S3:
+   - https://devin-workshop.s3.eu-north-1.amazonaws.com/customer_complaints.csv
+2. Show me the data with pandas
+3. Give me a high level summary of the data
+```
 
 **Expected Devin Actions:**
 - Set up Python environment
@@ -193,19 +199,15 @@ I need to set up a new Python project for data analysis. Please:
 Use this prompt with Devin:
 
 ```
-Please analyze the .csv files in the data/ directory:
+Please analyze the files in the aws s3 bucket:
 
-1. Read the file from my data/ directory
+1. Read the files in https://devin-workshop.s3.eu-north-1.amazonaws.com/ 
 2. Show me the structure of each file (columns, data types, row counts)
 3. Identify any data quality issues (missing values, duplicates, invalid formats)
 4. Output a data validation report
 
 Follow our coding guidelines in docs/coding_guidelines.md for code style.
 ```
-**As it does it:**
-- Show the concept of playbook
-- How to create a playbook to run the same task multiple times
-- Create a playbook manually
 
 **Expected Devin Output:**
 - Python script that reads Excel files
@@ -215,7 +217,6 @@ Follow our coding guidelines in docs/coding_guidelines.md for code style.
   - Data quality metrics
 
 **Discussion Points:**
-- Show the concept of playbook
 - How Devin uses pandas for data manipulation
 - How Devin follows provided coding guidelines
 - The importance of data validation before database loading
@@ -231,9 +232,11 @@ Use this prompt with Devin:
 ```
 1. Create a new SQLite database called santander_bank.db
 2. Create tables based on the structure you see in the Excel files
-3. Load santander_customers.xlsx into a customers table
-4. Load santander_transactions.xlsx into a transactions table
-5. Show me a sample query to verify the data loaded correctly
+3. Create a script load_data.py to:
+3.1. load santander_customers.xlsx into a customers table
+3.2. load santander_transactions.xlsx into a transactions table
+3.3. load customer_complaints.csv into a customer_complaints table
+4. Show me a sample query to verify the data loaded correctly
 ```     
 
 ### Exercise 2.4: SQL Generation (15 minutes)
@@ -250,33 +253,12 @@ Now that we have data in the database, please create analytical queries:
 3. Top 10 customers by transaction count
 4. Average transaction amount by channel
 
-Save these queries to scripts/analytics_queries.sql and test them against the database.
+Save these queries to scripts/query_x.sql (individual files) and test them against the database.
 ```
 
 **Expected Devin Output:**
-
-```sql
--- Example INSERT statement
-INSERT INTO customers (customer_id, first_name, last_name, email, phone, 
-                       date_of_birth, age, gender, address, city, postcode,
-                       account_type, account_number, sort_code, account_open_date,
-                       balance, income_bracket, credit_score, num_products,
-                       customer_segment, is_active, has_mobile_app, 
-                       has_online_banking, marketing_consent)
-VALUES ('SAN100000', 'John', 'Smith', 'john.smith@email.com', '+44 7700 900123',
-        '1980-05-15', 44, 'Male', '123 High Street', 'London', 'SW1A 1AA',
-        'Current Account', '12345678', '09-01-28', '2020-03-15',
-        15234.50, '50k-75k', 720, 3, 'Premium', TRUE, TRUE, TRUE, TRUE);
-
--- Example analytical query
-SELECT customer_segment,
-       COUNT(*) as customer_count,
-       ROUND(AVG(age), 1) as avg_age,
-       ROUND(AVG(balance), 2) as avg_balance
-FROM customers
-GROUP BY customer_segment
-ORDER BY customer_count DESC;
-```
+- SQL scripts in scripts/query_x.sql
+- Unit tests for the SQL scripts
 
 **SDLC Integration Point:** 
 - Demonstrate how Devin creates a PR with the generated SQL scripts
@@ -289,8 +271,8 @@ ORDER BY customer_count DESC;
 
 ```
 Please commit the following to GitHub:
-- The database schema (scripts/schema.sql)
-- The analytical queries (scripts/analytics_queries.sql)
+- The SQLite database (santander_bank.db)
+- The individual analytical queries (scripts/query_x.sql)
 - The data loading script (scripts/load_data.py)
 
 Create a PR with a summary of what was created.
@@ -314,13 +296,14 @@ Create a PR with a summary of what was created.
 
 **Business Context:** The Data Science team needs to analyze customer complaints data to identify patterns, outliers, and repeat complainers. They also need to create a dashboard for ongoing monitoring.
 
-**Input Files:**
-- `customer_complaints.csv` - Contains 1000 complaint records with outliers and repeat complainers
+**Data:**
+- `complaints` table in `santander_bank.db` (already loaded)
+
 
 **Tasks:**
-1. Load complaints data into SQLite database
-2. Identify outliers and repeat complainers
-3. Create an interactive dashboard with:
+1. Analyze complaints data for outliers and patterns
+2. Identify repeat complainers
+3. Create an interactive dashboard with multiple views
    - Descriptive statistics table
    - Time series graph
    - Bar chart
@@ -331,82 +314,11 @@ Create a PR with a summary of what was created.
 **Participant Instructions:**
 
 ```
-I have a customer complaints CSV file at data/customer_complaints.csv. Please:
+Using the santander_bank.db database we created earlier, please:
 
-1. Create a Python script that:
-   - Reads the CSV file
-   - Creates a SQLite database called 'complaints.db'
-   - Creates a table with appropriate data types
-   - Loads all records into the database
-   - Adds appropriate indexes for performance
-
-2. Write unit tests for the data loading script
-
-3. Verify the data was loaded correctly by running some test queries
-
-Save the script to scripts/load_complaints_to_sqlite.py
-```
-
-**Expected Devin Output:**
-
-```python
-import sqlite3
-import pandas as pd
-from pathlib import Path
-
-def create_database(db_path: str = 'complaints.db') -> sqlite3.Connection:
-    """Create SQLite database and return connection."""
-    conn = sqlite3.connect(db_path)
-    return conn
-
-def create_complaints_table(conn: sqlite3.Connection) -> None:
-    """Create complaints table with appropriate schema."""
-    cursor = conn.cursor()
-    cursor.execute('''
-        CREATE TABLE IF NOT EXISTS complaints (
-            complaint_id TEXT PRIMARY KEY,
-            customer_id TEXT NOT NULL,
-            customer_age INTEGER,
-            customer_gender TEXT,
-            customer_segment TEXT,
-            customer_city TEXT,
-            complaint_date DATE NOT NULL,
-            complaint_time TIME,
-            category TEXT NOT NULL,
-            severity TEXT,
-            description TEXT,
-            channel TEXT,
-            status TEXT,
-            resolution_date DATE,
-            resolution_days INTEGER,
-            compensation_amount REAL DEFAULT 0,
-            satisfaction_score INTEGER,
-            escalated BOOLEAN,
-            product_involved TEXT,
-            branch_code TEXT
-        )
-    ''')
-    
-    # Create indexes
-    cursor.execute('CREATE INDEX IF NOT EXISTS idx_customer_id ON complaints(customer_id)')
-    cursor.execute('CREATE INDEX IF NOT EXISTS idx_complaint_date ON complaints(complaint_date)')
-    cursor.execute('CREATE INDEX IF NOT EXISTS idx_category ON complaints(category)')
-    cursor.execute('CREATE INDEX IF NOT EXISTS idx_status ON complaints(status)')
-    
-    conn.commit()
-
-def load_csv_to_database(csv_path: str, conn: sqlite3.Connection) -> int:
-    """Load CSV data into SQLite database."""
-    df = pd.read_csv(csv_path)
-    df.to_sql('complaints', conn, if_exists='replace', index=False)
-    return len(df)
-
-if __name__ == '__main__':
-    conn = create_database()
-    create_complaints_table(conn)
-    records = load_csv_to_database('data/customer_complaints.csv', conn)
-    print(f"Loaded {records} records into complaints.db")
-    conn.close()
+1. Verify the complaints table exists and show me its structure
+2. Show me summary statistics for the complaints table
+3. Run a few sample queries to understand the data
 ```
 
 **SDLC Integration Point:** Discuss unit testing with Devin - show how to ask Devin to write pytest tests.
@@ -416,7 +328,7 @@ if __name__ == '__main__':
 **Participant Instructions:**
 
 ```
-Using the complaints.db database, please:
+Using the complaints table, please:
 
 1. Identify outliers in the data:
    - Complaints with unusually long resolution times (> 60 days)
@@ -435,55 +347,6 @@ Using the complaints.db database, please:
 4. Create visualizations for the outlier analysis
 
 Save the analysis script to scripts/outlier_analysis.py
-```
-
-**Expected Devin Output:**
-
-```python
-import sqlite3
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
-
-def identify_resolution_time_outliers(conn: sqlite3.Connection) -> pd.DataFrame:
-    """Identify complaints with unusual resolution times."""
-    query = '''
-        SELECT complaint_id, customer_id, category, resolution_days, 
-               compensation_amount, status
-        FROM complaints
-        WHERE resolution_days > 60 OR resolution_days = 0
-        ORDER BY resolution_days DESC
-    '''
-    return pd.read_sql_query(query, conn)
-
-def identify_high_compensation_outliers(conn: sqlite3.Connection) -> pd.DataFrame:
-    """Identify complaints with unusually high compensation."""
-    query = '''
-        SELECT complaint_id, customer_id, category, severity,
-               compensation_amount, resolution_days
-        FROM complaints
-        WHERE compensation_amount > 300
-        ORDER BY compensation_amount DESC
-    '''
-    return pd.read_sql_query(query, conn)
-
-def identify_repeat_complainers(conn: sqlite3.Connection) -> pd.DataFrame:
-    """Identify customers with multiple complaints."""
-    query = '''
-        SELECT customer_id, 
-               COUNT(*) as complaint_count,
-               GROUP_CONCAT(category) as categories,
-               AVG(resolution_days) as avg_resolution_days,
-               SUM(compensation_amount) as total_compensation
-        FROM complaints
-        GROUP BY customer_id
-        HAVING COUNT(*) > 2
-        ORDER BY complaint_count DESC
-    '''
-    return pd.read_sql_query(query, conn)
-
-# ... additional analysis functions
 ```
 
 **Discussion Points:**
@@ -524,166 +387,6 @@ Please create an interactive dashboard for the complaints data using Streamlit. 
 Save the dashboard to dashboard/app.py and include a requirements.txt
 ```
 
-**Expected Devin Output:**
-
-```python
-import streamlit as st
-import pandas as pd
-import sqlite3
-import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime, timedelta
-
-# Page configuration
-st.set_page_config(
-    page_title="Santander Complaints Dashboard",
-    page_icon="📊",
-    layout="wide"
-)
-
-# Database connection
-@st.cache_resource
-def get_connection():
-    return sqlite3.connect('complaints.db', check_same_thread=False)
-
-@st.cache_data
-def load_data():
-    conn = get_connection()
-    return pd.read_sql_query("SELECT * FROM complaints", conn)
-
-def main():
-    st.title("📊 Santander UK Customer Complaints Dashboard")
-    
-    # Load data
-    df = load_data()
-    
-    # Sidebar filters
-    st.sidebar.header("Filters")
-    
-    # Category filter
-    categories = ['All'] + sorted(df['category'].unique().tolist())
-    selected_category = st.sidebar.selectbox("Category", categories)
-    
-    # Severity filter
-    severities = ['All'] + sorted(df['severity'].dropna().unique().tolist())
-    selected_severity = st.sidebar.selectbox("Severity", severities)
-    
-    # Status filter
-    statuses = ['All'] + sorted(df['status'].unique().tolist())
-    selected_status = st.sidebar.selectbox("Status", statuses)
-    
-    # Date range filter
-    df['complaint_date'] = pd.to_datetime(df['complaint_date'])
-    min_date = df['complaint_date'].min()
-    max_date = df['complaint_date'].max()
-    date_range = st.sidebar.date_input(
-        "Date Range",
-        value=(min_date, max_date),
-        min_value=min_date,
-        max_value=max_date
-    )
-    
-    # Apply filters
-    filtered_df = df.copy()
-    if selected_category != 'All':
-        filtered_df = filtered_df[filtered_df['category'] == selected_category]
-    if selected_severity != 'All':
-        filtered_df = filtered_df[filtered_df['severity'] == selected_severity]
-    if selected_status != 'All':
-        filtered_df = filtered_df[filtered_df['status'] == selected_status]
-    if len(date_range) == 2:
-        filtered_df = filtered_df[
-            (filtered_df['complaint_date'] >= pd.Timestamp(date_range[0])) &
-            (filtered_df['complaint_date'] <= pd.Timestamp(date_range[1]))
-        ]
-    
-    # Main content
-    col1, col2, col3, col4 = st.columns(4)
-    
-    with col1:
-        st.metric("Total Complaints", len(filtered_df))
-    with col2:
-        st.metric("Open Complaints", len(filtered_df[filtered_df['status'] == 'Open']))
-    with col3:
-        avg_resolution = filtered_df['resolution_days'].mean()
-        st.metric("Avg Resolution (days)", f"{avg_resolution:.1f}" if pd.notna(avg_resolution) else "N/A")
-    with col4:
-        total_compensation = filtered_df['compensation_amount'].sum()
-        st.metric("Total Compensation", f"£{total_compensation:,.2f}")
-    
-    # Descriptive Statistics Table
-    st.header("📋 Data Overview")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.subheader("Column Information")
-        column_info = pd.DataFrame({
-            'Column': filtered_df.columns,
-            'Data Type': filtered_df.dtypes.astype(str),
-            'Non-Null Count': filtered_df.count(),
-            'Null Count': filtered_df.isnull().sum(),
-            'Unique Values': filtered_df.nunique()
-        })
-        st.dataframe(column_info, use_container_width=True)
-    
-    with col2:
-        st.subheader("Numeric Statistics")
-        st.dataframe(filtered_df.describe(), use_container_width=True)
-    
-    # Time Series Graph
-    st.header("📈 Complaints Over Time")
-    
-    time_agg = st.radio("Aggregation", ["Daily", "Weekly", "Monthly"], horizontal=True)
-    
-    time_df = filtered_df.copy()
-    if time_agg == "Daily":
-        time_df['period'] = time_df['complaint_date'].dt.date
-    elif time_agg == "Weekly":
-        time_df['period'] = time_df['complaint_date'].dt.to_period('W').dt.start_time
-    else:
-        time_df['period'] = time_df['complaint_date'].dt.to_period('M').dt.start_time
-    
-    time_series = time_df.groupby('period').size().reset_index(name='count')
-    
-    fig_time = px.line(time_series, x='period', y='count',
-                       title=f'{time_agg} Complaint Volume',
-                       labels={'period': 'Date', 'count': 'Number of Complaints'})
-    st.plotly_chart(fig_time, use_container_width=True)
-    
-    # Bar Charts
-    st.header("📊 Complaint Distribution")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.subheader("By Category")
-        category_counts = filtered_df['category'].value_counts()
-        fig_cat = px.bar(x=category_counts.index, y=category_counts.values,
-                        labels={'x': 'Category', 'y': 'Count'},
-                        color=category_counts.values,
-                        color_continuous_scale='Reds')
-        fig_cat.update_layout(showlegend=False)
-        st.plotly_chart(fig_cat, use_container_width=True)
-    
-    with col2:
-        st.subheader("By Severity")
-        severity_counts = filtered_df['severity'].value_counts()
-        fig_sev = px.bar(x=severity_counts.index, y=severity_counts.values,
-                        labels={'x': 'Severity', 'y': 'Count'},
-                        color=severity_counts.values,
-                        color_continuous_scale='Blues')
-        fig_sev.update_layout(showlegend=False)
-        st.plotly_chart(fig_sev, use_container_width=True)
-    
-    # Detailed Data Table
-    st.header("📝 Detailed Complaints Data")
-    st.dataframe(filtered_df, use_container_width=True)
-
-if __name__ == '__main__':
-    main()
-```
-
 **SDLC Integration Point:** 
 - Discuss how to deploy the dashboard
 - Show GitHub Actions integration for CI/CD
@@ -705,23 +408,21 @@ Please commit all the data science work:
 
 ---
 
-## Section 5: SDLC Deep Dive (15 minutes)
+## Section 5: Advanced Devin Capabilities (15 minutes)
 
-### 5.1 Using Internal Documentation as Context (3 minutes)
+### 5.1 Knowledge (3 minutes)
 
 **Demonstration:**
 
 Show how to provide Devin with coding guidelines:
 
+**Pre-prompt:**
+
 ```
-Please read our coding guidelines at docs/coding_guidelines.md and follow them for all code you write. Key points include:
-- Use type hints for all functions
-- Include docstrings in Google format
-- Maximum line length of 100 characters
-- Use meaningful variable names
+Please follow these coding guidelines for all code you write.
 ```
 
-**Sample Coding Guidelines File:**
+**Knowledge:**
 
 ```markdown
 # Santander UK Coding Guidelines
@@ -747,60 +448,20 @@ Please read our coding guidelines at docs/coding_guidelines.md and follow them f
 3. **PRs**: Require at least one review
 ```
 
-### 5.2 Unit Testing with Devin (3 minutes)
+### 5.2 Unit Testing
 
 **Demonstration:**
 
 ```
-Please write unit tests for the load_complaints_to_sqlite.py script using pytest. Include:
+Please write unit tests for the load_data.py script using pytest. Include:
 - Test for successful database creation
 - Test for data loading with valid CSV
 - Test for handling missing columns
 - Test for handling empty CSV
 ```
 
-**Expected Output:**
 
-```python
-import pytest
-import sqlite3
-import pandas as pd
-from pathlib import Path
-import tempfile
-from scripts.load_complaints_to_sqlite import (
-    create_database,
-    create_complaints_table,
-    load_csv_to_database
-)
-
-@pytest.fixture
-def temp_db():
-    """Create a temporary database for testing."""
-    with tempfile.NamedTemporaryFile(suffix='.db', delete=False) as f:
-        yield f.name
-    Path(f.name).unlink(missing_ok=True)
-
-def test_create_database(temp_db):
-    """Test database creation."""
-    conn = create_database(temp_db)
-    assert conn is not None
-    assert Path(temp_db).exists()
-    conn.close()
-
-def test_create_complaints_table(temp_db):
-    """Test table creation with correct schema."""
-    conn = create_database(temp_db)
-    create_complaints_table(conn)
-    
-    cursor = conn.cursor()
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='complaints'")
-    assert cursor.fetchone() is not None
-    conn.close()
-
-# ... more tests
-```
-
-### 5.3 Devin API for Multiple Sessions (3 minutes)
+### 5.3 Devin API (3 mins)
 
 **Demonstration:**
 
@@ -841,49 +502,72 @@ sessions = [
 ]
 ```
 
-### 5.4 Batch Playbooks (3 minutes)
+### 5.4 Playbooks
 
 **Demonstration:**
 
 Show how to create reusable playbooks:
 
-```yaml
-# playbooks/data_analysis_playbook.yaml
-name: Standard Data Analysis Pipeline
-description: Automated data analysis workflow for banking data
+```
+!standard_analysis_playbook
 
-steps:
-  - name: Data Validation
-    prompt: |
-      Read the input file and validate:
-      - Check for missing values
-      - Verify data types
-      - Identify duplicates
-      - Generate validation report
+# **Data Analysis Pipeline — Detailed Sequence of Events**
 
-  - name: Statistical Analysis
-    prompt: |
-      Perform statistical analysis:
-      - Descriptive statistics
-      - Distribution analysis
-      - Correlation analysis
-      - Outlier detection
+## **1. Load & Validate Input Data**
 
-  - name: Visualization
-    prompt: |
-      Create visualizations:
-      - Distribution plots
-      - Time series (if applicable)
-      - Category breakdowns
-      - Save to reports/
+1. Read the input file (CSV, XLSX, or Parquet).
+2. Confirm the file is readable and not empty.
+3. Validate column names against the expected schema.
+4. Check each column for:
 
-  - name: Report Generation
-    prompt: |
-      Generate HTML report combining:
-      - Validation results
-      - Statistical findings
-      - Visualizations
-      - Recommendations
+   * Missing values (count + percentage)
+   * Incorrect data types (e.g., string instead of int)
+   * Unexpected categorical values
+5. Identify duplicate rows and duplicated primary keys.
+6. Generate a **data validation report** containing:
+
+   * Schema mismatches
+   * Missing-value summary
+   * Duplicate summary
+   * Data type inconsistencies
+
+---
+
+## **2. Perform Statistical Analysis**
+
+1. Calculate descriptive statistics (mean, median, mode, std, min, max).
+2. Compute distribution metrics (skewness, kurtosis).
+3. Generate correlation matrix for all numeric variables.
+4. Detect outliers using:
+
+   * Z-score
+   * IQR (Interquartile Range)
+5. Document statistically significant relationships or anomalies.
+
+---
+
+## **3. Create Visualizations**
+
+1. Plot distribution charts for:
+
+   * Numeric columns (histograms, KDE plots)
+   * Categorical columns (bar charts)
+2. If dataset includes timestamps:
+
+   * Create time-series plots with trend lines
+3. Produce scatterplots for high-correlation variable pairs.
+4. Highlight outliers visually.
+5. Save all charts to `reports/visuals/` as PNG or SVG.
+
+---
+
+## **4. Generate Consolidated Report**
+
+1. Compile all validation results (tables + summaries).
+2. Insert statistical analysis findings with interpretations.
+3. Embed visualizations with captions.
+4. Add actionable insights and data quality recommendations.
+5. Export a final **HTML report** to `reports/analysis_report.html`.
 ```
 
 ### 5.5 GitHub Actions Integration (3 minutes)
@@ -916,7 +600,7 @@ jobs:
             -H "Authorization: Bearer $DEVIN_API_KEY" \
             -H "Content-Type: application/json" \
             -d '{
-              "prompt": "New data files detected. Run standard analysis playbook and create PR with results.",
+              "prompt": "New data files detected. Run !standard_analysis_playbook and create PR with results.",
               "repo_url": "${{ github.repository }}",
               "branch": "${{ github.ref_name }}"
             }'
