@@ -141,7 +141,7 @@ Throughout the workshop, we'll also explore how Devin fits into your Software De
 2. Generate SQL INSERT statements for database loading
 3. Create analytical queries based on the database schema
 
-### Exercise 2.1: Setting Up the Repository (5 minutes)
+### Exercise 2.1: Setting Up the Repository (10 minutes)
 
 **Participant Instructions:**
 
@@ -157,6 +157,7 @@ I need to set up a new Python project for data analysis. Please:
 2. Place it in the data/ directory
 3. Show me the data with pandas
 4. Give me a high level summary of the data
+5. Add to data directory as .csv
 ```
 
 Prompt 2:
@@ -168,11 +169,11 @@ I need to set up a new Python project for data analysis. Please:
 2. Place it in the data/ directory
 3. Show me the data with pandas
 4. Give me a high level summary of the data
+5. Add to data directory as .csv
 ```
 
 
 **Expected Devin Actions:**
-- Clone repository
 - Set up Python environment
 - Install dependencies
 - Download files using aws s3 cp
@@ -192,12 +193,12 @@ I need to set up a new Python project for data analysis. Please:
 Use this prompt with Devin:
 
 ```
-Please analyze the Excel files in the data/ directory:
+Please analyze the .csv files in the data/ directory:
 
 1. Read the file from my data/ directory
 2. Show me the structure of each file (columns, data types, row counts)
 3. Identify any data quality issues (missing values, duplicates, invalid formats)
-4. Create a data validation report
+4. Output a data validation report
 
 Follow our coding guidelines in docs/coding_guidelines.md for code style.
 ```
