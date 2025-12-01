@@ -50,11 +50,11 @@ Files included:
 
 Provide these URLs to participants:
 ```
-https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/santander_customers.xlsx
-https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/santander_transactions.xlsx
-https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/customer_complaints.csv
-https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/product_holdings.csv
-https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/database_schema.sql
+https://devin-workshop.s3.eu-north-1.amazonaws.com/santander_customers.xlsx
+https://devin-workshop.s3.eu-north-1.amazonaws.com/santander_transactions.xlsx
+https://devin-workshop.s3.eu-north-1.amazonaws.com/customer_complaints.csv
+https://devin-workshop.s3.eu-north-1.amazonaws.com/product_holdings.csv
+https://devin-workshop.s3.eu-north-1.amazonaws.com/database_schema.sql
 ```
 
 **3. GitHub Repository Setup**
@@ -72,16 +72,13 @@ santander-devin-workshop/
     (Dashboard code will go here)
   docs/
     coding_guidelines.md
-    database_schema.sql
 ```
 
 ### For Participants
 
 1. Ensure you have Devin access (app.devin.ai)
 2. Have a GitHub account with access to the workshop repository
-3. Install Python 3.9+ on your laptop
-4. Install VS Code or preferred IDE
-5. Have SQLite installed (or use Python's built-in sqlite3)
+3. The repository is available within Devin's machine
 
 ---
 
@@ -149,28 +146,44 @@ Throughout the workshop, we'll also explore how Devin fits into your Software De
 **Participant Instructions:**
 
 1. Open Devin at app.devin.ai
-2. Start a new session with this prompt:
+2. Start two new sessions with these prompts:
 
+Prompt 1:
 ```
 I need to set up a new Python project for data analysis. Please:
 
-1. Clone the repository: https://github.com/[ORG]/santander-devin-workshop
-2. Create a virtual environment
-3. Install pandas, openpyxl, and sqlalchemy
-4. Download the Excel files from S3:
-   - https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/santander_customers.xlsx
-   - https://devin-workshop.s3.eu-north-1.amazonaws.com/santander-workshop/santander_transactions.xlsx
-5. Place them in the data/ directory
+1. Download the Excel file from S3:
+   - https://devin-workshop.s3.eu-north-1.amazonaws.com/santander_customers.xlsx
+2. Place it in the data/ directory
+3. Show me the data with pandas
+4. Give me a high level summary of the data
 ```
+
+Prompt 2:
+```
+I need to set up a new Python project for data analysis. Please:
+
+1. Download the Excel file from S3:
+   - https://devin-workshop.s3.eu-north-1.amazonaws.com/santander_transactions.xlsx
+2. Place it in the data/ directory
+3. Show me the data with pandas
+4. Give me a high level summary of the data
+```
+
 
 **Expected Devin Actions:**
 - Clone repository
 - Set up Python environment
 - Install dependencies
-- Download files using curl or requests
+- Download files using aws s3 cp
 - Organize project structure
 
-**SDLC Integration Point:** Discuss how Devin automatically sets up proper project structure and dependency management.
+**Discussion Point:** 
+- Discuss how Devin automatically sets up proper project structure and dependency management. 
+- Discuss parallelisation
+- Discuss how Devin doesnt have excel so it finds the best way to open this file with an appropriate python library
+- Should be specific, can go multiple paths, html build, show in terminal, find app
+
 
 ### Exercise 2.2: Data Extraction and Validation (10 minutes)
 
@@ -181,13 +194,17 @@ Use this prompt with Devin:
 ```
 Please analyze the Excel files in the data/ directory:
 
-1. Read santander_customers.xlsx and santander_transactions.xlsx
+1. Read the file from my data/ directory
 2. Show me the structure of each file (columns, data types, row counts)
 3. Identify any data quality issues (missing values, duplicates, invalid formats)
 4. Create a data validation report
 
 Follow our coding guidelines in docs/coding_guidelines.md for code style.
 ```
+**As it does it:**
+- Show the concept of playbook
+- How to create a playbook to run the same task multiple times
+- Create a playbook manually
 
 **Expected Devin Output:**
 - Python script that reads Excel files
@@ -197,28 +214,42 @@ Follow our coding guidelines in docs/coding_guidelines.md for code style.
   - Data quality metrics
 
 **Discussion Points:**
+- Show the concept of playbook
 - How Devin uses pandas for data manipulation
 - How Devin follows provided coding guidelines
 - The importance of data validation before database loading
 
-### Exercise 2.3: SQL Generation (15 minutes)
+### Exercise 2.3: Creating DB 
+
+Please load the data into a SQLite database:
 
 **Participant Instructions:**
 
 Use this prompt with Devin:
 
 ```
-Based on the database schema in docs/database_schema.sql, please:
+1. Create a new SQLite database called santander_bank.db
+2. Create tables based on the structure you see in the Excel files
+3. Load santander_customers.xlsx into a customers table
+4. Load santander_transactions.xlsx into a transactions table
+5. Show me a sample query to verify the data loaded correctly
+```     
 
-1. Generate SQL INSERT statements for loading the customer data
-2. Generate SQL INSERT statements for loading the transaction data
-3. Create the following analytical queries:
-   a. Customer demographics by segment (count, avg age, avg balance)
-   b. Monthly transaction volume by category
-   c. Top 10 customers by transaction count
-   d. Average transaction amount by channel
+### Exercise 2.4: SQL Generation (15 minutes)
 
-Save all SQL to scripts/data_load.sql and scripts/analytics_queries.sql
+**Participant Instructions:**
+
+Use this prompt with Devin:
+
+```
+Now that we have data in the database, please create analytical queries:
+
+1. Customer demographics by segment (count, avg age, avg balance)
+2. Monthly transaction volume by category
+3. Top 10 customers by transaction count
+4. Average transaction amount by channel
+
+Save these queries to scripts/analytics_queries.sql and test them against the database.
 ```
 
 **Expected Devin Output:**
@@ -251,17 +282,17 @@ ORDER BY customer_count DESC;
 - Show how to use Devin for code review of the generated SQL
 - Discuss unit testing SQL queries
 
-### Exercise 2.4: Commit and Push (5 minutes)
+### Exercise 2.5: Commit and Push (5 minutes)
 
 **Participant Instructions:**
 
 ```
-Please commit all the work we've done so far:
+Please commit the following to GitHub:
+- The database schema (scripts/schema.sql)
+- The analytical queries (scripts/analytics_queries.sql)
+- The data loading script (scripts/load_data.py)
 
-1. Add all new files to git
-2. Create a meaningful commit message
-3. Push to a new branch called 'feature/data-analysis-scripts'
-4. Create a pull request with a description of the changes
+Create a PR with a summary of what was created.
 ```
 
 **Expected Devin Actions:**
