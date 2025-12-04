@@ -12,23 +12,16 @@
 
 ---
 
-## 1️⃣ Introduction (10 min)
+## 1️⃣ Introduction (10 min) + Devin Demo
 
-### Devin vs AI IDE
-- **AI IDEs:** Local, synchronous, 1:1 relationship
-- **Devin:** Remote cloud agent, asynchronous, parallel sessions
+**Show flow DeepWiki->AskDevin->Devin Sessions**
 
-### Housekeeping
-- Access check
-- Questions format
-
+### Go back to slides to show the first task
 ---
 
 ## 2️⃣ Data Analysis Use Case (40 min)
 
 ### 🎯 Demo 1: Fetch Data & Build Database
-
-**Show flow DeepWiki->AskDevin->Devin Sessions**
 
 **Show S3 bucket contents**
 
@@ -57,8 +50,6 @@ Fetch all data files from the S3 bucket s3://devin-workshop/santander-workshop/ 
 - Explain MCP not enabled yet → fetch files directly
 - Start DB running locally within Devin's Machine
 - Go through the secrets configuration
-
-
 
 ---
 
@@ -168,10 +159,12 @@ Using the complaints data create a static HTML dashboard showing the analysis re
 - Outlier highlights section
 ```
 
+**Devin Analytics:**
+
 **Show browser visualization:**
+
 - What Devin uses to build
 - Live preview capability
-- Speak about Devin Analytics
 
 ---
 
