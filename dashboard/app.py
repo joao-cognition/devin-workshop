@@ -232,7 +232,22 @@ def main():
         df = load_complaints_data()
     
     if df.empty:
-        st.error("No data available. Please check the Supabase connection.")
+        st.error("""
+        **No data available.** This usually means Row Level Security (RLS) is blocking access.
+        
+        To fix this, add a SELECT policy for the `anon` role in Supabase:
+        
+        1. Go to **Table editor** → `santander_customer_complaints` → **RLS / Policies**
+        2. Click **New policy** → Action: **SELECT** → Role: **anon** → Using expression: `true`
+        3. Save and refresh this page
+        
+        Or run this SQL in the SQL Editor:
+        ```sql
+        CREATE POLICY "Allow anonymous read access"
+        ON public.santander_customer_complaints
+        FOR SELECT TO anon USING (true);
+        ```
+        """)
         return
     
     st.sidebar.header("Filters")
