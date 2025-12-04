@@ -32,10 +32,10 @@ By the end of this workshop, participants will be able to:
 
 **Environment Preparation Checklist:**
 
-**1. MCP Server Configuration**
-- [ ] Configure Supabase MCP server connection
-- [ ] Verify read-only permissions are set
-- [ ] Test connection to complaints, customers, transactions, and product_holdings tables
+**1. S3 Bucket Configuration**
+- [ ] Verify access to S3 bucket: `s3://devin-workshop/santander-workshop/`
+- [ ] Ensure AWS credentials are configured in Devin secrets
+- [ ] Test access to data files and schema files in the bucket
 
 **2. Repository Setup**
 - [ ] Repository: `joao-cognition/devin-workshop`
@@ -44,11 +44,9 @@ By the end of this workshop, participants will be able to:
 
 **3. Secrets Configuration**
 Add the following secrets to Devin:
-- [ ] `AWS_ACCESS_KEY_ID` - For S3 bucket access
+- [ ] `AWS_ACCESS_KEY_ID` - For S3 bucket access (eu-north-1 region)
 - [ ] `AWS_SECRET_ACCESS_KEY` - For S3 bucket access
 - [ ] `DEVIN_API_KEY` - For API integration demos
-- [ ] `SUPABASE_URL` - Supabase project URL
-- [ ] `SUPABASE_KEY` - Supabase anon/service key
 
 **4. Knowledge Base Setup**
 Add the following knowledge documents:
@@ -58,13 +56,15 @@ Add the following knowledge documents:
 **5. Playbooks Setup**
 Configure the following playbooks:
 - [ ] `elastic` - Elasticsearch integration playbook
-- [ ] `supabase` - Supabase query and analysis playbook
+- [ ] `s3-data-analysis` - S3 data extraction and analysis playbook
 
 **6. Data Files Location**
 
 All dummy data files are available in the S3 bucket:
 ```
-s3://devin-workshop/santander-workshop/
+Region: eu-north-1
+Bucket: s3://devin-workshop/santander-workshop/
+Console: eu-north-1.console.aws.amazon.com/s3/buckets/devin-workshop
 ```
 
 Files included:
@@ -72,12 +72,13 @@ Files included:
 - `santander_transactions.xlsx` - Transaction history with category summaries
 - `customer_complaints.csv` - Complaints data with outliers and repeat complainers
 - `product_holdings.csv` - Product metrics for bubble chart analysis
+- `schema.sql` - Database schema definition for creating local SQLite database
 
 ### For Participants
 
 1. Ensure you have Devin access (app.devin.ai)
 2. Have a GitHub account with access to the workshop repository
-3. Verify you can see the configured MCP servers in Devin
+3. Verify AWS credentials are configured for S3 access
 
 ---
 
@@ -122,23 +123,23 @@ Today, we'll work through two realistic banking scenarios:
 
 ### Scenario Overview
 
-**Business Context:** The Data Analysis team needs to understand the structure of the bank's Supabase database, assess data quality using organizational standards, and run multiple analytical queries efficiently to support business decisions.
+**Business Context:** The Data Analysis team needs to extract data from S3, build a local database, assess data quality using organizational standards, and run multiple analytical queries efficiently to support business decisions.
 
-**Database:** Supabase instance containing:
-- Customer demographics and account information
-- Transaction history with merchant and category data
-- Customer complaints data
-- Product holdings and performance metrics
+**Data Source:** S3 bucket (eu-north-1) containing:
+- Customer demographics and account information (Excel)
+- Transaction history with merchant and category data (Excel)
+- Customer complaints data (CSV)
+- Product holdings and performance metrics (CSV)
+- Database schema definition (SQL)
 
 **Tasks:**
-1. Understand database schema and relationships
-2. Assess data quality using standardized guidelines
-3. Run analytical queries for different business questions
-4. Consolidate insights into actionable reports
+1. Fetch data files and schema from S3 bucket
+2. Build a local SQLite database from the schema and data
+3. Assess data quality using standardized guidelines
+4. Run analytical queries for different business questions
+5. Consolidate insights into actionable reports
 
-**Note:** S3 data extraction exercises are available as optional background tasks if time permits.
-
-### Exercise 2.1: Connecting to Supabase via MCP (10 minutes)
+### Exercise 2.1: Fetch Data from S3 and Build Database (10 minutes)
 
 **Instructor Demo (3 minutes):**
 
@@ -148,35 +149,70 @@ Today, we'll work through two realistic banking scenarios:
 2. Start a new session with this prompt:
 
 ```
-Please connect to my Supabase database via MCP and list for each table:
+Fetch all data files from the S3 bucket s3://devin-workshop/santander-workshop/ (region: eu-north-1):
+- santander_customers.xlsx
+- santander_transactions.xlsx
+- customer_complaints.csv
+- product_holdings.csv
+- schema.sql
+```
+
+```
+1. Create a local SQLite database using the schema.sql file
+2. Load all the data files into the appropriate tables
+3. List for each table:
    - The schema
    - The table name
    - A brief description of what the table contains
    - Some relevant data samples to highlight the table structure
 ```
 
-**Show the MCP Marketplace in Devin:**
-- Demonstrate connecting to Supabase MCP server
-- Highlight read-only permissions for safe data exploration
-- Devin can work with various database systems (Supabase, PostgreSQL, MySQL, etc.)
-- Show we could do this from S3 as well
+**Show what is happening:**
+- Secure data access: Fetch data from S3 using AWS credentials stored in Devin secrets
+- Database creation: Build a local SQLite database for fast querying
+- Data loading: Parse Excel and CSV files and populate the database
+- Schema exploration: Understand table structures, relationships, and data types
+- Query execution: Run SQL against the local database
+- Results formatting: Display query outputs in various formats (tables, charts, JSON)
 
-**Show schematic what is happening:**
-- Access databases securely: Connect to our data warehouse without exposing credentials directly to the agent
-- Explore schemas: Understand table structures, relationships, and data types
-- Execute queries: Run SQL against our database or data warehouse with proper permissions
-- Process results: Format and visualize query outputs in an agent-optimized way
-- Share easily verifiable results: Include links to dashboards, visualizations and interactive results which you can easily edit and verify
-
-
-### Exercise 2.2: Data Quality Assessment with System Knowledge (15 minutes)
+### Exercise 2.2: Parallel Analytical Queries (15 minutes)
 
 **Participant Instructions:**
 
-Now use this prompt with Devin:
+Now we'll demonstrate Devin's ability to work on multiple tasks simultaneously. 
+Start **4 separate Devin sessions** with these prompts:
+
+**Session 1:**
+```
+Using !fetching-santander-data analyze customer demographics by segment (count, avg age, avg balance). Show me a written summary.
+```
+
+**Session 2:**
+```
+Using !fetching-santander-data, analyze monthly transaction volume by category. Show me a table.
+```
+
+**Session 3:**
+```
+Using !fetching-santander-data, find top 10 customers by transaction count. Show me a graph.
+```
+
+**Session 4:**
+```
+Using !fetching-santander-data, analyze average transaction amount by channel. Show me a json.
+```
+
+**Parallelization:**
+All 4 sessions run simultaneously, dramatically reducing wait time
+
+### Exercise 2.3: Data Quality Assessment with System Knowledge (15 minutes)
+
+**Participant Instructions:**
+
+Now use this prompt with Devin - in the original session
 
 ```
-Using the data !data-quality-guidelines analyse the tables in the supabase database.
+Using the data !data-quality-guidelines analyse the tables in the local SQLite database you just created.
 ```
 
 **Knowledge:**
@@ -192,38 +228,8 @@ Using the data !data-quality-guidelines analyse the tables in the supabase datab
 **Check if Data Quality is over:**
 - If yes review, if not start parallel sessions
 
-### Exercise 2.3: Parallel Analytical Queries (15 minutes)
-
-**Participant Instructions:**
-
-Now we'll demonstrate Devin's ability to work on multiple tasks simultaneously. 
-Start **4 separate Devin sessions** with these prompts:
-
-**Session 1:**
-```
-Connect to supabase MCP and analyze customer demographics by segment (count, avg age, avg balance). Show me a written summary.
-```
-
-**Session 2:**
-```
-Connect to supabase MCP and analyze monthly transaction volume by category. Show me a table.
-```
-
-**Session 3:**
-```
-Connect to supabase MCP and find top 10 customers by transaction count. Show me a graph.
-```
-
-**Session 4:**
-```
-Connect to supabase MCP and analyze average transaction amount by channel. Show me a json.
-```
-
-**Parallelization:**
-All 4 sessions run simultaneously, dramatically reducing wait time
-
 **Playbooks:**
-How you can leverage this to execute tasks in a concrete and repeatable way—every time there is new data, once a day to keep reports up to date
+How you can leverage this to execute tasks in a concrete and repeatable way—every time there is new data, once a day to keep reports up to date. Create a playbook from these 4 sessions.
 
 **Show Flow Schematic:**
 Demonstrate how the SQL queries get created and returned to the user
@@ -244,11 +250,11 @@ Do a small break
 **Business Context:** The Data Science team needs to analyze customer complaints data to identify patterns, outliers, and repeat complainers. They also need to create a dashboard for ongoing monitoring.
 
 **Data:**
-- `complaints` table in Supabase (already loaded from Section 3)
+- Customer complaints data from S3 bucket (will be fetched and loaded into local database)
 
 
 **Tasks:**
-1. Connect to Supabase and query complaints data
+1. Fetch complaints data from S3 and build local database
 2. Analyze complaints data for outliers and patterns
 3. Identify repeat complainers
 4. Create an interactive dashboard with multiple views
@@ -262,7 +268,7 @@ Do a small break
 **Prompt for Participants:**
 
 ```
-Connect to our Supabase complaints table and analyze the data. Show me:
+Fetch customer_complaints.csv using !fetching-santander-data and show me:
 - Outliers: complaints with resolution times > 60 days, compensation > £300, or 0-day resolution
 - Repeat complainers: customers with 3+ complaints and their patterns
 - Statistical summary: resolution time distribution, compensation stats, and category breakdown
@@ -281,7 +287,7 @@ Connect to our Supabase complaints table and analyze the data. Show me:
 **Prompt for Participants:**
 
 ```
-Create a static HTML dashboard showing the complaints analysis results. Include:
+Using the complaints data from the local SQLite database, create a static HTML dashboard showing the analysis results. Include:
 - Summary statistics table
 - Time series chart of complaints over time
 - Bar chart of complaints by category
@@ -295,8 +301,8 @@ Create a static HTML dashboard showing the complaints analysis results. Include:
 **Prompt for Participants:**
 
 ```
-Upgrade the dashboard to an interactive app connected to Supabase. Add:
-- Live data connection with caching
+Upgrade the dashboard to an interactive app that can fetch fresh data from S3 on demand. Add:
+- Data refresh capability: fetch latest data from S3 bucket s3://devin-workshop/santander-workshop/ (region: eu-north-1)
 - Filter dropdowns: category, severity, status, date range, customer segment
 - Dynamic statistics that update with filters
 - Interactive charts: time series (daily/weekly/monthly toggle) and category breakdown
