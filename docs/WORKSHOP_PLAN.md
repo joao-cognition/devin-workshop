@@ -287,22 +287,24 @@ Fetch customer_complaints.csv using !fetching-santander-data and show me:
 **Prompt for Participants:**
 
 ```
-Using the complaints data from the local SQLite database, create a static HTML dashboard showing the analysis results. Include:
+Using the complaints data create a static HTML dashboard showing the analysis results. Include:
 - Summary statistics table
 - Time series chart of complaints over time
 - Bar chart of complaints by category
 - Outlier highlights section
-```
 
+```
+### Speak about Devins Setup, Devins Machine Repositories
 ---
+
+
 
 ### Exercise 4.3: Interactive Dashboard (5 minutes)
 
 **Prompt for Participants:**
 
 ```
-Upgrade the dashboard to an interactive app that can fetch fresh data from S3 on demand. Add:
-- Data refresh capability: fetch latest data from S3 bucket s3://devin-workshop/santander-workshop/ (region: eu-north-1)
+Upgrade the dashboard to an interactive app that can:
 - Filter dropdowns: category, severity, status, date range, customer segment
 - Dynamic statistics that update with filters
 - Interactive charts: time series (daily/weekly/monthly toggle) and category breakdown
