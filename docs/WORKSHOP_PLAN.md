@@ -274,7 +274,7 @@ Fetch customer_complaints.csv using !fetching-santander-data and show me:
 - Statistical summary: resolution time distribution, compensation stats, and category breakdown
 ```
 
-**While Devin Works:**
+**Devin Playbook Expert:**
 - Demonstrate creating a playbook: "Create a playbook document in docs/ that captures this analysis workflow so we can rerun it daily"
 - Discuss how playbooks enable reproducible data science workflows
 - Show how Devin documents its approach for future automation
