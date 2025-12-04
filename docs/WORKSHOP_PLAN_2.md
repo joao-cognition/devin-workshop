@@ -59,10 +59,6 @@ Fetch all data files from the S3 bucket s3://devin-workshop/santander-workshop/ 
 
 **Launch 4 separate sessions:**
 
-**Explain Knowledge feature:**
-- Show `!fetching-santander-data` knowledge
-
-
 **Session 1 - Written Summary:**
 ```
 Using !fetching-santander-data analyze customer demographics by segment 
@@ -87,10 +83,10 @@ Using !fetching-santander-data, analyze average transaction amount by channel.
 Show me a json.
 ```
 
-
-
 **Key Point:** All 4 sessions run simultaneously → dramatically reduced wait time
 
+**Explain Knowledge feature:**
+- Show `!fetching-santander-data` knowledge
 
 ---
 
