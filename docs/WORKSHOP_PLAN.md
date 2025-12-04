@@ -301,7 +301,7 @@ Upgrade the dashboard to an interactive app connected to Supabase. Add:
 - Dynamic statistics that update with filters
 - Interactive charts: time series (daily/weekly/monthly toggle) and category breakdown
 
-When complete, commit to branch 'feature/complaints-dashboard' and create a PR in @joao-cognition/devin-workshop.
+When complete, create a PR in @joao-cognition/devin-workshop.
 ```
 
 **Note:** While this dashboard builds (~15-20 minutes), move to Section 5 for the SDLC Deep Dive demo.
@@ -311,6 +311,124 @@ When complete, commit to branch 'feature/complaints-dashboard' and create a PR i
 ## Section 5: SDLC Deep Dive - API & CI/CD Integration (30 minutes: 1:45-2:15)
 
 **Timing Note:** This section begins while the interactive dashboard builds in the background (Exercise 4.3).
+
+**Business Context:** Your team wants to automate code quality checks using Devin API. You'll integrate Devin into your SDLC to automatically analyze security threats, performance issues, and errors in new code files.
+
+---
+
+### Devin API Generation
+
+**Understanding API Key Types:**
+- **Personal API Keys:** Individual developer access, tied to your account
+- **Company API Keys:** Team-wide access, managed by organization admins
+
+**Create API Key:**
+1. Go to Devin Settings → API Keys
+2. Click "Create New Key"
+3. Choose scope: Personal or Company
+4. Copy and securely store the key
+
+**Best Practice:** Store in environment variables, never commit to git
+
+```bash
+export DEVIN_API_KEY="your-api-key-here"
+```
+
+---
+
+### Launching API from Locally
+
+**Show Devin API Documentation:**
+- Navigate to https://api.devin.ai/docs
+- API endpoint: `https://api.devin.ai/v1/sessions`
+- Authentication headers
+- Request/response format
+
+**Show Elastic Logs File:**
+- Display `data/elastic_logs_security.json` with security threats, performance issues, and errors
+
+**Run Three Parallel Sessions:**
+
+Launch 3 Devin sessions in parallel with these prompts:
+
+**Prompt 1 - Security Analysis:**
+**Prompt 2 - Performance Analysis:**
+**Prompt 3 - Error Analysis:**
+
+**Show Results Sessions Running:**
+
+Display one of the analysis results showing the parallel execution
+
+**Key Takeaway:** Parallel execution saves time—3 analyses complete in the time of 1
+
+---
+
+### Launching CI/CD for New Files
+
+**Add API Secret to GitHub:**
+1. Repository → Settings → Secrets and variables → Actions
+2. Click "New repository secret"
+3. Name: `DEVIN_API_KEY`
+4. Value: [paste API key]
+5. Save
+
+**Alternative:** GitHub App integration for organization-wide access
+
+**Create GitHub Actions Workflow:**
+
+Prompt Devin to create the workflow:
+
+
+**Test the CI/CD Pipeline:**
+
+1. Commit a new test file to `data/`
+2. Push to GitHub
+3. Watch Actions tab for workflow execution
+4. Show parallel job execution
+5. Review results in PR comments
+
+**Key Takeaway:** Automated code quality checks on every commit, no manual intervention
+
+---
+
+### Launching CI/CD for New Files with Playbook
+
+**Problem:** Hard-coded analysis rules in GitHub Actions are difficult to maintain and update
+
+**Solution:** Separate concerns using Playbooks
+- **GitHub Actions:** Manages API calls and CI/CD orchestration
+- **Playbooks:** Contains analysis logic, rules, and prompts
+- **Benefits:** Update analysis rules without touching CI/CD code
+
+**Create Playbook:**
+
+
+**Update GitHub Actions to Use Playbook:**
+
+Modify workflow to reference the playbook:
+
+
+**Show Full CI/CD Pipeline:**
+
+
+
+**Key Takeaway:** Playbooks make your SDLC automation maintainable and scalable
+
+---
+
+### Section 5 Wrap-Up
+
+**What We Covered:**
+- Devin API authentication (personal vs company keys)
+- Local API testing with parallel sessions
+- GitHub Actions CI/CD integration
+- Playbook-driven workflows for maintainability
+
+**Real-World Impact:**
+- Automated code quality checks on every commit
+- 3x faster analysis with parallel execution
+- Easy rule updates without touching CI/CD code
+- Consistent, repeatable analysis across your team
 
 ---
 
