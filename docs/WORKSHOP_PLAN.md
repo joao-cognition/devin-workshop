@@ -308,7 +308,7 @@ When complete, create a PR in @joao-cognition/devin-workshop.
 
 ---
 
-## Section 5: SDLC Deep Dive - API & CI/CD Integration (30 minutes: 1:45-2:15)
+## Section 5: SDLC Deep Dive - API & CI/CD Integration (30 minutes: 1:15-1:45)
 
 **Timing Note:** This section begins while the interactive dashboard builds in the background (Exercise 4.3).
 
