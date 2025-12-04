@@ -171,6 +171,7 @@ Using the complaints data create a static HTML dashboard showing the analysis re
 **Show browser visualization:**
 - What Devin uses to build
 - Live preview capability
+- Speak about Devin Analytics
 
 ---
 
