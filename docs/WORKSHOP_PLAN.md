@@ -301,7 +301,7 @@ Upgrade the dashboard to an interactive app connected to Supabase. Add:
 - Dynamic statistics that update with filters
 - Interactive charts: time series (daily/weekly/monthly toggle) and category breakdown
 
-When complete, create a PR in @joao-cognition/devin-workshop.
+When complete, create a PR in @joao-cognition/devin-workshop and deploy to a link I can access.
 ```
 
 **Note:** While this dashboard builds (~15-20 minutes), move to Section 5 for the SDLC Deep Dive demo.
