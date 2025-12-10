@@ -1,0 +1,47 @@
+name: Elastic Logs Analysis Playbook
+description: Comprehensive log analysis for error patterns, security issues, and performance anomalies
+version: "1.0"
+
+input:
+  log_file: logs/sample_20_healthy_system.json
+  output_dir: analysis/
+
+tasks:
+  - name: Error Pattern Analysis
+    description: Identify and categorize errors in the log data
+    output: analysis/error_analysis.md
+    steps:
+      - Parse log entries and extract error-level messages
+      - Categorize errors by type (application, system, network, database)
+      - Calculate error frequency and distribution
+      - Identify error patterns and correlations
+      - Generate recommendations for error mitigation
+
+  - name: Security Issue Detection
+    description: Find security threats and vulnerabilities in logs
+    output: analysis/security_analysis.md
+    steps:
+      - Scan for authentication failures and suspicious login attempts
+      - Detect potential intrusion indicators
+      - Identify unauthorized access attempts
+      - Check for security policy violations
+      - Analyze network anomalies and suspicious traffic patterns
+      - Generate security recommendations
+
+  - name: Performance Anomaly Analysis
+    description: Detect performance bottlenecks and anomalies
+    output: analysis/performance_analysis.md
+    steps:
+      - Analyze response time distributions
+      - Identify slow queries and operations
+      - Detect resource utilization anomalies
+      - Find throughput bottlenecks
+      - Analyze latency patterns
+      - Generate performance optimization recommendations
+
+output:
+  summary_report: analysis/analysis_summary.md
+  detailed_reports:
+    - analysis/error_analysis.md
+    - analysis/security_analysis.md
+    - analysis/performance_analysis.md
