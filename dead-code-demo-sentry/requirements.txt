@@ -1,0 +1,2 @@
+# Core dependencies
+sentry-sdk>=1.0.0
